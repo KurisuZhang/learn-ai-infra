@@ -1,0 +1,111 @@
+{
+  "source": "https://aispe.notlate.cn/（章节清单取自首页“全部章节”列表，URL 模式 /chapters/chNN/ 已实测）",
+  "fetchedAt": "2026-11-15T10:51:22.832Z",
+  "root": "https://aispe.notlate.cn",
+  "chapters": [
+    {
+      "no": 1,
+      "title": "第1章 引言与 AI 系统概述",
+      "url": "https://aispe.notlate.cn/chapters/ch01/"
+    },
+    {
+      "no": 2,
+      "title": "第2章 AI 系统硬件概述",
+      "url": "https://aispe.notlate.cn/chapters/ch02/"
+    },
+    {
+      "no": 3,
+      "title": "第3章 GPU 环境的 OS、Docker 与 Kubernetes 调优",
+      "url": "https://aispe.notlate.cn/chapters/ch03/"
+    },
+    {
+      "no": 4,
+      "title": "第4章 分布式网络通信调优",
+      "url": "https://aispe.notlate.cn/chapters/ch04/"
+    },
+    {
+      "no": 5,
+      "title": "第5章 GPU 存储 I/O 优化",
+      "url": "https://aispe.notlate.cn/chapters/ch05/"
+    },
+    {
+      "no": 6,
+      "title": "第6章 GPU 架构、CUDA 编程与最大化占用率",
+      "url": "https://aispe.notlate.cn/chapters/ch06/"
+    },
+    {
+      "no": 7,
+      "title": "第7章 GPU 内存访问模式分析与调优",
+      "url": "https://aispe.notlate.cn/chapters/ch07/"
+    },
+    {
+      "no": 8,
+      "title": "第8章 占用率调优、Warp 效率与指令级并行",
+      "url": "https://aispe.notlate.cn/chapters/ch08/"
+    },
+    {
+      "no": 9,
+      "title": "第9章 提高 CUDA 内核效率与算术强度",
+      "url": "https://aispe.notlate.cn/chapters/ch09/"
+    },
+    {
+      "no": 10,
+      "title": "第10章 内核内流水线、Warp 特化与协作线程块集群",
+      "url": "https://aispe.notlate.cn/chapters/ch10/"
+    },
+    {
+      "no": 11,
+      "title": "第11章 内核间流水线、同步与 CUDA 流有序内存分配",
+      "url": "https://aispe.notlate.cn/chapters/ch11/"
+    },
+    {
+      "no": 12,
+      "title": "第12章 动态调度、CUDA 图与设备发起的内核编排",
+      "url": "https://aispe.notlate.cn/chapters/ch12/"
+    },
+    {
+      "no": 13,
+      "title": "第13章 PyTorch 性能分析、调优与扩展",
+      "url": "https://aispe.notlate.cn/chapters/ch13/"
+    },
+    {
+      "no": 14,
+      "title": "第14章 PyTorch 编译器、OpenAI Triton 与 XLA 后端",
+      "url": "https://aispe.notlate.cn/chapters/ch14/"
+    },
+    {
+      "no": 15,
+      "title": "第15章 多节点推理、并行、解码与路由优化",
+      "url": "https://aispe.notlate.cn/chapters/ch15/"
+    },
+    {
+      "no": 16,
+      "title": "第16章 大规模推理的性能分析、调试与调优",
+      "url": "https://aispe.notlate.cn/chapters/ch16/"
+    },
+    {
+      "no": 17,
+      "title": "第17章 扩展分离式预填充与解码推理",
+      "url": "https://aispe.notlate.cn/chapters/ch17/"
+    },
+    {
+      "no": 18,
+      "title": "第18章 高级预填充-解码与 KV 缓存调优",
+      "url": "https://aispe.notlate.cn/chapters/ch18/"
+    },
+    {
+      "no": 19,
+      "title": "第19章 动态自适应推理引擎优化",
+      "url": "https://aispe.notlate.cn/chapters/ch19/"
+    },
+    {
+      "no": 20,
+      "title": "第20章 AI 辅助性能优化与向百万 GPU 集群扩展",
+      "url": "https://aispe.notlate.cn/chapters/ch20/"
+    }
+  ],
+  "appendix": {
+    "title": "附录",
+    "url": "https://aispe.notlate.cn/appendix/appendix/"
+  }
+}

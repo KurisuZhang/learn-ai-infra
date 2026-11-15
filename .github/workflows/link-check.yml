@@ -1,0 +1,41 @@
+name: Weekly link audit
+
+on:
+  schedule:
+    # 每周一 03:17 UTC（北京时间 11:17）
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Probe external links
+        # 外部站点会改名/改路由，这里只做巡检与报告，不阻断任何流程；
+        # 需要强制失败时把下面的 --strict 打开即可。
+        continue-on-error: true
+        run: node tools/check-links.mjs
+
+      - name: Show summary
+        run: sed -n '1,12p' reports/link-check.md
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: reports/link-check.md
+          retention-days: 30

@@ -1,0 +1,13 @@
+{
+  "note": "引用解析的人工补齐表。键为 `${资料id}|${normKey(叶子文本)}`（normKey 见 tools/lib/catalog.mjs：小写、去空白与标点）。构建报告（reports/link-coverage.md）会把未映射条目连同建议键打印出来，复制到这里即可修正。",
+  "overrides": {
+    "guide|路线页「第一层检验标准」的profiling条目": {
+      "url": "https://caomaolufei.github.io/AIInfraGuide/guides/ai-infra%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/",
+      "note": "手册引用的是路线页的验收标准，不是某一篇文章"
+    },
+    "guide|路线页「36性能分析与benchmark」的检验标准": {
+      "url": "https://caomaolufei.github.io/AIInfraGuide/guides/ai-infra%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/",
+      "note": "同上：路线页的检验标准条目"
+    }
+  }
+}

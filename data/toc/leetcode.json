@@ -1,0 +1,3357 @@
+{
+  "source": "https://datawhalechina.github.io/llm-algo-leetcode/",
+  "fetchedAt": "2026-11-15T10:51:22.829Z",
+  "root": "https://datawhalechina.github.io/llm-algo-leetcode",
+  "parts": [
+    {
+      "dir": "00_Prerequisites",
+      "title": "Part 00 Python、PyTorch 与实验基础",
+      "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/intro.html",
+      "groups": [
+        {
+          "id": "0A",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/0A.html",
+          "items": [
+            {
+              "id": "01_Python_Essentials_for_LLM",
+              "no": "1",
+              "rawNo": "01",
+              "title": "Python 基础与数据表示",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/01_Python_Essentials_for_LLM.html",
+              "group": "0A"
+            },
+            {
+              "id": "02_NumPy_and_Einsum",
+              "no": "2",
+              "rawNo": "02",
+              "title": "NumPy 与 Einsum",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/02_NumPy_and_Einsum.html",
+              "group": "0A"
+            },
+            {
+              "id": "03_Python_OOP_and_Utility_Patterns",
+              "no": "3",
+              "rawNo": "03",
+              "title": "Python 面向对象与工具模式",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/03_Python_OOP_and_Utility_Patterns.html",
+              "group": "0A"
+            },
+            {
+              "id": "04_Python_Config_and_Data_Entry",
+              "no": "4",
+              "rawNo": "04",
+              "title": "Python 配置与数据入口",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/04_Python_Config_and_Data_Entry.html",
+              "group": "0A"
+            }
+          ]
+        },
+        {
+          "id": "0B",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/0B.html",
+          "items": [
+            {
+              "id": "05_PyTorch_Tensor_Fundamentals",
+              "no": "5",
+              "rawNo": "05",
+              "title": "PyTorch 张量基础操作",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/05_PyTorch_Tensor_Fundamentals.html",
+              "group": "0B"
+            },
+            {
+              "id": "06_PyTorch_Tensor_Layout_and_Indexing",
+              "no": "6",
+              "rawNo": "06",
+              "title": "PyTorch 张量布局与索引",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/06_PyTorch_Tensor_Layout_and_Indexing.html",
+              "group": "0B"
+            },
+            {
+              "id": "07_PyTorch_Autograd_and_Backward",
+              "no": "7",
+              "rawNo": "07",
+              "title": "PyTorch 自动求导与反向传播",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/07_PyTorch_Autograd_and_Backward.html",
+              "group": "0B"
+            },
+            {
+              "id": "08_PyTorch_Grad_Hygiene_and_No_Grad",
+              "no": "8",
+              "rawNo": "08",
+              "title": "PyTorch 梯度习惯与无梯度模式",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/08_PyTorch_Grad_Hygiene_and_No_Grad.html",
+              "group": "0B"
+            }
+          ]
+        },
+        {
+          "id": "0C",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/0C.html",
+          "items": [
+            {
+              "id": "09_PyTorch_nn_Module_Basics",
+              "no": "9",
+              "rawNo": "09",
+              "title": "PyTorch nn.Module 基础",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/09_PyTorch_nn_Module_Basics.html",
+              "group": "0C"
+            },
+            {
+              "id": "10_PyTorch_State_dict_and_Persistence",
+              "no": "10",
+              "rawNo": "10",
+              "title": "PyTorch 状态管理与持久化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/10_PyTorch_State_dict_and_Persistence.html",
+              "group": "0C"
+            },
+            {
+              "id": "11_PyTorch_Optimizers_and_Loss",
+              "no": "11",
+              "rawNo": "11",
+              "title": "PyTorch 优化器与损失函数",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/11_PyTorch_Optimizers_and_Loss.html",
+              "group": "0C"
+            },
+            {
+              "id": "12_PyTorch_Minimal_Training_Interface",
+              "no": "12",
+              "rawNo": "12",
+              "title": "PyTorch 最小训练接口",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/12_PyTorch_Minimal_Training_Interface.html",
+              "group": "0C"
+            }
+          ]
+        },
+        {
+          "id": "0D",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/0D.html",
+          "items": [
+            {
+              "id": "13_Transformer_Block_Dataflow_and_Residual_Stream",
+              "no": "13",
+              "rawNo": "13",
+              "title": "Transformer Block 数据流与残差通路",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/13_Transformer_Block_Dataflow_and_Residual_Stream.html",
+              "group": "0D"
+            },
+            {
+              "id": "14_Activation_Functions",
+              "no": "14",
+              "rawNo": "14",
+              "title": "激活函数",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/14_Activation_Functions.html",
+              "group": "0D"
+            },
+            {
+              "id": "15_Normalization_Techniques",
+              "no": "15",
+              "rawNo": "15",
+              "title": "归一化技术",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/15_Normalization_Techniques.html",
+              "group": "0D"
+            },
+            {
+              "id": "16_Attention_Mechanism_Intro",
+              "no": "16",
+              "rawNo": "16",
+              "title": "Attention 机制导论",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/16_Attention_Mechanism_Intro.html",
+              "group": "0D"
+            }
+          ]
+        },
+        {
+          "id": "0E",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/0E.html",
+          "items": [
+            {
+              "id": "17_PyTorch_Profiling_Basics",
+              "no": "17",
+              "rawNo": "17",
+              "title": "PyTorch 性能分析基础",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/17_PyTorch_Profiling_Basics.html",
+              "group": "0E"
+            },
+            {
+              "id": "18_Memory_Profiling_and_Optimization",
+              "no": "18",
+              "rawNo": "18",
+              "title": "显存分析与优化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/18_Memory_Profiling_and_Optimization.html",
+              "group": "0E"
+            },
+            {
+              "id": "19_Debugging_and_Anomaly_Localization",
+              "no": "19",
+              "rawNo": "19",
+              "title": "调试与异常定位",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/19_Debugging_and_Anomaly_Localization.html",
+              "group": "0E"
+            },
+            {
+              "id": "20_Performance_Evidence_and_Experiment_Design",
+              "no": "20",
+              "rawNo": "20",
+              "title": "性能证据与实验设计",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/20_Performance_Evidence_and_Experiment_Design.html",
+              "group": "0E"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "01_Python_Essentials_for_LLM",
+          "no": "1",
+          "rawNo": "01",
+          "title": "Python 基础与数据表示",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/01_Python_Essentials_for_LLM.html",
+          "group": "0A"
+        },
+        {
+          "id": "02_NumPy_and_Einsum",
+          "no": "2",
+          "rawNo": "02",
+          "title": "NumPy 与 Einsum",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/02_NumPy_and_Einsum.html",
+          "group": "0A"
+        },
+        {
+          "id": "03_Python_OOP_and_Utility_Patterns",
+          "no": "3",
+          "rawNo": "03",
+          "title": "Python 面向对象与工具模式",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/03_Python_OOP_and_Utility_Patterns.html",
+          "group": "0A"
+        },
+        {
+          "id": "04_Python_Config_and_Data_Entry",
+          "no": "4",
+          "rawNo": "04",
+          "title": "Python 配置与数据入口",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/04_Python_Config_and_Data_Entry.html",
+          "group": "0A"
+        },
+        {
+          "id": "05_PyTorch_Tensor_Fundamentals",
+          "no": "5",
+          "rawNo": "05",
+          "title": "PyTorch 张量基础操作",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/05_PyTorch_Tensor_Fundamentals.html",
+          "group": "0B"
+        },
+        {
+          "id": "06_PyTorch_Tensor_Layout_and_Indexing",
+          "no": "6",
+          "rawNo": "06",
+          "title": "PyTorch 张量布局与索引",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/06_PyTorch_Tensor_Layout_and_Indexing.html",
+          "group": "0B"
+        },
+        {
+          "id": "07_PyTorch_Autograd_and_Backward",
+          "no": "7",
+          "rawNo": "07",
+          "title": "PyTorch 自动求导与反向传播",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/07_PyTorch_Autograd_and_Backward.html",
+          "group": "0B"
+        },
+        {
+          "id": "08_PyTorch_Grad_Hygiene_and_No_Grad",
+          "no": "8",
+          "rawNo": "08",
+          "title": "PyTorch 梯度习惯与无梯度模式",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/08_PyTorch_Grad_Hygiene_and_No_Grad.html",
+          "group": "0B"
+        },
+        {
+          "id": "09_PyTorch_nn_Module_Basics",
+          "no": "9",
+          "rawNo": "09",
+          "title": "PyTorch nn.Module 基础",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/09_PyTorch_nn_Module_Basics.html",
+          "group": "0C"
+        },
+        {
+          "id": "10_PyTorch_State_dict_and_Persistence",
+          "no": "10",
+          "rawNo": "10",
+          "title": "PyTorch 状态管理与持久化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/10_PyTorch_State_dict_and_Persistence.html",
+          "group": "0C"
+        },
+        {
+          "id": "11_PyTorch_Optimizers_and_Loss",
+          "no": "11",
+          "rawNo": "11",
+          "title": "PyTorch 优化器与损失函数",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/11_PyTorch_Optimizers_and_Loss.html",
+          "group": "0C"
+        },
+        {
+          "id": "12_PyTorch_Minimal_Training_Interface",
+          "no": "12",
+          "rawNo": "12",
+          "title": "PyTorch 最小训练接口",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/12_PyTorch_Minimal_Training_Interface.html",
+          "group": "0C"
+        },
+        {
+          "id": "13_Transformer_Block_Dataflow_and_Residual_Stream",
+          "no": "13",
+          "rawNo": "13",
+          "title": "Transformer Block 数据流与残差通路",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/13_Transformer_Block_Dataflow_and_Residual_Stream.html",
+          "group": "0D"
+        },
+        {
+          "id": "14_Activation_Functions",
+          "no": "14",
+          "rawNo": "14",
+          "title": "激活函数",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/14_Activation_Functions.html",
+          "group": "0D"
+        },
+        {
+          "id": "15_Normalization_Techniques",
+          "no": "15",
+          "rawNo": "15",
+          "title": "归一化技术",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/15_Normalization_Techniques.html",
+          "group": "0D"
+        },
+        {
+          "id": "16_Attention_Mechanism_Intro",
+          "no": "16",
+          "rawNo": "16",
+          "title": "Attention 机制导论",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/16_Attention_Mechanism_Intro.html",
+          "group": "0D"
+        },
+        {
+          "id": "17_PyTorch_Profiling_Basics",
+          "no": "17",
+          "rawNo": "17",
+          "title": "PyTorch 性能分析基础",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/17_PyTorch_Profiling_Basics.html",
+          "group": "0E"
+        },
+        {
+          "id": "18_Memory_Profiling_and_Optimization",
+          "no": "18",
+          "rawNo": "18",
+          "title": "显存分析与优化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/18_Memory_Profiling_and_Optimization.html",
+          "group": "0E"
+        },
+        {
+          "id": "19_Debugging_and_Anomaly_Localization",
+          "no": "19",
+          "rawNo": "19",
+          "title": "调试与异常定位",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/19_Debugging_and_Anomaly_Localization.html",
+          "group": "0E"
+        },
+        {
+          "id": "20_Performance_Evidence_and_Experiment_Design",
+          "no": "20",
+          "rawNo": "20",
+          "title": "性能证据与实验设计",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/00_Prerequisites/20_Performance_Evidence_and_Experiment_Design.html",
+          "group": "0E"
+        }
+      ]
+    },
+    {
+      "dir": "01_Hardware_Math_and_Systems",
+      "title": "Part 01 硬件、数学与系统",
+      "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/intro.html",
+      "groups": [
+        {
+          "id": "1A",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/1A.html",
+          "items": [
+            {
+              "id": "01_Data_Types_and_Precision",
+              "no": "1",
+              "rawNo": "01",
+              "title": "大模型的数据格式与混合精度",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/01_Data_Types_and_Precision.html",
+              "group": "1A"
+            },
+            {
+              "id": "02_LLM_Params_and_FLOPs",
+              "no": "2",
+              "rawNo": "02",
+              "title": "大模型参数量与 FLOPs",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/02_LLM_Params_and_FLOPs.html",
+              "group": "1A"
+            },
+            {
+              "id": "21_Quantization_Theory_and_INT4_INT8",
+              "no": "21",
+              "rawNo": "21",
+              "title": "量化理论与 INT4/INT8",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/21_Quantization_Theory_and_INT4_INT8.html",
+              "group": "1A"
+            },
+            {
+              "id": "22_MoE_Parameter_and_Compute",
+              "no": "22",
+              "rawNo": "22",
+              "title": "MoE 参数量与计算量关系",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/22_MoE_Parameter_and_Compute.html",
+              "group": "1A"
+            }
+          ]
+        },
+        {
+          "id": "1B",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/1B.html",
+          "items": [
+            {
+              "id": "03_GPU_Architecture_and_Memory",
+              "no": "3",
+              "rawNo": "03",
+              "title": "GPU 物理架构、内存层级与核心硬件单元",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/03_GPU_Architecture_and_Memory.html",
+              "group": "1B"
+            },
+            {
+              "id": "04_Attention_Memory_Optimization",
+              "no": "4",
+              "rawNo": "04",
+              "title": "Attention 显存优化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/04_Attention_Memory_Optimization.html",
+              "group": "1B"
+            },
+            {
+              "id": "11_KV_Cache_and_Memory_Growth",
+              "no": "11",
+              "rawNo": "11",
+              "title": "KV Cache 与显存增长",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/11_KV_Cache_and_Memory_Growth.html",
+              "group": "1B"
+            },
+            {
+              "id": "12_TensorCore_and_Mixed_Precision",
+              "no": "12",
+              "rawNo": "12",
+              "title": "TensorCore 与混合精度",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/12_TensorCore_and_Mixed_Precision.html",
+              "group": "1B"
+            },
+            {
+              "id": "13_Profiling_and_Bottleneck_Analysis",
+              "no": "13",
+              "rawNo": "13",
+              "title": "性能分析与瓶颈定位",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/13_Profiling_and_Bottleneck_Analysis.html",
+              "group": "1B"
+            },
+            {
+              "id": "14_FlashAttention_Memory_Model",
+              "no": "14",
+              "rawNo": "14",
+              "title": "FlashAttention 显存模型",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/14_FlashAttention_Memory_Model.html",
+              "group": "1B"
+            },
+            {
+              "id": "23_TensorCore_Deep_Dive",
+              "no": "23",
+              "rawNo": "23",
+              "title": "TensorCore 深度剖析",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/23_TensorCore_Deep_Dive.html",
+              "group": "1B"
+            },
+            {
+              "id": "24_SRAM_Optimization_Techniques",
+              "no": "24",
+              "rawNo": "24",
+              "title": "SRAM 优化技巧",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/24_SRAM_Optimization_Techniques.html",
+              "group": "1B"
+            },
+            {
+              "id": "25_Sparse_Computation_and_Sparse_Attention",
+              "no": "25",
+              "rawNo": "25",
+              "title": "稀疏计算与稀疏 Attention",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/25_Sparse_Computation_and_Sparse_Attention.html",
+              "group": "1B"
+            }
+          ]
+        },
+        {
+          "id": "1C",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/1C.html",
+          "items": [
+            {
+              "id": "05_Communication_Topologies",
+              "no": "5",
+              "rawNo": "05",
+              "title": "通信拓扑",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/05_Communication_Topologies.html",
+              "group": "1C"
+            },
+            {
+              "id": "06_VRAM_Calculation_and_ZeRO",
+              "no": "6",
+              "rawNo": "06",
+              "title": "显存计算与 ZeRO",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/06_VRAM_Calculation_and_ZeRO.html",
+              "group": "1C"
+            },
+            {
+              "id": "20_NCCL_and_AllReduce_Basics",
+              "no": "20",
+              "rawNo": "20",
+              "title": "NCCL 与 AllReduce 基础",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/20_NCCL_and_AllReduce_Basics.html",
+              "group": "1C"
+            },
+            {
+              "id": "26_Parallel_Strategy_Decision_Framework",
+              "no": "26",
+              "rawNo": "26",
+              "title": "并行策略决策框架",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/26_Parallel_Strategy_Decision_Framework.html",
+              "group": "1C"
+            },
+            {
+              "id": "27_Communication_Scheduling_Optimization",
+              "no": "27",
+              "rawNo": "27",
+              "title": "通信调度优化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/27_Communication_Scheduling_Optimization.html",
+              "group": "1C"
+            },
+            {
+              "id": "28_Fault_Tolerance_and_Checkpointing",
+              "no": "28",
+              "rawNo": "28",
+              "title": "容错与 Checkpointing",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/28_Fault_Tolerance_and_Checkpointing.html",
+              "group": "1C"
+            }
+          ]
+        },
+        {
+          "id": "1D",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/1D.html",
+          "items": [
+            {
+              "id": "07_CPU_GPU_Heterogeneous_Scheduling",
+              "no": "7",
+              "rawNo": "07",
+              "title": "CPU/GPU 异构调度",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/07_CPU_GPU_Heterogeneous_Scheduling.html",
+              "group": "1D"
+            },
+            {
+              "id": "08_Programming_Models_CUDA_Triton",
+              "no": "8",
+              "rawNo": "08",
+              "title": "CUDA/Triton 编程模型",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/08_Programming_Models_CUDA_Triton.html",
+              "group": "1D"
+            },
+            {
+              "id": "15_CUDA_Execution_Model",
+              "no": "15",
+              "rawNo": "15",
+              "title": "CUDA 执行模型",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/15_CUDA_Execution_Model.html",
+              "group": "1D"
+            },
+            {
+              "id": "16_Warp_Block_SharedMemory_Basics",
+              "no": "16",
+              "rawNo": "16",
+              "title": "Warp / Block / Shared Memory",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/16_Warp_Block_SharedMemory_Basics.html",
+              "group": "1D"
+            },
+            {
+              "id": "17_CUDA_Stream_and_Asynchrony",
+              "no": "17",
+              "rawNo": "17",
+              "title": "CUDA Stream 与异步",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/17_CUDA_Stream_and_Asynchrony.html",
+              "group": "1D"
+            },
+            {
+              "id": "18_Triton_Block_Model",
+              "no": "18",
+              "rawNo": "18",
+              "title": "Triton 块模型",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/18_Triton_Block_Model.html",
+              "group": "1D"
+            },
+            {
+              "id": "29_CUDA_Stream_Advanced_Scheduling",
+              "no": "29",
+              "rawNo": "29",
+              "title": "CUDA Stream 高级调度",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/29_CUDA_Stream_Advanced_Scheduling.html",
+              "group": "1D"
+            }
+          ]
+        },
+        {
+          "id": "1E",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/1E.html",
+          "items": [
+            {
+              "id": "09_AI_Compilers_and_Graph_Optimization",
+              "no": "9",
+              "rawNo": "09",
+              "title": "AI 编译器与图优化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/09_AI_Compilers_and_Graph_Optimization.html",
+              "group": "1E"
+            },
+            {
+              "id": "19_Operator_Fusion_Introduction",
+              "no": "19",
+              "rawNo": "19",
+              "title": "算子融合导论",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/19_Operator_Fusion_Introduction.html",
+              "group": "1E"
+            },
+            {
+              "id": "30_Dynamic_Shape_Handling",
+              "no": "30",
+              "rawNo": "30",
+              "title": "动态 Shape 处理",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/30_Dynamic_Shape_Handling.html",
+              "group": "1E"
+            },
+            {
+              "id": "32_TVM_MLIR_Deep_Practice",
+              "no": "32",
+              "rawNo": "32",
+              "title": "编译阶段与目标计划",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/32_TVM_MLIR_Deep_Practice.html",
+              "group": "1E"
+            }
+          ]
+        },
+        {
+          "id": "1F",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/1F.html",
+          "items": [
+            {
+              "id": "10_Domestic_AI_Chips_Overview",
+              "no": "10",
+              "rawNo": "10",
+              "title": "加速器选型与软件栈适配",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/10_Domestic_AI_Chips_Overview.html",
+              "group": "1F"
+            },
+            {
+              "id": "31_GPU_Virtualization_and_MIG",
+              "no": "31",
+              "rawNo": "31",
+              "title": "GPU 虚拟化与 MIG",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/31_GPU_Virtualization_and_MIG.html",
+              "group": "1F"
+            },
+            {
+              "id": "33_TCO_and_Cost_Model",
+              "no": "33",
+              "rawNo": "33",
+              "title": "TCO 与成本模型",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/33_TCO_and_Cost_Model.html",
+              "group": "1F"
+            },
+            {
+              "id": "34_Heterogeneous_Accelerators_and_Runtime_Constraints",
+              "no": "34",
+              "rawNo": "34",
+              "title": "异构加速器与运行时约束",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/34_Heterogeneous_Accelerators_and_Runtime_Constraints.html",
+              "group": "1F"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "01_Data_Types_and_Precision",
+          "no": "1",
+          "rawNo": "01",
+          "title": "大模型的数据格式与混合精度",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/01_Data_Types_and_Precision.html",
+          "group": "1A"
+        },
+        {
+          "id": "02_LLM_Params_and_FLOPs",
+          "no": "2",
+          "rawNo": "02",
+          "title": "大模型参数量与 FLOPs",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/02_LLM_Params_and_FLOPs.html",
+          "group": "1A"
+        },
+        {
+          "id": "21_Quantization_Theory_and_INT4_INT8",
+          "no": "21",
+          "rawNo": "21",
+          "title": "量化理论与 INT4/INT8",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/21_Quantization_Theory_and_INT4_INT8.html",
+          "group": "1A"
+        },
+        {
+          "id": "22_MoE_Parameter_and_Compute",
+          "no": "22",
+          "rawNo": "22",
+          "title": "MoE 参数量与计算量关系",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/22_MoE_Parameter_and_Compute.html",
+          "group": "1A"
+        },
+        {
+          "id": "03_GPU_Architecture_and_Memory",
+          "no": "3",
+          "rawNo": "03",
+          "title": "GPU 物理架构、内存层级与核心硬件单元",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/03_GPU_Architecture_and_Memory.html",
+          "group": "1B"
+        },
+        {
+          "id": "04_Attention_Memory_Optimization",
+          "no": "4",
+          "rawNo": "04",
+          "title": "Attention 显存优化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/04_Attention_Memory_Optimization.html",
+          "group": "1B"
+        },
+        {
+          "id": "11_KV_Cache_and_Memory_Growth",
+          "no": "11",
+          "rawNo": "11",
+          "title": "KV Cache 与显存增长",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/11_KV_Cache_and_Memory_Growth.html",
+          "group": "1B"
+        },
+        {
+          "id": "12_TensorCore_and_Mixed_Precision",
+          "no": "12",
+          "rawNo": "12",
+          "title": "TensorCore 与混合精度",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/12_TensorCore_and_Mixed_Precision.html",
+          "group": "1B"
+        },
+        {
+          "id": "13_Profiling_and_Bottleneck_Analysis",
+          "no": "13",
+          "rawNo": "13",
+          "title": "性能分析与瓶颈定位",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/13_Profiling_and_Bottleneck_Analysis.html",
+          "group": "1B"
+        },
+        {
+          "id": "14_FlashAttention_Memory_Model",
+          "no": "14",
+          "rawNo": "14",
+          "title": "FlashAttention 显存模型",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/14_FlashAttention_Memory_Model.html",
+          "group": "1B"
+        },
+        {
+          "id": "23_TensorCore_Deep_Dive",
+          "no": "23",
+          "rawNo": "23",
+          "title": "TensorCore 深度剖析",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/23_TensorCore_Deep_Dive.html",
+          "group": "1B"
+        },
+        {
+          "id": "24_SRAM_Optimization_Techniques",
+          "no": "24",
+          "rawNo": "24",
+          "title": "SRAM 优化技巧",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/24_SRAM_Optimization_Techniques.html",
+          "group": "1B"
+        },
+        {
+          "id": "25_Sparse_Computation_and_Sparse_Attention",
+          "no": "25",
+          "rawNo": "25",
+          "title": "稀疏计算与稀疏 Attention",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/25_Sparse_Computation_and_Sparse_Attention.html",
+          "group": "1B"
+        },
+        {
+          "id": "05_Communication_Topologies",
+          "no": "5",
+          "rawNo": "05",
+          "title": "通信拓扑",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/05_Communication_Topologies.html",
+          "group": "1C"
+        },
+        {
+          "id": "06_VRAM_Calculation_and_ZeRO",
+          "no": "6",
+          "rawNo": "06",
+          "title": "显存计算与 ZeRO",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/06_VRAM_Calculation_and_ZeRO.html",
+          "group": "1C"
+        },
+        {
+          "id": "20_NCCL_and_AllReduce_Basics",
+          "no": "20",
+          "rawNo": "20",
+          "title": "NCCL 与 AllReduce 基础",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/20_NCCL_and_AllReduce_Basics.html",
+          "group": "1C"
+        },
+        {
+          "id": "26_Parallel_Strategy_Decision_Framework",
+          "no": "26",
+          "rawNo": "26",
+          "title": "并行策略决策框架",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/26_Parallel_Strategy_Decision_Framework.html",
+          "group": "1C"
+        },
+        {
+          "id": "27_Communication_Scheduling_Optimization",
+          "no": "27",
+          "rawNo": "27",
+          "title": "通信调度优化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/27_Communication_Scheduling_Optimization.html",
+          "group": "1C"
+        },
+        {
+          "id": "28_Fault_Tolerance_and_Checkpointing",
+          "no": "28",
+          "rawNo": "28",
+          "title": "容错与 Checkpointing",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/28_Fault_Tolerance_and_Checkpointing.html",
+          "group": "1C"
+        },
+        {
+          "id": "07_CPU_GPU_Heterogeneous_Scheduling",
+          "no": "7",
+          "rawNo": "07",
+          "title": "CPU/GPU 异构调度",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/07_CPU_GPU_Heterogeneous_Scheduling.html",
+          "group": "1D"
+        },
+        {
+          "id": "08_Programming_Models_CUDA_Triton",
+          "no": "8",
+          "rawNo": "08",
+          "title": "CUDA/Triton 编程模型",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/08_Programming_Models_CUDA_Triton.html",
+          "group": "1D"
+        },
+        {
+          "id": "15_CUDA_Execution_Model",
+          "no": "15",
+          "rawNo": "15",
+          "title": "CUDA 执行模型",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/15_CUDA_Execution_Model.html",
+          "group": "1D"
+        },
+        {
+          "id": "16_Warp_Block_SharedMemory_Basics",
+          "no": "16",
+          "rawNo": "16",
+          "title": "Warp / Block / Shared Memory",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/16_Warp_Block_SharedMemory_Basics.html",
+          "group": "1D"
+        },
+        {
+          "id": "17_CUDA_Stream_and_Asynchrony",
+          "no": "17",
+          "rawNo": "17",
+          "title": "CUDA Stream 与异步",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/17_CUDA_Stream_and_Asynchrony.html",
+          "group": "1D"
+        },
+        {
+          "id": "18_Triton_Block_Model",
+          "no": "18",
+          "rawNo": "18",
+          "title": "Triton 块模型",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/18_Triton_Block_Model.html",
+          "group": "1D"
+        },
+        {
+          "id": "29_CUDA_Stream_Advanced_Scheduling",
+          "no": "29",
+          "rawNo": "29",
+          "title": "CUDA Stream 高级调度",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/29_CUDA_Stream_Advanced_Scheduling.html",
+          "group": "1D"
+        },
+        {
+          "id": "09_AI_Compilers_and_Graph_Optimization",
+          "no": "9",
+          "rawNo": "09",
+          "title": "AI 编译器与图优化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/09_AI_Compilers_and_Graph_Optimization.html",
+          "group": "1E"
+        },
+        {
+          "id": "19_Operator_Fusion_Introduction",
+          "no": "19",
+          "rawNo": "19",
+          "title": "算子融合导论",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/19_Operator_Fusion_Introduction.html",
+          "group": "1E"
+        },
+        {
+          "id": "30_Dynamic_Shape_Handling",
+          "no": "30",
+          "rawNo": "30",
+          "title": "动态 Shape 处理",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/30_Dynamic_Shape_Handling.html",
+          "group": "1E"
+        },
+        {
+          "id": "32_TVM_MLIR_Deep_Practice",
+          "no": "32",
+          "rawNo": "32",
+          "title": "编译阶段与目标计划",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/32_TVM_MLIR_Deep_Practice.html",
+          "group": "1E"
+        },
+        {
+          "id": "10_Domestic_AI_Chips_Overview",
+          "no": "10",
+          "rawNo": "10",
+          "title": "加速器选型与软件栈适配",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/10_Domestic_AI_Chips_Overview.html",
+          "group": "1F"
+        },
+        {
+          "id": "31_GPU_Virtualization_and_MIG",
+          "no": "31",
+          "rawNo": "31",
+          "title": "GPU 虚拟化与 MIG",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/31_GPU_Virtualization_and_MIG.html",
+          "group": "1F"
+        },
+        {
+          "id": "33_TCO_and_Cost_Model",
+          "no": "33",
+          "rawNo": "33",
+          "title": "TCO 与成本模型",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/33_TCO_and_Cost_Model.html",
+          "group": "1F"
+        },
+        {
+          "id": "34_Heterogeneous_Accelerators_and_Runtime_Constraints",
+          "no": "34",
+          "rawNo": "34",
+          "title": "异构加速器与运行时约束",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/01_Hardware_Math_and_Systems/34_Heterogeneous_Accelerators_and_Runtime_Constraints.html",
+          "group": "1F"
+        }
+      ]
+    },
+    {
+      "dir": "02_PyTorch_Algorithms",
+      "title": "Part 02 PyTorch 算法实战",
+      "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/intro.html",
+      "groups": [
+        {
+          "id": "2_1",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_1.html",
+          "items": [
+            {
+              "id": "00_PyTorch_Warmup",
+              "no": "0",
+              "rawNo": "00",
+              "title": "PyTorch 热身",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/00_PyTorch_Warmup.html",
+              "group": "2_1"
+            },
+            {
+              "id": "01_RMSNorm_Tutorial",
+              "no": "1",
+              "rawNo": "01",
+              "title": "RMSNorm 教程",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/01_RMSNorm_Tutorial.html",
+              "group": "2_1"
+            },
+            {
+              "id": "02_SwiGLU_Activation",
+              "no": "2",
+              "rawNo": "02",
+              "title": "SwiGLU 激活",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/02_SwiGLU_Activation.html",
+              "group": "2_1"
+            },
+            {
+              "id": "03_RoPE_Tutorial",
+              "no": "3",
+              "rawNo": "03",
+              "title": "旋转位置编码教程",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/03_RoPE_Tutorial.html",
+              "group": "2_1"
+            },
+            {
+              "id": "04_Attention_MHA_GQA",
+              "no": "4",
+              "rawNo": "04",
+              "title": "多头注意力",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/04_Attention_MHA_GQA.html",
+              "group": "2_1"
+            }
+          ]
+        },
+        {
+          "id": "2_2",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_2.html",
+          "items": [
+            {
+              "id": "05_LLaMA3_Block_Tutorial",
+              "no": "5",
+              "rawNo": "05",
+              "title": "LLaMA3 Block 教程",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/05_LLaMA3_Block_Tutorial.html",
+              "group": "2_2"
+            },
+            {
+              "id": "06_MoE_Router",
+              "no": "6",
+              "rawNo": "06",
+              "title": "MoE 路由器",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/06_MoE_Router.html",
+              "group": "2_2"
+            },
+            {
+              "id": "07_MoE_Load_Balancing_Loss",
+              "no": "7",
+              "rawNo": "07",
+              "title": "MoE 负载均衡损失",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/07_MoE_Load_Balancing_Loss.html",
+              "group": "2_2"
+            },
+            {
+              "id": "08_Architecture_Tricks",
+              "no": "8",
+              "rawNo": "08",
+              "title": "架构技巧",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/08_Architecture_Tricks.html",
+              "group": "2_2"
+            },
+            {
+              "id": "44_Local_Sliding_and_Sparse_Attention",
+              "no": "44",
+              "rawNo": "44",
+              "title": "局部、滑动窗口与稀疏注意力",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/44_Local_Sliding_and_Sparse_Attention.html",
+              "group": "2_2"
+            },
+            {
+              "id": "45_Linear_Attention_and_Recurrent_State",
+              "no": "45",
+              "rawNo": "45",
+              "title": "线性注意力与递推状态",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/45_Linear_Attention_and_Recurrent_State.html",
+              "group": "2_2"
+            },
+            {
+              "id": "ARCH-MLA_Multihead_Latent_Attention",
+              "no": "",
+              "rawNo": "",
+              "title": "ARCH-MLA. MLA 与紧凑 KV 表示",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/ARCH-MLA_Multihead_Latent_Attention.html",
+              "group": "2_2"
+            },
+            {
+              "id": "ARCH-HYBRID-MEMORY_Attention_SSM_Hybrid",
+              "no": "",
+              "rawNo": "",
+              "title": "ARCH-HYBRID. Attention、SSM 与混合记忆",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/ARCH-HYBRID-MEMORY_Attention_SSM_Hybrid.html",
+              "group": "2_2"
+            }
+          ]
+        },
+        {
+          "id": "2_3",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_3.html",
+          "items": [
+            {
+              "id": "09_Activation_and_Loss_Backward",
+              "no": "9",
+              "rawNo": "09",
+              "title": "激活与损失反向传播",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/09_Activation_and_Loss_Backward.html",
+              "group": "2_3"
+            },
+            {
+              "id": "10_Attention_Backward_and_Custom_Autograd",
+              "no": "10",
+              "rawNo": "10",
+              "title": "Attention 反向传播与自定义 Autograd",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/10_Attention_Backward_and_Custom_Autograd.html",
+              "group": "2_3"
+            },
+            {
+              "id": "11_Gradient_Accumulation",
+              "no": "11",
+              "rawNo": "11",
+              "title": "梯度累积",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/11_Gradient_Accumulation.html",
+              "group": "2_3"
+            },
+            {
+              "id": "TRAIN-MIXED-PRECISION-BACKWARD_Mixed_Precision_Backward",
+              "no": "",
+              "rawNo": "",
+              "title": "混合精度反向传播与梯度安全",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/TRAIN-MIXED-PRECISION-BACKWARD_Mixed_Precision_Backward.html",
+              "group": "2_3"
+            },
+            {
+              "id": "12_Optimizer_Updates_and_Learning_Rate_Scheduling",
+              "no": "12",
+              "rawNo": "12",
+              "title": "优化器更新与学习率调度",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/12_Optimizer_Updates_and_Learning_Rate_Scheduling.html",
+              "group": "2_3"
+            },
+            {
+              "id": "55_Training_Update_Dynamics",
+              "no": "55",
+              "rawNo": "55",
+              "title": "训练更新动力学",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/55_Training_Update_Dynamics.html",
+              "group": "2_3"
+            },
+            {
+              "id": "19_Activation_Checkpointing",
+              "no": "19",
+              "rawNo": "19",
+              "title": "激活检查点",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/19_Activation_Checkpointing.html",
+              "group": "2_3"
+            },
+            {
+              "id": "42_Activation_Offload",
+              "no": "42",
+              "rawNo": "42",
+              "title": "激活卸载",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/42_Activation_Offload.html",
+              "group": "2_3"
+            },
+            {
+              "id": "43_Unified_Training_Memory_Ledger",
+              "no": "43",
+              "rawNo": "43",
+              "title": "统一训练内存账本",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/43_Unified_Training_Memory_Ledger.html",
+              "group": "2_3"
+            },
+            {
+              "id": "56_Continual_Pretraining_and_Retention",
+              "no": "56",
+              "rawNo": "56",
+              "title": "持续预训练与能力保留",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/56_Continual_Pretraining_and_Retention.html",
+              "group": "2_3"
+            }
+          ]
+        },
+        {
+          "id": "2_4",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_4.html",
+          "items": [
+            {
+              "id": "33_Fine_Tuning_Readiness",
+              "no": "33",
+              "rawNo": "33",
+              "title": "后训练准入与阶段选择",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/33_Fine_Tuning_Readiness.html",
+              "group": "2_4"
+            },
+            {
+              "id": "32_Data_Engineering_for_SFT",
+              "no": "32",
+              "rawNo": "32",
+              "title": "SFT 数据契约与泄漏审计",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/32_Data_Engineering_for_SFT.html",
+              "group": "2_4"
+            },
+            {
+              "id": "PT-SYNTHETIC-DATA_Instruction_Generation_and_Verifier_Admission",
+              "no": "",
+              "rawNo": "",
+              "title": "合成指令生成与验证准入",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-SYNTHETIC-DATA_Instruction_Generation_and_Verifier_Admission.html",
+              "group": "2_4"
+            },
+            {
+              "id": "13_SFT_Training_Loop",
+              "no": "13",
+              "rawNo": "13",
+              "title": "SFT 监督边界与损失",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/13_SFT_Training_Loop.html",
+              "group": "2_4"
+            },
+            {
+              "id": "15_End_to_End_Fine_Tuning_Experiment",
+              "no": "15",
+              "rawNo": "15",
+              "title": "SFT 有效更新与训练闭环",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/15_End_to_End_Fine_Tuning_Experiment.html",
+              "group": "2_4"
+            },
+            {
+              "id": "14_LoRA_Tutorial",
+              "no": "14",
+              "rawNo": "14",
+              "title": "低秩适配教程",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/14_LoRA_Tutorial.html",
+              "group": "2_4"
+            },
+            {
+              "id": "30_Long_Context_Fine_Tuning",
+              "no": "30",
+              "rawNo": "30",
+              "title": "长上下文微调机制",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/30_Long_Context_Fine_Tuning.html",
+              "group": "2_4"
+            },
+            {
+              "id": "31_LoRA_Variants_Theory",
+              "no": "31",
+              "rawNo": "31",
+              "title": "LoRA 变体缩放与预算",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/31_LoRA_Variants_Theory.html",
+              "group": "2_4"
+            }
+          ]
+        },
+        {
+          "id": "2_5",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_5.html",
+          "items": [
+            {
+              "id": "50_Preference_Data_and_Evaluation",
+              "no": "50",
+              "rawNo": "50",
+              "title": "偏好数据与对齐评测",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/50_Preference_Data_and_Evaluation.html",
+              "group": "2_5"
+            },
+            {
+              "id": "PT-REWARD-SIGNAL_Reward_Model_Value_and_Advantage",
+              "no": "",
+              "rawNo": "",
+              "title": "奖励、价值与优势信号",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-REWARD-SIGNAL_Reward_Model_Value_and_Advantage.html",
+              "group": "2_5"
+            },
+            {
+              "id": "17_DPO_Loss_Tutorial",
+              "no": "17",
+              "rawNo": "17",
+              "title": "直接偏好优化损失",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/17_DPO_Loss_Tutorial.html",
+              "group": "2_5"
+            },
+            {
+              "id": "PT-KTO_Binary_Feedback_Alignment",
+              "no": "",
+              "rawNo": "",
+              "title": "二元反馈对齐",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-KTO_Binary_Feedback_Alignment.html",
+              "group": "2_5"
+            },
+            {
+              "id": "PT-REWARD-MODEL_Reward_Model_Training_and_Calibration",
+              "no": "",
+              "rawNo": "",
+              "title": "奖励模型训练、校准与过度优化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-REWARD-MODEL_Reward_Model_Training_and_Calibration.html",
+              "group": "2_5"
+            },
+            {
+              "id": "16_RLHF_PPO_Memory",
+              "no": "16",
+              "rawNo": "16",
+              "title": "RLHF / PPO 资源与状态",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/16_RLHF_PPO_Memory.html",
+              "group": "2_5"
+            },
+            {
+              "id": "18_GRPO_Loss_Tutorial",
+              "no": "18",
+              "rawNo": "18",
+              "title": "组相对策略优化与可验证奖励",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/18_GRPO_Loss_Tutorial.html",
+              "group": "2_5"
+            },
+            {
+              "id": "PT-RLOO_Leave_One_Out_Policy_Optimization",
+              "no": "",
+              "rawNo": "",
+              "title": "留一基线策略优化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-RLOO_Leave_One_Out_Policy_Optimization.html",
+              "group": "2_5"
+            },
+            {
+              "id": "PT-ROLLOUT-LIFECYCLE_Rollout_and_Policy_Freshness",
+              "no": "",
+              "rawNo": "",
+              "title": "轨迹与策略新鲜度",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-ROLLOUT-LIFECYCLE_Rollout_and_Policy_Freshness.html",
+              "group": "2_5"
+            },
+            {
+              "id": "PT-AGENTIC-RL_Environment_Trajectory_and_Credit_Assignment",
+              "no": "",
+              "rawNo": "",
+              "title": "环境轨迹与奖励归因",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-AGENTIC-RL_Environment_Trajectory_and_Credit_Assignment.html",
+              "group": "2_5"
+            },
+            {
+              "id": "PT-RL-SYSTEM_Rollout_Training_and_Reward_System",
+              "no": "",
+              "rawNo": "",
+              "title": "采样、训练与奖励系统",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-RL-SYSTEM_Rollout_Training_and_Reward_System.html",
+              "group": "2_5"
+            },
+            {
+              "id": "51_Online_DPO",
+              "no": "51",
+              "rawNo": "51",
+              "title": "在线 DPO",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/51_Online_DPO.html",
+              "group": "2_5"
+            }
+          ]
+        },
+        {
+          "id": "2_6",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_6.html",
+          "items": [
+            {
+              "id": "20_FlashAttention_Sim",
+              "no": "20",
+              "rawNo": "20",
+              "title": "FlashAttention 模拟",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/20_FlashAttention_Sim.html",
+              "group": "2_6"
+            },
+            {
+              "id": "INF-MOE-EXECUTION_MoE_Inference_Dispatch_and_Expert_Execution",
+              "no": "",
+              "rawNo": "",
+              "title": "MoE 词元分组与专家执行",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/INF-MOE-EXECUTION_MoE_Inference_Dispatch_and_Expert_Execution.html",
+              "group": "2_6"
+            },
+            {
+              "id": "21_Decoding_Strategies",
+              "no": "21",
+              "rawNo": "21",
+              "title": "解码策略",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/21_Decoding_Strategies.html",
+              "group": "2_6"
+            },
+            {
+              "id": "22_vLLM_PagedAttention",
+              "no": "22",
+              "rawNo": "22",
+              "title": "vLLM 分页注意力",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/22_vLLM_PagedAttention.html",
+              "group": "2_6"
+            }
+          ]
+        },
+        {
+          "id": "2_7",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_7.html",
+          "items": [
+            {
+              "id": "23_Speculative_Decoding",
+              "no": "23",
+              "rawNo": "23",
+              "title": "投机解码",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/23_Speculative_Decoding.html",
+              "group": "2_7"
+            },
+            {
+              "id": "24_Prefix_Cache_Matching_and_Reuse",
+              "no": "24",
+              "rawNo": "24",
+              "title": "Prefix Cache 匹配与复用",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/24_Prefix_Cache_Matching_and_Reuse.html",
+              "group": "2_7"
+            },
+            {
+              "id": "34_SGLang_RadixAttention",
+              "no": "34",
+              "rawNo": "34",
+              "title": "SGLang 基数注意力",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/34_SGLang_RadixAttention.html",
+              "group": "2_7"
+            },
+            {
+              "id": "35_Multi_Token_Decoding",
+              "no": "35",
+              "rawNo": "35",
+              "title": "Multi-Token Decoding",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/35_Multi_Token_Decoding.html",
+              "group": "2_7"
+            },
+            {
+              "id": "36_Decode_Scheduling",
+              "no": "36",
+              "rawNo": "36",
+              "title": "Decode Scheduling",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/36_Decode_Scheduling.html",
+              "group": "2_7"
+            },
+            {
+              "id": "37_KV_Cache_Lifecycle_and_Capacity_Control",
+              "no": "37",
+              "rawNo": "37",
+              "title": "KV Cache Lifecycle and Capacity Control",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/37_KV_Cache_Lifecycle_and_Capacity_Control.html",
+              "group": "2_7"
+            },
+            {
+              "id": "INF-CONTINUOUS-BATCHING_Continuous_Batching",
+              "no": "",
+              "rawNo": "",
+              "title": "Continuous Batching",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/INF-CONTINUOUS-BATCHING_Continuous_Batching.html",
+              "group": "2_7"
+            },
+            {
+              "id": "INF-SERVING-OVERLAP_Serving_Overlap_and_State_Handoff",
+              "no": "",
+              "rawNo": "",
+              "title": "Serving Overlap and State Handoff",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/INF-SERVING-OVERLAP_Serving_Overlap_and_State_Handoff.html",
+              "group": "2_7"
+            },
+            {
+              "id": "38_Prefill_Decode_Scheduling",
+              "no": "38",
+              "rawNo": "38",
+              "title": "Prefill/Decode 调度",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/38_Prefill_Decode_Scheduling.html",
+              "group": "2_7"
+            },
+            {
+              "id": "39_Hetero_PD_and_Serving_Tiers",
+              "no": "39",
+              "rawNo": "39",
+              "title": "异构 PD 与服务分层",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/39_Hetero_PD_and_Serving_Tiers.html",
+              "group": "2_7"
+            }
+          ]
+        },
+        {
+          "id": "2_8",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_8.html",
+          "items": [
+            {
+              "id": "25_Quantization_W8A16",
+              "no": "25",
+              "rawNo": "25",
+              "title": "W8A16 量化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/25_Quantization_W8A16.html",
+              "group": "2_8"
+            },
+            {
+              "id": "26_QLoRA_and_4bit_Quantization",
+              "no": "26",
+              "rawNo": "26",
+              "title": "QLoRA 与 4-bit 量化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/26_QLoRA_and_4bit_Quantization.html",
+              "group": "2_8"
+            },
+            {
+              "id": "40_GPTQ_and_AWQ_Weight_Quantization",
+              "no": "40",
+              "rawNo": "40",
+              "title": "GPTQ 与 AWQ 权重量化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/40_GPTQ_and_AWQ_Weight_Quantization.html",
+              "group": "2_8"
+            },
+            {
+              "id": "41_FP8_Runtime_Low_Precision_Paths",
+              "no": "41",
+              "rawNo": "41",
+              "title": "FP8 运行时低精度路径",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/41_FP8_Runtime_Low_Precision_Paths.html",
+              "group": "2_8"
+            },
+            {
+              "id": "52_Quantization_Calibration_and_Error",
+              "no": "52",
+              "rawNo": "52",
+              "title": "量化校准与误差控制",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/52_Quantization_Calibration_and_Error.html",
+              "group": "2_8"
+            },
+            {
+              "id": "53_Activation_Quantization_and_SmoothQuant",
+              "no": "53",
+              "rawNo": "53",
+              "title": "激活量化与 SmoothQuant",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/53_Activation_Quantization_and_SmoothQuant.html",
+              "group": "2_8"
+            },
+            {
+              "id": "54_KV_Cache_Quantization_Strategies",
+              "no": "54",
+              "rawNo": "54",
+              "title": "KV Cache 量化策略",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/54_KV_Cache_Quantization_Strategies.html",
+              "group": "2_8"
+            }
+          ]
+        },
+        {
+          "id": "2_9",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_9.html",
+          "items": [
+            {
+              "id": "27_ZeRO_Optimizer_Sim",
+              "no": "27",
+              "rawNo": "27",
+              "title": "ZeRO 优化器模拟",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/27_ZeRO_Optimizer_Sim.html",
+              "group": "2_9"
+            },
+            {
+              "id": "28_Pipeline_Parallelism_MicroBatch",
+              "no": "28",
+              "rawNo": "28",
+              "title": "Pipeline 并行微批次",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/28_Pipeline_Parallelism_MicroBatch.html",
+              "group": "2_9"
+            },
+            {
+              "id": "29_Tensor_Parallelism_Sim",
+              "no": "29",
+              "rawNo": "29",
+              "title": "Tensor 并行模拟",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/29_Tensor_Parallelism_Sim.html",
+              "group": "2_9"
+            },
+            {
+              "id": "47_Communication_Profiling_with_NCCL",
+              "no": "47",
+              "rawNo": "47",
+              "title": "NCCL 通信 profiling",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/47_Communication_Profiling_with_NCCL.html",
+              "group": "2_9"
+            },
+            {
+              "id": "46_MoE_Expert_Parallel",
+              "no": "46",
+              "rawNo": "46",
+              "title": "MoE 专家并行",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/46_MoE_Expert_Parallel.html",
+              "group": "2_9"
+            },
+            {
+              "id": "48_Communication_Hotspots_and_Mitigation",
+              "no": "48",
+              "rawNo": "48",
+              "title": "通信热点与缓解策略",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/48_Communication_Hotspots_and_Mitigation.html",
+              "group": "2_9"
+            },
+            {
+              "id": "49_Parallelism_Strategy_Selection",
+              "no": "49",
+              "rawNo": "49",
+              "title": "并行策略选型",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/49_Parallelism_Strategy_Selection.html",
+              "group": "2_9"
+            }
+          ]
+        },
+        {
+          "id": "2_10",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/2_10.html",
+          "items": [
+            {
+              "id": "60_Decoder_Block_Stability_Benchmark",
+              "no": "60",
+              "rawNo": "60",
+              "title": "Decoder Block 稳定性基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/60_Decoder_Block_Stability_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "61_Model_Architecture_Exploration",
+              "no": "61",
+              "rawNo": "61",
+              "title": "架构验证项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/61_Model_Architecture_Exploration.html",
+              "group": "2_10"
+            },
+            {
+              "id": "62_Instruction_Fine_Tuning_Project",
+              "no": "62",
+              "rawNo": "62",
+              "title": "指令微调项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/62_Instruction_Fine_Tuning_Project.html",
+              "group": "2_10"
+            },
+            {
+              "id": "63_LoRA_Variants_Benchmark",
+              "no": "63",
+              "rawNo": "63",
+              "title": "LoRA 变体对比",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/63_LoRA_Variants_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "64_SFT_Data_Quality_Project",
+              "no": "64",
+              "rawNo": "64",
+              "title": "SFT 数据质量项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/64_SFT_Data_Quality_Project.html",
+              "group": "2_10"
+            },
+            {
+              "id": "65_QLoRA_Selection_Project",
+              "no": "65",
+              "rawNo": "65",
+              "title": "QLoRA 选型项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/65_QLoRA_Selection_Project.html",
+              "group": "2_10"
+            },
+            {
+              "id": "66_Inference_Performance_Comparison",
+              "no": "66",
+              "rawNo": "66",
+              "title": "单卡推理测量基线",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/66_Inference_Performance_Comparison.html",
+              "group": "2_10"
+            },
+            {
+              "id": "67_Quantized_Inference_and_Deployment",
+              "no": "67",
+              "rawNo": "67",
+              "title": "量化推理与部署项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/67_Quantized_Inference_and_Deployment.html",
+              "group": "2_10"
+            },
+            {
+              "id": "68_Speculative_Decoding_Benchmark",
+              "no": "68",
+              "rawNo": "68",
+              "title": "推测解码基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/68_Speculative_Decoding_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "69_Prefix_Caching_Benchmark",
+              "no": "69",
+              "rawNo": "69",
+              "title": "前缀缓存基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/69_Prefix_Caching_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "70_Serving_Scheduler_Benchmark",
+              "no": "70",
+              "rawNo": "70",
+              "title": "推理服务调度基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/70_Serving_Scheduler_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "71_MLA_KV_Cache_Architecture_Benchmark",
+              "no": "71",
+              "rawNo": "71",
+              "title": "MLA 与 KV Cache 结构基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/71_MLA_KV_Cache_Architecture_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "72_Multi_Model_Deployment_Comparison",
+              "no": "72",
+              "rawNo": "72",
+              "title": "单卡推理部署与 Backend 对比",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/72_Multi_Model_Deployment_Comparison.html",
+              "group": "2_10"
+            },
+            {
+              "id": "73_Training_Performance_Analysis",
+              "no": "73",
+              "rawNo": "73",
+              "title": "训练性能分析",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/73_Training_Performance_Analysis.html",
+              "group": "2_10"
+            },
+            {
+              "id": "74_Profiling_Driven_End_to_End_Optimization",
+              "no": "74",
+              "rawNo": "74",
+              "title": "Profiling 驱动端到端优化",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/74_Profiling_Driven_End_to_End_Optimization.html",
+              "group": "2_10"
+            },
+            {
+              "id": "75_Optimizer_Execution_Path_Benchmark",
+              "no": "75",
+              "rawNo": "75",
+              "title": "优化器实现路径基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/75_Optimizer_Execution_Path_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "76_Activation_Checkpoint_Offload_Benchmark",
+              "no": "76",
+              "rawNo": "76",
+              "title": "Activation / Checkpoint / Offload 对比项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/76_Activation_Checkpoint_Offload_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "77_Long_Sequence_Memory_Architecture_Benchmark",
+              "no": "77",
+              "rawNo": "77",
+              "title": "长序列记忆架构基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/77_Long_Sequence_Memory_Architecture_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "78_Attention_Access_Pattern_Benchmark",
+              "no": "78",
+              "rawNo": "78",
+              "title": "Attention 访问模式基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/78_Attention_Access_Pattern_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "79_Distributed_Parallel_Benchmark",
+              "no": "79",
+              "rawNo": "79",
+              "title": "分布式并行基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/79_Distributed_Parallel_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "80_MoE_Expert_Parallel_Benchmark",
+              "no": "80",
+              "rawNo": "80",
+              "title": "MoE 专家并行 benchmark",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/80_MoE_Expert_Parallel_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "81_Distributed_Inference_Project",
+              "no": "81",
+              "rawNo": "81",
+              "title": "分布式推理逻辑验证",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/81_Distributed_Inference_Project.html",
+              "group": "2_10"
+            },
+            {
+              "id": "82_Quantization_Artifact_Evaluation_Project",
+              "no": "82",
+              "rawNo": "82",
+              "title": "量化产物评估项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/82_Quantization_Artifact_Evaluation_Project.html",
+              "group": "2_10"
+            },
+            {
+              "id": "83_Quantized_Serving_Profile_Benchmark",
+              "no": "83",
+              "rawNo": "83",
+              "title": "量化 Serving Profile 基准",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/83_Quantized_Serving_Profile_Benchmark.html",
+              "group": "2_10"
+            },
+            {
+              "id": "84_DPO_Preference_Project",
+              "no": "84",
+              "rawNo": "84",
+              "title": "DPO 偏好优化项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/84_DPO_Preference_Project.html",
+              "group": "2_10"
+            },
+            {
+              "id": "85_GRPO_Groupwise_Alignment_Project",
+              "no": "85",
+              "rawNo": "85",
+              "title": "GRPO 组内对齐项目",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/85_GRPO_Groupwise_Alignment_Project.html",
+              "group": "2_10"
+            },
+            {
+              "id": "86_DPO_Online_Benchmark",
+              "no": "86",
+              "rawNo": "86",
+              "title": "在线后训练生命周期与恢复",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/86_DPO_Online_Benchmark.html",
+              "group": "2_10"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "00_PyTorch_Warmup",
+          "no": "0",
+          "rawNo": "00",
+          "title": "PyTorch 热身",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/00_PyTorch_Warmup.html",
+          "group": "2_1"
+        },
+        {
+          "id": "01_RMSNorm_Tutorial",
+          "no": "1",
+          "rawNo": "01",
+          "title": "RMSNorm 教程",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/01_RMSNorm_Tutorial.html",
+          "group": "2_1"
+        },
+        {
+          "id": "02_SwiGLU_Activation",
+          "no": "2",
+          "rawNo": "02",
+          "title": "SwiGLU 激活",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/02_SwiGLU_Activation.html",
+          "group": "2_1"
+        },
+        {
+          "id": "03_RoPE_Tutorial",
+          "no": "3",
+          "rawNo": "03",
+          "title": "旋转位置编码教程",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/03_RoPE_Tutorial.html",
+          "group": "2_1"
+        },
+        {
+          "id": "04_Attention_MHA_GQA",
+          "no": "4",
+          "rawNo": "04",
+          "title": "多头注意力",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/04_Attention_MHA_GQA.html",
+          "group": "2_1"
+        },
+        {
+          "id": "05_LLaMA3_Block_Tutorial",
+          "no": "5",
+          "rawNo": "05",
+          "title": "LLaMA3 Block 教程",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/05_LLaMA3_Block_Tutorial.html",
+          "group": "2_2"
+        },
+        {
+          "id": "06_MoE_Router",
+          "no": "6",
+          "rawNo": "06",
+          "title": "MoE 路由器",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/06_MoE_Router.html",
+          "group": "2_2"
+        },
+        {
+          "id": "07_MoE_Load_Balancing_Loss",
+          "no": "7",
+          "rawNo": "07",
+          "title": "MoE 负载均衡损失",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/07_MoE_Load_Balancing_Loss.html",
+          "group": "2_2"
+        },
+        {
+          "id": "08_Architecture_Tricks",
+          "no": "8",
+          "rawNo": "08",
+          "title": "架构技巧",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/08_Architecture_Tricks.html",
+          "group": "2_2"
+        },
+        {
+          "id": "44_Local_Sliding_and_Sparse_Attention",
+          "no": "44",
+          "rawNo": "44",
+          "title": "局部、滑动窗口与稀疏注意力",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/44_Local_Sliding_and_Sparse_Attention.html",
+          "group": "2_2"
+        },
+        {
+          "id": "45_Linear_Attention_and_Recurrent_State",
+          "no": "45",
+          "rawNo": "45",
+          "title": "线性注意力与递推状态",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/45_Linear_Attention_and_Recurrent_State.html",
+          "group": "2_2"
+        },
+        {
+          "id": "ARCH-MLA_Multihead_Latent_Attention",
+          "no": "",
+          "rawNo": "",
+          "title": "ARCH-MLA. MLA 与紧凑 KV 表示",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/ARCH-MLA_Multihead_Latent_Attention.html",
+          "group": "2_2"
+        },
+        {
+          "id": "ARCH-HYBRID-MEMORY_Attention_SSM_Hybrid",
+          "no": "",
+          "rawNo": "",
+          "title": "ARCH-HYBRID. Attention、SSM 与混合记忆",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/ARCH-HYBRID-MEMORY_Attention_SSM_Hybrid.html",
+          "group": "2_2"
+        },
+        {
+          "id": "09_Activation_and_Loss_Backward",
+          "no": "9",
+          "rawNo": "09",
+          "title": "激活与损失反向传播",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/09_Activation_and_Loss_Backward.html",
+          "group": "2_3"
+        },
+        {
+          "id": "10_Attention_Backward_and_Custom_Autograd",
+          "no": "10",
+          "rawNo": "10",
+          "title": "Attention 反向传播与自定义 Autograd",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/10_Attention_Backward_and_Custom_Autograd.html",
+          "group": "2_3"
+        },
+        {
+          "id": "11_Gradient_Accumulation",
+          "no": "11",
+          "rawNo": "11",
+          "title": "梯度累积",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/11_Gradient_Accumulation.html",
+          "group": "2_3"
+        },
+        {
+          "id": "TRAIN-MIXED-PRECISION-BACKWARD_Mixed_Precision_Backward",
+          "no": "",
+          "rawNo": "",
+          "title": "混合精度反向传播与梯度安全",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/TRAIN-MIXED-PRECISION-BACKWARD_Mixed_Precision_Backward.html",
+          "group": "2_3"
+        },
+        {
+          "id": "12_Optimizer_Updates_and_Learning_Rate_Scheduling",
+          "no": "12",
+          "rawNo": "12",
+          "title": "优化器更新与学习率调度",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/12_Optimizer_Updates_and_Learning_Rate_Scheduling.html",
+          "group": "2_3"
+        },
+        {
+          "id": "55_Training_Update_Dynamics",
+          "no": "55",
+          "rawNo": "55",
+          "title": "训练更新动力学",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/55_Training_Update_Dynamics.html",
+          "group": "2_3"
+        },
+        {
+          "id": "19_Activation_Checkpointing",
+          "no": "19",
+          "rawNo": "19",
+          "title": "激活检查点",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/19_Activation_Checkpointing.html",
+          "group": "2_3"
+        },
+        {
+          "id": "42_Activation_Offload",
+          "no": "42",
+          "rawNo": "42",
+          "title": "激活卸载",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/42_Activation_Offload.html",
+          "group": "2_3"
+        },
+        {
+          "id": "43_Unified_Training_Memory_Ledger",
+          "no": "43",
+          "rawNo": "43",
+          "title": "统一训练内存账本",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/43_Unified_Training_Memory_Ledger.html",
+          "group": "2_3"
+        },
+        {
+          "id": "56_Continual_Pretraining_and_Retention",
+          "no": "56",
+          "rawNo": "56",
+          "title": "持续预训练与能力保留",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/56_Continual_Pretraining_and_Retention.html",
+          "group": "2_3"
+        },
+        {
+          "id": "33_Fine_Tuning_Readiness",
+          "no": "33",
+          "rawNo": "33",
+          "title": "后训练准入与阶段选择",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/33_Fine_Tuning_Readiness.html",
+          "group": "2_4"
+        },
+        {
+          "id": "32_Data_Engineering_for_SFT",
+          "no": "32",
+          "rawNo": "32",
+          "title": "SFT 数据契约与泄漏审计",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/32_Data_Engineering_for_SFT.html",
+          "group": "2_4"
+        },
+        {
+          "id": "PT-SYNTHETIC-DATA_Instruction_Generation_and_Verifier_Admission",
+          "no": "",
+          "rawNo": "",
+          "title": "合成指令生成与验证准入",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-SYNTHETIC-DATA_Instruction_Generation_and_Verifier_Admission.html",
+          "group": "2_4"
+        },
+        {
+          "id": "13_SFT_Training_Loop",
+          "no": "13",
+          "rawNo": "13",
+          "title": "SFT 监督边界与损失",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/13_SFT_Training_Loop.html",
+          "group": "2_4"
+        },
+        {
+          "id": "15_End_to_End_Fine_Tuning_Experiment",
+          "no": "15",
+          "rawNo": "15",
+          "title": "SFT 有效更新与训练闭环",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/15_End_to_End_Fine_Tuning_Experiment.html",
+          "group": "2_4"
+        },
+        {
+          "id": "14_LoRA_Tutorial",
+          "no": "14",
+          "rawNo": "14",
+          "title": "低秩适配教程",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/14_LoRA_Tutorial.html",
+          "group": "2_4"
+        },
+        {
+          "id": "30_Long_Context_Fine_Tuning",
+          "no": "30",
+          "rawNo": "30",
+          "title": "长上下文微调机制",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/30_Long_Context_Fine_Tuning.html",
+          "group": "2_4"
+        },
+        {
+          "id": "31_LoRA_Variants_Theory",
+          "no": "31",
+          "rawNo": "31",
+          "title": "LoRA 变体缩放与预算",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/31_LoRA_Variants_Theory.html",
+          "group": "2_4"
+        },
+        {
+          "id": "50_Preference_Data_and_Evaluation",
+          "no": "50",
+          "rawNo": "50",
+          "title": "偏好数据与对齐评测",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/50_Preference_Data_and_Evaluation.html",
+          "group": "2_5"
+        },
+        {
+          "id": "PT-REWARD-SIGNAL_Reward_Model_Value_and_Advantage",
+          "no": "",
+          "rawNo": "",
+          "title": "奖励、价值与优势信号",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-REWARD-SIGNAL_Reward_Model_Value_and_Advantage.html",
+          "group": "2_5"
+        },
+        {
+          "id": "17_DPO_Loss_Tutorial",
+          "no": "17",
+          "rawNo": "17",
+          "title": "直接偏好优化损失",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/17_DPO_Loss_Tutorial.html",
+          "group": "2_5"
+        },
+        {
+          "id": "PT-KTO_Binary_Feedback_Alignment",
+          "no": "",
+          "rawNo": "",
+          "title": "二元反馈对齐",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-KTO_Binary_Feedback_Alignment.html",
+          "group": "2_5"
+        },
+        {
+          "id": "PT-REWARD-MODEL_Reward_Model_Training_and_Calibration",
+          "no": "",
+          "rawNo": "",
+          "title": "奖励模型训练、校准与过度优化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-REWARD-MODEL_Reward_Model_Training_and_Calibration.html",
+          "group": "2_5"
+        },
+        {
+          "id": "16_RLHF_PPO_Memory",
+          "no": "16",
+          "rawNo": "16",
+          "title": "RLHF / PPO 资源与状态",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/16_RLHF_PPO_Memory.html",
+          "group": "2_5"
+        },
+        {
+          "id": "18_GRPO_Loss_Tutorial",
+          "no": "18",
+          "rawNo": "18",
+          "title": "组相对策略优化与可验证奖励",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/18_GRPO_Loss_Tutorial.html",
+          "group": "2_5"
+        },
+        {
+          "id": "PT-RLOO_Leave_One_Out_Policy_Optimization",
+          "no": "",
+          "rawNo": "",
+          "title": "留一基线策略优化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-RLOO_Leave_One_Out_Policy_Optimization.html",
+          "group": "2_5"
+        },
+        {
+          "id": "PT-ROLLOUT-LIFECYCLE_Rollout_and_Policy_Freshness",
+          "no": "",
+          "rawNo": "",
+          "title": "轨迹与策略新鲜度",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-ROLLOUT-LIFECYCLE_Rollout_and_Policy_Freshness.html",
+          "group": "2_5"
+        },
+        {
+          "id": "PT-AGENTIC-RL_Environment_Trajectory_and_Credit_Assignment",
+          "no": "",
+          "rawNo": "",
+          "title": "环境轨迹与奖励归因",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-AGENTIC-RL_Environment_Trajectory_and_Credit_Assignment.html",
+          "group": "2_5"
+        },
+        {
+          "id": "PT-RL-SYSTEM_Rollout_Training_and_Reward_System",
+          "no": "",
+          "rawNo": "",
+          "title": "采样、训练与奖励系统",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/PT-RL-SYSTEM_Rollout_Training_and_Reward_System.html",
+          "group": "2_5"
+        },
+        {
+          "id": "51_Online_DPO",
+          "no": "51",
+          "rawNo": "51",
+          "title": "在线 DPO",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/51_Online_DPO.html",
+          "group": "2_5"
+        },
+        {
+          "id": "20_FlashAttention_Sim",
+          "no": "20",
+          "rawNo": "20",
+          "title": "FlashAttention 模拟",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/20_FlashAttention_Sim.html",
+          "group": "2_6"
+        },
+        {
+          "id": "INF-MOE-EXECUTION_MoE_Inference_Dispatch_and_Expert_Execution",
+          "no": "",
+          "rawNo": "",
+          "title": "MoE 词元分组与专家执行",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/INF-MOE-EXECUTION_MoE_Inference_Dispatch_and_Expert_Execution.html",
+          "group": "2_6"
+        },
+        {
+          "id": "21_Decoding_Strategies",
+          "no": "21",
+          "rawNo": "21",
+          "title": "解码策略",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/21_Decoding_Strategies.html",
+          "group": "2_6"
+        },
+        {
+          "id": "22_vLLM_PagedAttention",
+          "no": "22",
+          "rawNo": "22",
+          "title": "vLLM 分页注意力",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/22_vLLM_PagedAttention.html",
+          "group": "2_6"
+        },
+        {
+          "id": "23_Speculative_Decoding",
+          "no": "23",
+          "rawNo": "23",
+          "title": "投机解码",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/23_Speculative_Decoding.html",
+          "group": "2_7"
+        },
+        {
+          "id": "24_Prefix_Cache_Matching_and_Reuse",
+          "no": "24",
+          "rawNo": "24",
+          "title": "Prefix Cache 匹配与复用",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/24_Prefix_Cache_Matching_and_Reuse.html",
+          "group": "2_7"
+        },
+        {
+          "id": "34_SGLang_RadixAttention",
+          "no": "34",
+          "rawNo": "34",
+          "title": "SGLang 基数注意力",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/34_SGLang_RadixAttention.html",
+          "group": "2_7"
+        },
+        {
+          "id": "35_Multi_Token_Decoding",
+          "no": "35",
+          "rawNo": "35",
+          "title": "Multi-Token Decoding",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/35_Multi_Token_Decoding.html",
+          "group": "2_7"
+        },
+        {
+          "id": "36_Decode_Scheduling",
+          "no": "36",
+          "rawNo": "36",
+          "title": "Decode Scheduling",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/36_Decode_Scheduling.html",
+          "group": "2_7"
+        },
+        {
+          "id": "37_KV_Cache_Lifecycle_and_Capacity_Control",
+          "no": "37",
+          "rawNo": "37",
+          "title": "KV Cache Lifecycle and Capacity Control",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/37_KV_Cache_Lifecycle_and_Capacity_Control.html",
+          "group": "2_7"
+        },
+        {
+          "id": "INF-CONTINUOUS-BATCHING_Continuous_Batching",
+          "no": "",
+          "rawNo": "",
+          "title": "Continuous Batching",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/INF-CONTINUOUS-BATCHING_Continuous_Batching.html",
+          "group": "2_7"
+        },
+        {
+          "id": "INF-SERVING-OVERLAP_Serving_Overlap_and_State_Handoff",
+          "no": "",
+          "rawNo": "",
+          "title": "Serving Overlap and State Handoff",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/INF-SERVING-OVERLAP_Serving_Overlap_and_State_Handoff.html",
+          "group": "2_7"
+        },
+        {
+          "id": "38_Prefill_Decode_Scheduling",
+          "no": "38",
+          "rawNo": "38",
+          "title": "Prefill/Decode 调度",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/38_Prefill_Decode_Scheduling.html",
+          "group": "2_7"
+        },
+        {
+          "id": "39_Hetero_PD_and_Serving_Tiers",
+          "no": "39",
+          "rawNo": "39",
+          "title": "异构 PD 与服务分层",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/39_Hetero_PD_and_Serving_Tiers.html",
+          "group": "2_7"
+        },
+        {
+          "id": "25_Quantization_W8A16",
+          "no": "25",
+          "rawNo": "25",
+          "title": "W8A16 量化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/25_Quantization_W8A16.html",
+          "group": "2_8"
+        },
+        {
+          "id": "26_QLoRA_and_4bit_Quantization",
+          "no": "26",
+          "rawNo": "26",
+          "title": "QLoRA 与 4-bit 量化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/26_QLoRA_and_4bit_Quantization.html",
+          "group": "2_8"
+        },
+        {
+          "id": "40_GPTQ_and_AWQ_Weight_Quantization",
+          "no": "40",
+          "rawNo": "40",
+          "title": "GPTQ 与 AWQ 权重量化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/40_GPTQ_and_AWQ_Weight_Quantization.html",
+          "group": "2_8"
+        },
+        {
+          "id": "41_FP8_Runtime_Low_Precision_Paths",
+          "no": "41",
+          "rawNo": "41",
+          "title": "FP8 运行时低精度路径",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/41_FP8_Runtime_Low_Precision_Paths.html",
+          "group": "2_8"
+        },
+        {
+          "id": "52_Quantization_Calibration_and_Error",
+          "no": "52",
+          "rawNo": "52",
+          "title": "量化校准与误差控制",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/52_Quantization_Calibration_and_Error.html",
+          "group": "2_8"
+        },
+        {
+          "id": "53_Activation_Quantization_and_SmoothQuant",
+          "no": "53",
+          "rawNo": "53",
+          "title": "激活量化与 SmoothQuant",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/53_Activation_Quantization_and_SmoothQuant.html",
+          "group": "2_8"
+        },
+        {
+          "id": "54_KV_Cache_Quantization_Strategies",
+          "no": "54",
+          "rawNo": "54",
+          "title": "KV Cache 量化策略",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/54_KV_Cache_Quantization_Strategies.html",
+          "group": "2_8"
+        },
+        {
+          "id": "27_ZeRO_Optimizer_Sim",
+          "no": "27",
+          "rawNo": "27",
+          "title": "ZeRO 优化器模拟",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/27_ZeRO_Optimizer_Sim.html",
+          "group": "2_9"
+        },
+        {
+          "id": "28_Pipeline_Parallelism_MicroBatch",
+          "no": "28",
+          "rawNo": "28",
+          "title": "Pipeline 并行微批次",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/28_Pipeline_Parallelism_MicroBatch.html",
+          "group": "2_9"
+        },
+        {
+          "id": "29_Tensor_Parallelism_Sim",
+          "no": "29",
+          "rawNo": "29",
+          "title": "Tensor 并行模拟",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/29_Tensor_Parallelism_Sim.html",
+          "group": "2_9"
+        },
+        {
+          "id": "47_Communication_Profiling_with_NCCL",
+          "no": "47",
+          "rawNo": "47",
+          "title": "NCCL 通信 profiling",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/47_Communication_Profiling_with_NCCL.html",
+          "group": "2_9"
+        },
+        {
+          "id": "46_MoE_Expert_Parallel",
+          "no": "46",
+          "rawNo": "46",
+          "title": "MoE 专家并行",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/46_MoE_Expert_Parallel.html",
+          "group": "2_9"
+        },
+        {
+          "id": "48_Communication_Hotspots_and_Mitigation",
+          "no": "48",
+          "rawNo": "48",
+          "title": "通信热点与缓解策略",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/48_Communication_Hotspots_and_Mitigation.html",
+          "group": "2_9"
+        },
+        {
+          "id": "49_Parallelism_Strategy_Selection",
+          "no": "49",
+          "rawNo": "49",
+          "title": "并行策略选型",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/49_Parallelism_Strategy_Selection.html",
+          "group": "2_9"
+        },
+        {
+          "id": "60_Decoder_Block_Stability_Benchmark",
+          "no": "60",
+          "rawNo": "60",
+          "title": "Decoder Block 稳定性基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/60_Decoder_Block_Stability_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "61_Model_Architecture_Exploration",
+          "no": "61",
+          "rawNo": "61",
+          "title": "架构验证项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/61_Model_Architecture_Exploration.html",
+          "group": "2_10"
+        },
+        {
+          "id": "62_Instruction_Fine_Tuning_Project",
+          "no": "62",
+          "rawNo": "62",
+          "title": "指令微调项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/62_Instruction_Fine_Tuning_Project.html",
+          "group": "2_10"
+        },
+        {
+          "id": "63_LoRA_Variants_Benchmark",
+          "no": "63",
+          "rawNo": "63",
+          "title": "LoRA 变体对比",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/63_LoRA_Variants_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "64_SFT_Data_Quality_Project",
+          "no": "64",
+          "rawNo": "64",
+          "title": "SFT 数据质量项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/64_SFT_Data_Quality_Project.html",
+          "group": "2_10"
+        },
+        {
+          "id": "65_QLoRA_Selection_Project",
+          "no": "65",
+          "rawNo": "65",
+          "title": "QLoRA 选型项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/65_QLoRA_Selection_Project.html",
+          "group": "2_10"
+        },
+        {
+          "id": "66_Inference_Performance_Comparison",
+          "no": "66",
+          "rawNo": "66",
+          "title": "单卡推理测量基线",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/66_Inference_Performance_Comparison.html",
+          "group": "2_10"
+        },
+        {
+          "id": "67_Quantized_Inference_and_Deployment",
+          "no": "67",
+          "rawNo": "67",
+          "title": "量化推理与部署项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/67_Quantized_Inference_and_Deployment.html",
+          "group": "2_10"
+        },
+        {
+          "id": "68_Speculative_Decoding_Benchmark",
+          "no": "68",
+          "rawNo": "68",
+          "title": "推测解码基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/68_Speculative_Decoding_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "69_Prefix_Caching_Benchmark",
+          "no": "69",
+          "rawNo": "69",
+          "title": "前缀缓存基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/69_Prefix_Caching_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "70_Serving_Scheduler_Benchmark",
+          "no": "70",
+          "rawNo": "70",
+          "title": "推理服务调度基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/70_Serving_Scheduler_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "71_MLA_KV_Cache_Architecture_Benchmark",
+          "no": "71",
+          "rawNo": "71",
+          "title": "MLA 与 KV Cache 结构基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/71_MLA_KV_Cache_Architecture_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "72_Multi_Model_Deployment_Comparison",
+          "no": "72",
+          "rawNo": "72",
+          "title": "单卡推理部署与 Backend 对比",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/72_Multi_Model_Deployment_Comparison.html",
+          "group": "2_10"
+        },
+        {
+          "id": "73_Training_Performance_Analysis",
+          "no": "73",
+          "rawNo": "73",
+          "title": "训练性能分析",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/73_Training_Performance_Analysis.html",
+          "group": "2_10"
+        },
+        {
+          "id": "74_Profiling_Driven_End_to_End_Optimization",
+          "no": "74",
+          "rawNo": "74",
+          "title": "Profiling 驱动端到端优化",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/74_Profiling_Driven_End_to_End_Optimization.html",
+          "group": "2_10"
+        },
+        {
+          "id": "75_Optimizer_Execution_Path_Benchmark",
+          "no": "75",
+          "rawNo": "75",
+          "title": "优化器实现路径基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/75_Optimizer_Execution_Path_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "76_Activation_Checkpoint_Offload_Benchmark",
+          "no": "76",
+          "rawNo": "76",
+          "title": "Activation / Checkpoint / Offload 对比项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/76_Activation_Checkpoint_Offload_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "77_Long_Sequence_Memory_Architecture_Benchmark",
+          "no": "77",
+          "rawNo": "77",
+          "title": "长序列记忆架构基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/77_Long_Sequence_Memory_Architecture_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "78_Attention_Access_Pattern_Benchmark",
+          "no": "78",
+          "rawNo": "78",
+          "title": "Attention 访问模式基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/78_Attention_Access_Pattern_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "79_Distributed_Parallel_Benchmark",
+          "no": "79",
+          "rawNo": "79",
+          "title": "分布式并行基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/79_Distributed_Parallel_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "80_MoE_Expert_Parallel_Benchmark",
+          "no": "80",
+          "rawNo": "80",
+          "title": "MoE 专家并行 benchmark",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/80_MoE_Expert_Parallel_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "81_Distributed_Inference_Project",
+          "no": "81",
+          "rawNo": "81",
+          "title": "分布式推理逻辑验证",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/81_Distributed_Inference_Project.html",
+          "group": "2_10"
+        },
+        {
+          "id": "82_Quantization_Artifact_Evaluation_Project",
+          "no": "82",
+          "rawNo": "82",
+          "title": "量化产物评估项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/82_Quantization_Artifact_Evaluation_Project.html",
+          "group": "2_10"
+        },
+        {
+          "id": "83_Quantized_Serving_Profile_Benchmark",
+          "no": "83",
+          "rawNo": "83",
+          "title": "量化 Serving Profile 基准",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/83_Quantized_Serving_Profile_Benchmark.html",
+          "group": "2_10"
+        },
+        {
+          "id": "84_DPO_Preference_Project",
+          "no": "84",
+          "rawNo": "84",
+          "title": "DPO 偏好优化项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/84_DPO_Preference_Project.html",
+          "group": "2_10"
+        },
+        {
+          "id": "85_GRPO_Groupwise_Alignment_Project",
+          "no": "85",
+          "rawNo": "85",
+          "title": "GRPO 组内对齐项目",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/85_GRPO_Groupwise_Alignment_Project.html",
+          "group": "2_10"
+        },
+        {
+          "id": "86_DPO_Online_Benchmark",
+          "no": "86",
+          "rawNo": "86",
+          "title": "在线后训练生命周期与恢复",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/02_PyTorch_Algorithms/86_DPO_Online_Benchmark.html",
+          "group": "2_10"
+        }
+      ]
+    },
+    {
+      "dir": "03_Triton_Kernels",
+      "title": "Part 03 Triton 算子开发",
+      "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/intro.html",
+      "groups": [
+        {
+          "id": "3_1",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/3_1.html",
+          "items": [
+            {
+              "id": "01_Triton_Vector_Addition",
+              "no": "1",
+              "rawNo": "01",
+              "title": "Triton Vector Addition",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/01_Triton_Vector_Addition.html",
+              "group": "3_1"
+            },
+            {
+              "id": "02_Triton_Layouts_and_Memory_Access",
+              "no": "2",
+              "rawNo": "02",
+              "title": "Triton Layouts and Memory Access",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/02_Triton_Layouts_and_Memory_Access.html",
+              "group": "3_1"
+            }
+          ]
+        },
+        {
+          "id": "3_2",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/3_2.html",
+          "items": [
+            {
+              "id": "03_Triton_Fused_SwiGLU",
+              "no": "3",
+              "rawNo": "03",
+              "title": "Triton Fused SwiGLU",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/03_Triton_Fused_SwiGLU.html",
+              "group": "3_2"
+            },
+            {
+              "id": "04_Triton_Fused_RMSNorm",
+              "no": "4",
+              "rawNo": "04",
+              "title": "Triton Fused RMSNorm",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/04_Triton_Fused_RMSNorm.html",
+              "group": "3_2"
+            },
+            {
+              "id": "05_Triton_GEMM_Tutorial",
+              "no": "5",
+              "rawNo": "05",
+              "title": "Triton GEMM Tutorial",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/05_Triton_GEMM_Tutorial.html",
+              "group": "3_2"
+            },
+            {
+              "id": "06_Triton_Persistent_GEMM_and_Tile_Scheduling",
+              "no": "6",
+              "rawNo": "06",
+              "title": "Persistent GEMM and Tile Scheduling",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/06_Triton_Persistent_GEMM_and_Tile_Scheduling.html",
+              "group": "3_2"
+            },
+            {
+              "id": "07_Triton_Fused_Softmax",
+              "no": "7",
+              "rawNo": "07",
+              "title": "Triton Fused Softmax",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/07_Triton_Fused_Softmax.html",
+              "group": "3_2"
+            },
+            {
+              "id": "08_Triton_Softmax_Backward",
+              "no": "8",
+              "rawNo": "08",
+              "title": "Triton Softmax Backward",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/08_Triton_Softmax_Backward.html",
+              "group": "3_2"
+            },
+            {
+              "id": "09_Triton_Autotune_and_Profiling",
+              "no": "9",
+              "rawNo": "09",
+              "title": "Triton Autotune and Profiling",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/09_Triton_Autotune_and_Profiling.html",
+              "group": "3_2"
+            },
+            {
+              "id": "22_Triton_Two_Stage_Reduction",
+              "no": "22",
+              "rawNo": "22",
+              "title": "Triton Two-Stage Reduction",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/22_Triton_Two_Stage_Reduction.html",
+              "group": "3_2"
+            }
+          ]
+        },
+        {
+          "id": "3_3",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/3_3.html",
+          "items": [
+            {
+              "id": "10_Triton_Fused_RoPE",
+              "no": "10",
+              "rawNo": "10",
+              "title": "Triton Fused RoPE",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/10_Triton_Fused_RoPE.html",
+              "group": "3_3"
+            },
+            {
+              "id": "11_Triton_Flash_Attention",
+              "no": "11",
+              "rawNo": "11",
+              "title": "Triton Flash Attention",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/11_Triton_Flash_Attention.html",
+              "group": "3_3"
+            },
+            {
+              "id": "12_Triton_Variable_Length_GQA",
+              "no": "12",
+              "rawNo": "12",
+              "title": "Triton Variable-Length GQA",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/12_Triton_Variable_Length_GQA.html",
+              "group": "3_3"
+            },
+            {
+              "id": "13_Triton_PagedAttention",
+              "no": "13",
+              "rawNo": "13",
+              "title": "Triton PagedAttention",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/13_Triton_PagedAttention.html",
+              "group": "3_3"
+            }
+          ]
+        },
+        {
+          "id": "3_4",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/3_4.html",
+          "items": [
+            {
+              "id": "14_Triton_Quantization",
+              "no": "14",
+              "rawNo": "14",
+              "title": "Triton Quantization",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/14_Triton_Quantization.html",
+              "group": "3_4"
+            },
+            {
+              "id": "15_Triton_Multi_LoRA",
+              "no": "15",
+              "rawNo": "15",
+              "title": "Triton Multi-LoRA",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/15_Triton_Multi_LoRA.html",
+              "group": "3_4"
+            },
+            {
+              "id": "16_Triton_KV_Cache_Quantized_Decode",
+              "no": "16",
+              "rawNo": "16",
+              "title": "Triton KV Cache Quantized Decode",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/16_Triton_KV_Cache_Quantized_Decode.html",
+              "group": "3_4"
+            }
+          ]
+        },
+        {
+          "id": "3_5",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/3_5.html",
+          "items": [
+            {
+              "id": "21_Torch_Compile_Graph_Reuse",
+              "no": "21",
+              "rawNo": "21",
+              "title": "Torch Compile Graph Capture and Reuse",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/21_Torch_Compile_Graph_Reuse.html",
+              "group": "3_5"
+            },
+            {
+              "id": "17_Triton_Memory_Model_and_Debug",
+              "no": "17",
+              "rawNo": "17",
+              "title": "Triton Memory Model and Debug",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/17_Triton_Memory_Model_and_Debug.html",
+              "group": "3_5"
+            },
+            {
+              "id": "18_Triton_Compilation_Artifacts_and_Execution",
+              "no": "18",
+              "rawNo": "18",
+              "title": "Compilation Artifacts and Execution",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/18_Triton_Compilation_Artifacts_and_Execution.html",
+              "group": "3_5"
+            },
+            {
+              "id": "19_Triton_PyTorch_Op_Integration",
+              "no": "19",
+              "rawNo": "19",
+              "title": "Triton PyTorch Op Integration",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/19_Triton_PyTorch_Op_Integration.html",
+              "group": "3_5"
+            },
+            {
+              "id": "20_Triton_Llama3_Block_Project",
+              "no": "20",
+              "rawNo": "20",
+              "title": "Triton Llama3 Block Project",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/20_Triton_Llama3_Block_Project.html",
+              "group": "3_5"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "01_Triton_Vector_Addition",
+          "no": "1",
+          "rawNo": "01",
+          "title": "Triton Vector Addition",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/01_Triton_Vector_Addition.html",
+          "group": "3_1"
+        },
+        {
+          "id": "02_Triton_Layouts_and_Memory_Access",
+          "no": "2",
+          "rawNo": "02",
+          "title": "Triton Layouts and Memory Access",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/02_Triton_Layouts_and_Memory_Access.html",
+          "group": "3_1"
+        },
+        {
+          "id": "03_Triton_Fused_SwiGLU",
+          "no": "3",
+          "rawNo": "03",
+          "title": "Triton Fused SwiGLU",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/03_Triton_Fused_SwiGLU.html",
+          "group": "3_2"
+        },
+        {
+          "id": "04_Triton_Fused_RMSNorm",
+          "no": "4",
+          "rawNo": "04",
+          "title": "Triton Fused RMSNorm",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/04_Triton_Fused_RMSNorm.html",
+          "group": "3_2"
+        },
+        {
+          "id": "05_Triton_GEMM_Tutorial",
+          "no": "5",
+          "rawNo": "05",
+          "title": "Triton GEMM Tutorial",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/05_Triton_GEMM_Tutorial.html",
+          "group": "3_2"
+        },
+        {
+          "id": "06_Triton_Persistent_GEMM_and_Tile_Scheduling",
+          "no": "6",
+          "rawNo": "06",
+          "title": "Persistent GEMM and Tile Scheduling",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/06_Triton_Persistent_GEMM_and_Tile_Scheduling.html",
+          "group": "3_2"
+        },
+        {
+          "id": "07_Triton_Fused_Softmax",
+          "no": "7",
+          "rawNo": "07",
+          "title": "Triton Fused Softmax",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/07_Triton_Fused_Softmax.html",
+          "group": "3_2"
+        },
+        {
+          "id": "08_Triton_Softmax_Backward",
+          "no": "8",
+          "rawNo": "08",
+          "title": "Triton Softmax Backward",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/08_Triton_Softmax_Backward.html",
+          "group": "3_2"
+        },
+        {
+          "id": "09_Triton_Autotune_and_Profiling",
+          "no": "9",
+          "rawNo": "09",
+          "title": "Triton Autotune and Profiling",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/09_Triton_Autotune_and_Profiling.html",
+          "group": "3_2"
+        },
+        {
+          "id": "22_Triton_Two_Stage_Reduction",
+          "no": "22",
+          "rawNo": "22",
+          "title": "Triton Two-Stage Reduction",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/22_Triton_Two_Stage_Reduction.html",
+          "group": "3_2"
+        },
+        {
+          "id": "10_Triton_Fused_RoPE",
+          "no": "10",
+          "rawNo": "10",
+          "title": "Triton Fused RoPE",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/10_Triton_Fused_RoPE.html",
+          "group": "3_3"
+        },
+        {
+          "id": "11_Triton_Flash_Attention",
+          "no": "11",
+          "rawNo": "11",
+          "title": "Triton Flash Attention",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/11_Triton_Flash_Attention.html",
+          "group": "3_3"
+        },
+        {
+          "id": "12_Triton_Variable_Length_GQA",
+          "no": "12",
+          "rawNo": "12",
+          "title": "Triton Variable-Length GQA",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/12_Triton_Variable_Length_GQA.html",
+          "group": "3_3"
+        },
+        {
+          "id": "13_Triton_PagedAttention",
+          "no": "13",
+          "rawNo": "13",
+          "title": "Triton PagedAttention",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/13_Triton_PagedAttention.html",
+          "group": "3_3"
+        },
+        {
+          "id": "14_Triton_Quantization",
+          "no": "14",
+          "rawNo": "14",
+          "title": "Triton Quantization",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/14_Triton_Quantization.html",
+          "group": "3_4"
+        },
+        {
+          "id": "15_Triton_Multi_LoRA",
+          "no": "15",
+          "rawNo": "15",
+          "title": "Triton Multi-LoRA",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/15_Triton_Multi_LoRA.html",
+          "group": "3_4"
+        },
+        {
+          "id": "16_Triton_KV_Cache_Quantized_Decode",
+          "no": "16",
+          "rawNo": "16",
+          "title": "Triton KV Cache Quantized Decode",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/16_Triton_KV_Cache_Quantized_Decode.html",
+          "group": "3_4"
+        },
+        {
+          "id": "21_Torch_Compile_Graph_Reuse",
+          "no": "21",
+          "rawNo": "21",
+          "title": "Torch Compile Graph Capture and Reuse",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/21_Torch_Compile_Graph_Reuse.html",
+          "group": "3_5"
+        },
+        {
+          "id": "17_Triton_Memory_Model_and_Debug",
+          "no": "17",
+          "rawNo": "17",
+          "title": "Triton Memory Model and Debug",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/17_Triton_Memory_Model_and_Debug.html",
+          "group": "3_5"
+        },
+        {
+          "id": "18_Triton_Compilation_Artifacts_and_Execution",
+          "no": "18",
+          "rawNo": "18",
+          "title": "Compilation Artifacts and Execution",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/18_Triton_Compilation_Artifacts_and_Execution.html",
+          "group": "3_5"
+        },
+        {
+          "id": "19_Triton_PyTorch_Op_Integration",
+          "no": "19",
+          "rawNo": "19",
+          "title": "Triton PyTorch Op Integration",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/19_Triton_PyTorch_Op_Integration.html",
+          "group": "3_5"
+        },
+        {
+          "id": "20_Triton_Llama3_Block_Project",
+          "no": "20",
+          "rawNo": "20",
+          "title": "Triton Llama3 Block Project",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/03_Triton_Kernels/20_Triton_Llama3_Block_Project.html",
+          "group": "3_5"
+        }
+      ]
+    },
+    {
+      "dir": "04_CUDA_and_System_Optimization",
+      "title": "Part 04 CUDA C++ 与系统优化",
+      "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/intro.html",
+      "groups": [
+        {
+          "id": "4_1",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/4_1.html",
+          "items": [
+            {
+              "id": "01_CUDA_Custom_Kernel_Intro",
+              "no": "1",
+              "rawNo": "01",
+              "title": "CUDA Custom Kernel Intro",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/01_CUDA_Custom_Kernel_Intro.html",
+              "group": "4_1"
+            },
+            {
+              "id": "02_CUDA_Global_Memory_Coalescing",
+              "no": "2",
+              "rawNo": "02",
+              "title": "CUDA Global Memory Coalescing",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/02_CUDA_Global_Memory_Coalescing.html",
+              "group": "4_1"
+            },
+            {
+              "id": "03_Warp_Level_Primitives",
+              "no": "3",
+              "rawNo": "03",
+              "title": "Warp-Level Primitives",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/03_Warp_Level_Primitives.html",
+              "group": "4_1"
+            },
+            {
+              "id": "04_Bank_Conflict_Deep_Dive",
+              "no": "4",
+              "rawNo": "04",
+              "title": "Bank Conflict Deep Dive",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/04_Bank_Conflict_Deep_Dive.html",
+              "group": "4_1"
+            },
+            {
+              "id": "05_CUDA_Block_Resources_and_Residency",
+              "no": "5",
+              "rawNo": "05",
+              "title": "Block Resources and Residency",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/05_CUDA_Block_Resources_and_Residency.html",
+              "group": "4_1"
+            }
+          ]
+        },
+        {
+          "id": "4_2",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/4_2.html",
+          "items": [
+            {
+              "id": "06_CUDA_Shared_Memory_Optimization",
+              "no": "6",
+              "rawNo": "06",
+              "title": "CUDA Shared Memory Optimization",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/06_CUDA_Shared_Memory_Optimization.html",
+              "group": "4_2"
+            },
+            {
+              "id": "07_Tensor_Core_MMA_Programming",
+              "no": "7",
+              "rawNo": "07",
+              "title": "Tensor Core MMA Programming",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/07_Tensor_Core_MMA_Programming.html",
+              "group": "4_2"
+            },
+            {
+              "id": "08_Async_Data_Prefetch_and_Double_Buffering",
+              "no": "8",
+              "rawNo": "08",
+              "title": "异步数据预取与 Double Buffering",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/08_Async_Data_Prefetch_and_Double_Buffering.html",
+              "group": "4_2"
+            },
+            {
+              "id": "09_CUDA_Async_Copy_Pipeline",
+              "no": "9",
+              "rawNo": "09",
+              "title": "CUDA Async Copy Pipeline",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/09_CUDA_Async_Copy_Pipeline.html",
+              "group": "4_2"
+            }
+          ]
+        },
+        {
+          "id": "4_3",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/4_3.html",
+          "items": [
+            {
+              "id": "10_PyTorch_CUDA_Streams_and_Transfer",
+              "no": "10",
+              "rawNo": "10",
+              "title": "CUDA Streams and Transfer",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/10_PyTorch_CUDA_Streams_and_Transfer.html",
+              "group": "4_3"
+            },
+            {
+              "id": "11_CUDA_Graph_and_JIT_Compile",
+              "no": "11",
+              "rawNo": "11",
+              "title": "CUDA Graph and JIT",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/11_CUDA_Graph_and_JIT_Compile.html",
+              "group": "4_3"
+            },
+            {
+              "id": "12_Memory_Pool_and_VRAM_Management",
+              "no": "12",
+              "rawNo": "12",
+              "title": "内存池与显存管理",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/12_Memory_Pool_and_VRAM_Management.html",
+              "group": "4_3"
+            }
+          ]
+        },
+        {
+          "id": "4_4",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/4_4.html",
+          "items": [
+            {
+              "id": "13_Distributed_Communication_Primitives",
+              "no": "13",
+              "rawNo": "13",
+              "title": "Distributed Communication Primitives",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/13_Distributed_Communication_Primitives.html",
+              "group": "4_4"
+            },
+            {
+              "id": "14_Ring_AllReduce_Deep_Dive",
+              "no": "14",
+              "rawNo": "14",
+              "title": "Ring-AllReduce Deep Dive",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/14_Ring_AllReduce_Deep_Dive.html",
+              "group": "4_4"
+            },
+            {
+              "id": "15_Communication_Computation_Overlap_Advanced_Scheduling",
+              "no": "15",
+              "rawNo": "15",
+              "title": "通信计算重叠高级调度",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/15_Communication_Computation_Overlap_Advanced_Scheduling.html",
+              "group": "4_4"
+            },
+            {
+              "id": "16_DeepSpeed_Zero_Config",
+              "no": "16",
+              "rawNo": "16",
+              "title": "DeepSpeed ZeRO Config",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/16_DeepSpeed_Zero_Config.html",
+              "group": "4_4"
+            },
+            {
+              "id": "17_Heterogeneous_Training_CPU_Offload_NVMe_Offload",
+              "no": "17",
+              "rawNo": "17",
+              "title": "异构训练：CPU Offload 与 NVMe Offload",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/17_Heterogeneous_Training_CPU_Offload_NVMe_Offload.html",
+              "group": "4_4"
+            }
+          ]
+        },
+        {
+          "id": "4_5",
+          "title": "组内导读",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/4_5.html",
+          "items": [
+            {
+              "id": "18_CUDA_vs_Triton_vs_PyTorch",
+              "no": "18",
+              "rawNo": "18",
+              "title": "CUDA vs Triton vs PyTorch",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/18_CUDA_vs_Triton_vs_PyTorch.html",
+              "group": "4_5"
+            },
+            {
+              "id": "19_TCO_and_Hardware_Selection",
+              "no": "19",
+              "rawNo": "19",
+              "title": "TCO and Hardware Selection",
+              "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/19_TCO_and_Hardware_Selection.html",
+              "group": "4_5"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "01_CUDA_Custom_Kernel_Intro",
+          "no": "1",
+          "rawNo": "01",
+          "title": "CUDA Custom Kernel Intro",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/01_CUDA_Custom_Kernel_Intro.html",
+          "group": "4_1"
+        },
+        {
+          "id": "02_CUDA_Global_Memory_Coalescing",
+          "no": "2",
+          "rawNo": "02",
+          "title": "CUDA Global Memory Coalescing",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/02_CUDA_Global_Memory_Coalescing.html",
+          "group": "4_1"
+        },
+        {
+          "id": "03_Warp_Level_Primitives",
+          "no": "3",
+          "rawNo": "03",
+          "title": "Warp-Level Primitives",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/03_Warp_Level_Primitives.html",
+          "group": "4_1"
+        },
+        {
+          "id": "04_Bank_Conflict_Deep_Dive",
+          "no": "4",
+          "rawNo": "04",
+          "title": "Bank Conflict Deep Dive",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/04_Bank_Conflict_Deep_Dive.html",
+          "group": "4_1"
+        },
+        {
+          "id": "05_CUDA_Block_Resources_and_Residency",
+          "no": "5",
+          "rawNo": "05",
+          "title": "Block Resources and Residency",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/05_CUDA_Block_Resources_and_Residency.html",
+          "group": "4_1"
+        },
+        {
+          "id": "06_CUDA_Shared_Memory_Optimization",
+          "no": "6",
+          "rawNo": "06",
+          "title": "CUDA Shared Memory Optimization",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/06_CUDA_Shared_Memory_Optimization.html",
+          "group": "4_2"
+        },
+        {
+          "id": "07_Tensor_Core_MMA_Programming",
+          "no": "7",
+          "rawNo": "07",
+          "title": "Tensor Core MMA Programming",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/07_Tensor_Core_MMA_Programming.html",
+          "group": "4_2"
+        },
+        {
+          "id": "08_Async_Data_Prefetch_and_Double_Buffering",
+          "no": "8",
+          "rawNo": "08",
+          "title": "异步数据预取与 Double Buffering",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/08_Async_Data_Prefetch_and_Double_Buffering.html",
+          "group": "4_2"
+        },
+        {
+          "id": "09_CUDA_Async_Copy_Pipeline",
+          "no": "9",
+          "rawNo": "09",
+          "title": "CUDA Async Copy Pipeline",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/09_CUDA_Async_Copy_Pipeline.html",
+          "group": "4_2"
+        },
+        {
+          "id": "10_PyTorch_CUDA_Streams_and_Transfer",
+          "no": "10",
+          "rawNo": "10",
+          "title": "CUDA Streams and Transfer",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/10_PyTorch_CUDA_Streams_and_Transfer.html",
+          "group": "4_3"
+        },
+        {
+          "id": "11_CUDA_Graph_and_JIT_Compile",
+          "no": "11",
+          "rawNo": "11",
+          "title": "CUDA Graph and JIT",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/11_CUDA_Graph_and_JIT_Compile.html",
+          "group": "4_3"
+        },
+        {
+          "id": "12_Memory_Pool_and_VRAM_Management",
+          "no": "12",
+          "rawNo": "12",
+          "title": "内存池与显存管理",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/12_Memory_Pool_and_VRAM_Management.html",
+          "group": "4_3"
+        },
+        {
+          "id": "13_Distributed_Communication_Primitives",
+          "no": "13",
+          "rawNo": "13",
+          "title": "Distributed Communication Primitives",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/13_Distributed_Communication_Primitives.html",
+          "group": "4_4"
+        },
+        {
+          "id": "14_Ring_AllReduce_Deep_Dive",
+          "no": "14",
+          "rawNo": "14",
+          "title": "Ring-AllReduce Deep Dive",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/14_Ring_AllReduce_Deep_Dive.html",
+          "group": "4_4"
+        },
+        {
+          "id": "15_Communication_Computation_Overlap_Advanced_Scheduling",
+          "no": "15",
+          "rawNo": "15",
+          "title": "通信计算重叠高级调度",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/15_Communication_Computation_Overlap_Advanced_Scheduling.html",
+          "group": "4_4"
+        },
+        {
+          "id": "16_DeepSpeed_Zero_Config",
+          "no": "16",
+          "rawNo": "16",
+          "title": "DeepSpeed ZeRO Config",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/16_DeepSpeed_Zero_Config.html",
+          "group": "4_4"
+        },
+        {
+          "id": "17_Heterogeneous_Training_CPU_Offload_NVMe_Offload",
+          "no": "17",
+          "rawNo": "17",
+          "title": "异构训练：CPU Offload 与 NVMe Offload",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/17_Heterogeneous_Training_CPU_Offload_NVMe_Offload.html",
+          "group": "4_4"
+        },
+        {
+          "id": "18_CUDA_vs_Triton_vs_PyTorch",
+          "no": "18",
+          "rawNo": "18",
+          "title": "CUDA vs Triton vs PyTorch",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/18_CUDA_vs_Triton_vs_PyTorch.html",
+          "group": "4_5"
+        },
+        {
+          "id": "19_TCO_and_Hardware_Selection",
+          "no": "19",
+          "rawNo": "19",
+          "title": "TCO and Hardware Selection",
+          "url": "https://datawhalechina.github.io/llm-algo-leetcode/04_CUDA_and_System_Optimization/19_TCO_and_Hardware_Selection.html",
+          "group": "4_5"
+        }
+      ]
+    }
+  ]
+}

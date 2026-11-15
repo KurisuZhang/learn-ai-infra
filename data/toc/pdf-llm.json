@@ -1,0 +1,1724 @@
+{
+  "source": "图解大模型_生成式AI原理与实战_Jay_Alammar,_Maartey.pdf",
+  "title": "图解大模型",
+  "subtitle": "生成式 AI 原理与实战（Jay Alammar & Maarten Grootendorst）",
+  "pageCount": 409,
+  "bookmarks": 245,
+  "entries": [
+    {
+      "level": 1,
+      "title": "封面",
+      "number": "",
+      "clean": "封面",
+      "page": 1
+    },
+    {
+      "level": 1,
+      "title": "内容介绍",
+      "number": "",
+      "clean": "内容介绍",
+      "page": 2
+    },
+    {
+      "level": 1,
+      "title": "扉页",
+      "number": "",
+      "clean": "扉页",
+      "page": 3
+    },
+    {
+      "level": 1,
+      "title": "版权声明",
+      "number": "",
+      "clean": "版权声明",
+      "page": 5
+    },
+    {
+      "level": 1,
+      "title": "O'Reilly Media, Inc.介绍",
+      "number": "",
+      "clean": "O'Reilly Media, Inc.介绍",
+      "page": 6
+    },
+    {
+      "level": 1,
+      "title": "目录",
+      "number": "",
+      "clean": "目录",
+      "page": 7
+    },
+    {
+      "level": 1,
+      "title": "对本书的赞誉",
+      "number": "",
+      "clean": "对本书的赞誉",
+      "page": 13
+    },
+    {
+      "level": 1,
+      "title": "对本书中文版的赞誉",
+      "number": "",
+      "clean": "对本书中文版的赞誉",
+      "page": 15
+    },
+    {
+      "level": 1,
+      "title": "译者序",
+      "number": "",
+      "clean": "译者序",
+      "page": 17
+    },
+    {
+      "level": 1,
+      "title": "前言",
+      "number": "",
+      "clean": "前言",
+      "page": 25
+    },
+    {
+      "level": 2,
+      "title": "以直观理解为先的理念",
+      "number": "",
+      "clean": "以直观理解为先的理念",
+      "page": 25
+    },
+    {
+      "level": 2,
+      "title": "基础知识要求",
+      "number": "",
+      "clean": "基础知识要求",
+      "page": 26
+    },
+    {
+      "level": 2,
+      "title": "本书结构",
+      "number": "",
+      "clean": "本书结构",
+      "page": 26
+    },
+    {
+      "level": 3,
+      "title": "第一部分：理解语言模型",
+      "number": "",
+      "clean": "第一部分：理解语言模型",
+      "page": 26
+    },
+    {
+      "level": 3,
+      "title": "第二部分：使用预训练语言模型",
+      "number": "",
+      "clean": "第二部分：使用预训练语言模型",
+      "page": 26
+    },
+    {
+      "level": 3,
+      "title": "第三部分：训练和微调语言模型",
+      "number": "",
+      "clean": "第三部分：训练和微调语言模型",
+      "page": 27
+    },
+    {
+      "level": 2,
+      "title": "硬件和软件要求",
+      "number": "",
+      "clean": "硬件和软件要求",
+      "page": 27
+    },
+    {
+      "level": 2,
+      "title": "API密钥",
+      "number": "",
+      "clean": "API密钥",
+      "page": 28
+    },
+    {
+      "level": 2,
+      "title": "本书使用的约定",
+      "number": "",
+      "clean": "本书使用的约定",
+      "page": 29
+    },
+    {
+      "level": 2,
+      "title": "代码示例的使用",
+      "number": "",
+      "clean": "代码示例的使用",
+      "page": 29
+    },
+    {
+      "level": 2,
+      "title": "O’Reilly在线学习平台（O’Reilly Online Learning）",
+      "number": "",
+      "clean": "O’Reilly在线学习平台（O’Reilly Online Learning）",
+      "page": 30
+    },
+    {
+      "level": 2,
+      "title": "联系我们",
+      "number": "",
+      "clean": "联系我们",
+      "page": 30
+    },
+    {
+      "level": 2,
+      "title": "致谢",
+      "number": "",
+      "clean": "致谢",
+      "page": 31
+    },
+    {
+      "level": 3,
+      "title": "Jay致谢",
+      "number": "",
+      "clean": "Jay致谢",
+      "page": 31
+    },
+    {
+      "level": 3,
+      "title": "Maarten致谢",
+      "number": "",
+      "clean": "Maarten致谢",
+      "page": 32
+    },
+    {
+      "level": 1,
+      "title": "中文版序",
+      "number": "",
+      "clean": "中文版序",
+      "page": 23
+    },
+    {
+      "level": 1,
+      "title": "第一部分",
+      "number": "",
+      "clean": "第一部分",
+      "page": 33
+    },
+    {
+      "level": 1,
+      "title": "理解语言模型",
+      "number": "",
+      "clean": "理解语言模型",
+      "page": 33
+    },
+    {
+      "level": 2,
+      "title": "第1章",
+      "number": "",
+      "clean": "第1章",
+      "page": 35
+    },
+    {
+      "level": 2,
+      "title": "大语言模型简介",
+      "number": "",
+      "clean": "大语言模型简介",
+      "page": 35
+    },
+    {
+      "level": 3,
+      "title": "1.1 什么是语言人工智能",
+      "number": "1.1",
+      "clean": "什么是语言人工智能",
+      "page": 36
+    },
+    {
+      "level": 3,
+      "title": "1.2 语言人工智能的近期发展史",
+      "number": "1.2",
+      "clean": "语言人工智能的近期发展史",
+      "page": 36
+    },
+    {
+      "level": 4,
+      "title": "1.2.1 将语言表示为词袋模型",
+      "number": "1.2.1",
+      "clean": "将语言表示为词袋模型",
+      "page": 37
+    },
+    {
+      "level": 4,
+      "title": "1.2.2 用密集向量嵌入获得更好的表示",
+      "number": "1.2.2",
+      "clean": "用密集向量嵌入获得更好的表示",
+      "page": 39
+    },
+    {
+      "level": 4,
+      "title": "1.2.3 嵌入的类型",
+      "number": "1.2.3",
+      "clean": "嵌入的类型",
+      "page": 41
+    },
+    {
+      "level": 4,
+      "title": "1.2.4 使用注意力机制编解码上下文",
+      "number": "1.2.4",
+      "clean": "使用注意力机制编解码上下文",
+      "page": 42
+    },
+    {
+      "level": 4,
+      "title": "1.2.5 “Attention Is All You Need”",
+      "number": "1.2.5",
+      "clean": "“Attention Is All You Need”",
+      "page": 45
+    },
+    {
+      "level": 4,
+      "title": "1.2.6 表示模型：仅编码器模型",
+      "number": "1.2.6",
+      "clean": "表示模型：仅编码器模型",
+      "page": 48
+    },
+    {
+      "level": 4,
+      "title": "1.2.7 生成模型：仅解码器模型",
+      "number": "1.2.7",
+      "clean": "生成模型：仅解码器模型",
+      "page": 50
+    },
+    {
+      "level": 4,
+      "title": "1.2.8 生成式AI元年",
+      "number": "1.2.8",
+      "clean": "生成式AI元年",
+      "page": 52
+    },
+    {
+      "level": 3,
+      "title": "1.3 “LLM”定义的演变",
+      "number": "1.3",
+      "clean": "“LLM”定义的演变",
+      "page": 54
+    },
+    {
+      "level": 3,
+      "title": "1.4 LLM的训练范式",
+      "number": "1.4",
+      "clean": "LLM的训练范式",
+      "page": 54
+    },
+    {
+      "level": 3,
+      "title": "1.5 LLM的应用",
+      "number": "1.5",
+      "clean": "LLM的应用",
+      "page": 55
+    },
+    {
+      "level": 3,
+      "title": "1.6 开发和使用负责任的LLM",
+      "number": "1.6",
+      "clean": "开发和使用负责任的LLM",
+      "page": 56
+    },
+    {
+      "level": 3,
+      "title": "1.7 有限的资源就够了",
+      "number": "1.7",
+      "clean": "有限的资源就够了",
+      "page": 57
+    },
+    {
+      "level": 3,
+      "title": "1.8 与LLM交互",
+      "number": "1.8",
+      "clean": "与LLM交互",
+      "page": 57
+    },
+    {
+      "level": 4,
+      "title": "1.8.1 专有模型",
+      "number": "1.8.1",
+      "clean": "专有模型",
+      "page": 58
+    },
+    {
+      "level": 4,
+      "title": "1.8.2 开源模型",
+      "number": "1.8.2",
+      "clean": "开源模型",
+      "page": 58
+    },
+    {
+      "level": 4,
+      "title": "1.8.3 开源框架",
+      "number": "1.8.3",
+      "clean": "开源框架",
+      "page": 59
+    },
+    {
+      "level": 3,
+      "title": "1.9 生成你的第一段文本",
+      "number": "1.9",
+      "clean": "生成你的第一段文本",
+      "page": 60
+    },
+    {
+      "level": 3,
+      "title": "1.10 小结",
+      "number": "1.10",
+      "clean": "小结",
+      "page": 62
+    },
+    {
+      "level": 2,
+      "title": "第2章",
+      "number": "",
+      "clean": "第2章",
+      "page": 63
+    },
+    {
+      "level": 2,
+      "title": "词元和嵌入",
+      "number": "",
+      "clean": "词元和嵌入",
+      "page": 63
+    },
+    {
+      "level": 3,
+      "title": "2.1 LLM的分词",
+      "number": "2.1",
+      "clean": "LLM的分词",
+      "page": 64
+    },
+    {
+      "level": 4,
+      "title": "2.1.1 分词器如何处理语言模型的输入",
+      "number": "2.1.1",
+      "clean": "分词器如何处理语言模型的输入",
+      "page": 64
+    },
+    {
+      "level": 4,
+      "title": "2.1.2 下载和运行LLM",
+      "number": "2.1.2",
+      "clean": "下载和运行LLM",
+      "page": 65
+    },
+    {
+      "level": 4,
+      "title": "2.1.3 分词器如何分解文本",
+      "number": "2.1.3",
+      "clean": "分词器如何分解文本",
+      "page": 68
+    },
+    {
+      "level": 4,
+      "title": "2.1.4 词级、子词级、字符级与字节级分词",
+      "number": "2.1.4",
+      "clean": "词级、子词级、字符级与字节级分词",
+      "page": 69
+    },
+    {
+      "level": 4,
+      "title": "2.1.5 比较训练好的LLM分词器",
+      "number": "2.1.5",
+      "clean": "比较训练好的LLM分词器",
+      "page": 71
+    },
+    {
+      "level": 4,
+      "title": "2.1.6 分词器属性",
+      "number": "2.1.6",
+      "clean": "分词器属性",
+      "page": 79
+    },
+    {
+      "level": 3,
+      "title": "2.2 词元嵌入",
+      "number": "2.2",
+      "clean": "词元嵌入",
+      "page": 80
+    },
+    {
+      "level": 4,
+      "title": "2.2.1 语言模型为其分词器的词表保存嵌入",
+      "number": "2.2.1",
+      "clean": "语言模型为其分词器的词表保存嵌入",
+      "page": 81
+    },
+    {
+      "level": 4,
+      "title": "2.2.2 使用语言模型创建上下文相关的词嵌入",
+      "number": "2.2.2",
+      "clean": "使用语言模型创建上下文相关的词嵌入",
+      "page": 81
+    },
+    {
+      "level": 3,
+      "title": "2.3 文本嵌入（用于句子和整篇文档）",
+      "number": "2.3",
+      "clean": "文本嵌入（用于句子和整篇文档）",
+      "page": 84
+    },
+    {
+      "level": 3,
+      "title": "2.4 LLM之外的词嵌入",
+      "number": "2.4",
+      "clean": "LLM之外的词嵌入",
+      "page": 85
+    },
+    {
+      "level": 4,
+      "title": "2.4.1 使用预训练词嵌入",
+      "number": "2.4.1",
+      "clean": "使用预训练词嵌入",
+      "page": 85
+    },
+    {
+      "level": 4,
+      "title": "2.4.2 word2vec算法与对比训练",
+      "number": "2.4.2",
+      "clean": "word2vec算法与对比训练",
+      "page": 86
+    },
+    {
+      "level": 3,
+      "title": "2.5 推荐系统中的嵌入",
+      "number": "2.5",
+      "clean": "推荐系统中的嵌入",
+      "page": 89
+    },
+    {
+      "level": 4,
+      "title": "2.5.1 基于嵌入的歌曲推荐",
+      "number": "2.5.1",
+      "clean": "基于嵌入的歌曲推荐",
+      "page": 89
+    },
+    {
+      "level": 4,
+      "title": "2.5.2 训练歌曲嵌入模型",
+      "number": "2.5.2",
+      "clean": "训练歌曲嵌入模型",
+      "page": 90
+    },
+    {
+      "level": 3,
+      "title": "2.6 小结",
+      "number": "2.6",
+      "clean": "小结",
+      "page": 92
+    },
+    {
+      "level": 2,
+      "title": "第3章",
+      "number": "",
+      "clean": "第3章",
+      "page": 93
+    },
+    {
+      "level": 2,
+      "title": "LLM的内部机制",
+      "number": "",
+      "clean": "LLM的内部机制",
+      "page": 93
+    },
+    {
+      "level": 3,
+      "title": "3.1 Transformer模型概述",
+      "number": "3.1",
+      "clean": "Transformer模型概述",
+      "page": 94
+    },
+    {
+      "level": 4,
+      "title": "3.1.1 已训练Transformer LLM的输入和输出",
+      "number": "3.1.1",
+      "clean": "已训练Transformer LLM的输入和输出",
+      "page": 94
+    },
+    {
+      "level": 4,
+      "title": "3.1.2 前向传播的组成",
+      "number": "3.1.2",
+      "clean": "前向传播的组成",
+      "page": 96
+    },
+    {
+      "level": 4,
+      "title": "3.1.3 从概率分布中选择单个词元（采样/解码）",
+      "number": "3.1.3",
+      "clean": "从概率分布中选择单个词元（采样/解码）",
+      "page": 98
+    },
+    {
+      "level": 4,
+      "title": "3.1.4 并行词元处理和上下文长度",
+      "number": "3.1.4",
+      "clean": "并行词元处理和上下文长度",
+      "page": 100
+    },
+    {
+      "level": 4,
+      "title": "3.1.5 通过缓存键−值加速生成过程",
+      "number": "3.1.5",
+      "clean": "通过缓存键−值加速生成过程",
+      "page": 102
+    },
+    {
+      "level": 4,
+      "title": "3.1.6 Transformer块的内部结构",
+      "number": "3.1.6",
+      "clean": "Transformer块的内部结构",
+      "page": 103
+    },
+    {
+      "level": 3,
+      "title": "3.2 Transformer架构的最新改进",
+      "number": "3.2",
+      "clean": "Transformer架构的最新改进",
+      "page": 111
+    },
+    {
+      "level": 4,
+      "title": "3.2.1 更高效的注意力机制",
+      "number": "3.2.1",
+      "clean": "更高效的注意力机制",
+      "page": 111
+    },
+    {
+      "level": 4,
+      "title": "3.2.2 Transformer块",
+      "number": "3.2.2",
+      "clean": "Transformer块",
+      "page": 115
+    },
+    {
+      "level": 4,
+      "title": "3.2.3 位置嵌入",
+      "number": "3.2.3",
+      "clean": "位置嵌入",
+      "page": 117
+    },
+    {
+      "level": 4,
+      "title": "3.2.4 其他架构实验和改进",
+      "number": "3.2.4",
+      "clean": "其他架构实验和改进",
+      "page": 119
+    },
+    {
+      "level": 3,
+      "title": "3.3 小结",
+      "number": "3.3",
+      "clean": "小结",
+      "page": 119
+    },
+    {
+      "level": 1,
+      "title": "第二部分",
+      "number": "",
+      "clean": "第二部分",
+      "page": 121
+    },
+    {
+      "level": 1,
+      "title": "使用预训练语言模型",
+      "number": "",
+      "clean": "使用预训练语言模型",
+      "page": 121
+    },
+    {
+      "level": 2,
+      "title": "第4章",
+      "number": "",
+      "clean": "第4章",
+      "page": 123
+    },
+    {
+      "level": 2,
+      "title": "文本分类",
+      "number": "",
+      "clean": "文本分类",
+      "page": 123
+    },
+    {
+      "level": 3,
+      "title": "4.1 电影评论的情感分析",
+      "number": "4.1",
+      "clean": "电影评论的情感分析",
+      "page": 124
+    },
+    {
+      "level": 3,
+      "title": "4.2 使用表示模型进行文本分类",
+      "number": "4.2",
+      "clean": "使用表示模型进行文本分类",
+      "page": 125
+    },
+    {
+      "level": 3,
+      "title": "4.3 模型选择",
+      "number": "4.3",
+      "clean": "模型选择",
+      "page": 126
+    },
+    {
+      "level": 3,
+      "title": "4.4 使用特定任务模型",
+      "number": "4.4",
+      "clean": "使用特定任务模型",
+      "page": 128
+    },
+    {
+      "level": 3,
+      "title": "4.5 利用嵌入向量的分类任务",
+      "number": "4.5",
+      "clean": "利用嵌入向量的分类任务",
+      "page": 131
+    },
+    {
+      "level": 4,
+      "title": "4.5.1 监督分类",
+      "number": "4.5.1",
+      "clean": "监督分类",
+      "page": 131
+    },
+    {
+      "level": 4,
+      "title": "4.5.2 没有标注数据怎么办",
+      "number": "4.5.2",
+      "clean": "没有标注数据怎么办",
+      "page": 134
+    },
+    {
+      "level": 3,
+      "title": "4.6 使用生成模型进行文本分类",
+      "number": "4.6",
+      "clean": "使用生成模型进行文本分类",
+      "page": 137
+    },
+    {
+      "level": 4,
+      "title": "4.6.1 使用文本到文本迁移Transformer",
+      "number": "4.6.1",
+      "clean": "使用文本到文本迁移Transformer",
+      "page": 138
+    },
+    {
+      "level": 4,
+      "title": "4.6.2 使用ChatGPT进行分类",
+      "number": "4.6.2",
+      "clean": "使用ChatGPT进行分类",
+      "page": 142
+    },
+    {
+      "level": 3,
+      "title": "4.7 小结",
+      "number": "4.7",
+      "clean": "小结",
+      "page": 145
+    },
+    {
+      "level": 2,
+      "title": "第5章",
+      "number": "",
+      "clean": "第5章",
+      "page": 146
+    },
+    {
+      "level": 2,
+      "title": "文本聚类和主题建模",
+      "number": "",
+      "clean": "文本聚类和主题建模",
+      "page": 146
+    },
+    {
+      "level": 3,
+      "title": "5.1 ArXiv文章：计算与语言",
+      "number": "5.1",
+      "clean": "ArXiv文章：计算与语言",
+      "page": 147
+    },
+    {
+      "level": 3,
+      "title": "5.2 文本聚类的通用流程",
+      "number": "5.2",
+      "clean": "文本聚类的通用流程",
+      "page": 148
+    },
+    {
+      "level": 4,
+      "title": "5.2.1 嵌入文档",
+      "number": "5.2.1",
+      "clean": "嵌入文档",
+      "page": 148
+    },
+    {
+      "level": 4,
+      "title": "5.2.2 嵌入向量降维",
+      "number": "5.2.2",
+      "clean": "嵌入向量降维",
+      "page": 149
+    },
+    {
+      "level": 4,
+      "title": "5.2.3 对降维后的嵌入向量进行聚类",
+      "number": "5.2.3",
+      "clean": "对降维后的嵌入向量进行聚类",
+      "page": 151
+    },
+    {
+      "level": 4,
+      "title": "5.2.4 检查生成的簇",
+      "number": "5.2.4",
+      "clean": "检查生成的簇",
+      "page": 152
+    },
+    {
+      "level": 3,
+      "title": "5.3 从文本聚类到主题建模",
+      "number": "5.3",
+      "clean": "从文本聚类到主题建模",
+      "page": 154
+    },
+    {
+      "level": 4,
+      "title": "5.3.1 BERTopic：一个模块化主题建模框架",
+      "number": "5.3.1",
+      "clean": "BERTopic：一个模块化主题建模框架",
+      "page": 156
+    },
+    {
+      "level": 4,
+      "title": "5.3.2 添加特殊的“乐高积木块”",
+      "number": "5.3.2",
+      "clean": "添加特殊的“乐高积木块”",
+      "page": 163
+    },
+    {
+      "level": 4,
+      "title": "5.3.3 文本生成的“乐高积木块”",
+      "number": "5.3.3",
+      "clean": "文本生成的“乐高积木块”",
+      "page": 167
+    },
+    {
+      "level": 3,
+      "title": "5.4 小结",
+      "number": "5.4",
+      "clean": "小结",
+      "page": 170
+    },
+    {
+      "level": 2,
+      "title": "第6章",
+      "number": "",
+      "clean": "第6章",
+      "page": 172
+    },
+    {
+      "level": 2,
+      "title": "提示工程",
+      "number": "",
+      "clean": "提示工程",
+      "page": 172
+    },
+    {
+      "level": 3,
+      "title": "6.1 使用文本生成模型",
+      "number": "6.1",
+      "clean": "使用文本生成模型",
+      "page": 172
+    },
+    {
+      "level": 4,
+      "title": "6.1.1 选择文本生成模型",
+      "number": "6.1.1",
+      "clean": "选择文本生成模型",
+      "page": 172
+    },
+    {
+      "level": 4,
+      "title": "6.1.2 加载文本生成模型",
+      "number": "6.1.2",
+      "clean": "加载文本生成模型",
+      "page": 173
+    },
+    {
+      "level": 4,
+      "title": "6.1.3 控制模型输出",
+      "number": "6.1.3",
+      "clean": "控制模型输出",
+      "page": 175
+    },
+    {
+      "level": 3,
+      "title": "6.2 提示工程简介",
+      "number": "6.2",
+      "clean": "提示工程简介",
+      "page": 177
+    },
+    {
+      "level": 4,
+      "title": "6.2.1 提示词的基本要素",
+      "number": "6.2.1",
+      "clean": "提示词的基本要素",
+      "page": 177
+    },
+    {
+      "level": 4,
+      "title": "6.2.2 基于指令的提示词",
+      "number": "6.2.2",
+      "clean": "基于指令的提示词",
+      "page": 179
+    },
+    {
+      "level": 3,
+      "title": "6.3 高级提示工程",
+      "number": "6.3",
+      "clean": "高级提示工程",
+      "page": 181
+    },
+    {
+      "level": 4,
+      "title": "6.3.1 提示词的潜在复杂性",
+      "number": "6.3.1",
+      "clean": "提示词的潜在复杂性",
+      "page": 181
+    },
+    {
+      "level": 4,
+      "title": "6.3.2 上下文学习：提供示例",
+      "number": "6.3.2",
+      "clean": "上下文学习：提供示例",
+      "page": 184
+    },
+    {
+      "level": 4,
+      "title": "6.3.3 链式提示：分解问题",
+      "number": "6.3.3",
+      "clean": "链式提示：分解问题",
+      "page": 185
+    },
+    {
+      "level": 3,
+      "title": "6.4 使用生成模型进行推理",
+      "number": "6.4",
+      "clean": "使用生成模型进行推理",
+      "page": 187
+    },
+    {
+      "level": 4,
+      "title": "6.4.1 思维链：先思考再回答",
+      "number": "6.4.1",
+      "clean": "思维链：先思考再回答",
+      "page": 188
+    },
+    {
+      "level": 4,
+      "title": "6.4.2 自洽性：采样输出",
+      "number": "6.4.2",
+      "clean": "自洽性：采样输出",
+      "page": 191
+    },
+    {
+      "level": 4,
+      "title": "6.4.3 思维树：探索中间步骤",
+      "number": "6.4.3",
+      "clean": "思维树：探索中间步骤",
+      "page": 192
+    },
+    {
+      "level": 3,
+      "title": "6.5 输出验证",
+      "number": "6.5",
+      "clean": "输出验证",
+      "page": 193
+    },
+    {
+      "level": 4,
+      "title": "6.5.1 提供示例",
+      "number": "6.5.1",
+      "clean": "提供示例",
+      "page": 194
+    },
+    {
+      "level": 4,
+      "title": "6.5.2 语法：约束采样",
+      "number": "6.5.2",
+      "clean": "语法：约束采样",
+      "page": 196
+    },
+    {
+      "level": 3,
+      "title": "6.6 小结",
+      "number": "6.6",
+      "clean": "小结",
+      "page": 199
+    },
+    {
+      "level": 2,
+      "title": "第7章",
+      "number": "",
+      "clean": "第7章",
+      "page": 200
+    },
+    {
+      "level": 2,
+      "title": "高级文本生成技术与工具",
+      "number": "",
+      "clean": "高级文本生成技术与工具",
+      "page": 200
+    },
+    {
+      "level": 3,
+      "title": "7.1 模型输入/输出：基于LangChain加载量化模型",
+      "number": "7.1",
+      "clean": "模型输入/输出：基于LangChain加载量化模型",
+      "page": 201
+    },
+    {
+      "level": 3,
+      "title": "7.2 链：扩展LLM的能力",
+      "number": "7.2",
+      "clean": "链：扩展LLM的能力",
+      "page": 203
+    },
+    {
+      "level": 4,
+      "title": "7.2.1 链式架构的关键节点：提示词模板",
+      "number": "7.2.1",
+      "clean": "链式架构的关键节点：提示词模板",
+      "page": 204
+    },
+    {
+      "level": 4,
+      "title": "7.2.2 多提示词链式架构",
+      "number": "7.2.2",
+      "clean": "多提示词链式架构",
+      "page": 206
+    },
+    {
+      "level": 3,
+      "title": "7.3 记忆：构建LLM的对话回溯能力",
+      "number": "7.3",
+      "clean": "记忆：构建LLM的对话回溯能力",
+      "page": 209
+    },
+    {
+      "level": 4,
+      "title": "7.3.1 对话缓冲区",
+      "number": "7.3.1",
+      "clean": "对话缓冲区",
+      "page": 210
+    },
+    {
+      "level": 4,
+      "title": "7.3.2 窗口式对话缓冲区",
+      "number": "7.3.2",
+      "clean": "窗口式对话缓冲区",
+      "page": 212
+    },
+    {
+      "level": 4,
+      "title": "7.3.3 对话摘要",
+      "number": "7.3.3",
+      "clean": "对话摘要",
+      "page": 213
+    },
+    {
+      "level": 3,
+      "title": "7.4 智能体：构建LLM系统",
+      "number": "7.4",
+      "clean": "智能体：构建LLM系统",
+      "page": 217
+    },
+    {
+      "level": 4,
+      "title": "7.4.1 智能体的核心机制：递进式推理",
+      "number": "7.4.1",
+      "clean": "智能体的核心机制：递进式推理",
+      "page": 218
+    },
+    {
+      "level": 4,
+      "title": "7.4.2 LangChain中的ReAct实现",
+      "number": "7.4.2",
+      "clean": "LangChain中的ReAct实现",
+      "page": 219
+    },
+    {
+      "level": 3,
+      "title": "7.5 小结",
+      "number": "7.5",
+      "clean": "小结",
+      "page": 222
+    },
+    {
+      "level": 2,
+      "title": "第8章",
+      "number": "",
+      "clean": "第8章",
+      "page": 223
+    },
+    {
+      "level": 2,
+      "title": "语义搜索与检索增强生成",
+      "number": "",
+      "clean": "语义搜索与检索增强生成",
+      "page": 223
+    },
+    {
+      "level": 3,
+      "title": "8.1 语义搜索与RAG技术全景",
+      "number": "8.1",
+      "clean": "语义搜索与RAG技术全景",
+      "page": 223
+    },
+    {
+      "level": 3,
+      "title": "8.2 语言模型驱动的语义搜索实践",
+      "number": "8.2",
+      "clean": "语言模型驱动的语义搜索实践",
+      "page": 225
+    },
+    {
+      "level": 4,
+      "title": "8.2.1 稠密检索",
+      "number": "8.2.1",
+      "clean": "稠密检索",
+      "page": 225
+    },
+    {
+      "level": 4,
+      "title": "8.2.2 重排序",
+      "number": "8.2.2",
+      "clean": "重排序",
+      "page": 236
+    },
+    {
+      "level": 4,
+      "title": "8.2.3 检索评估指标体系",
+      "number": "8.2.3",
+      "clean": "检索评估指标体系",
+      "page": 239
+    },
+    {
+      "level": 3,
+      "title": "8.3 RAG",
+      "number": "8.3",
+      "clean": "RAG",
+      "page": 243
+    },
+    {
+      "level": 4,
+      "title": "8.3.1 从搜索到RAG",
+      "number": "8.3.1",
+      "clean": "从搜索到RAG",
+      "page": 244
+    },
+    {
+      "level": 4,
+      "title": "8.3.2 示例：使用LLM API进行基于知识的生成",
+      "number": "8.3.2",
+      "clean": "示例：使用LLM API进行基于知识的生成",
+      "page": 245
+    },
+    {
+      "level": 4,
+      "title": "8.3.3 示例：使用本地模型的RAG",
+      "number": "8.3.3",
+      "clean": "示例：使用本地模型的RAG",
+      "page": 245
+    },
+    {
+      "level": 4,
+      "title": "8.3.4 高级RAG技术",
+      "number": "8.3.4",
+      "clean": "高级RAG技术",
+      "page": 247
+    },
+    {
+      "level": 4,
+      "title": "8.3.5 RAG效果评估",
+      "number": "8.3.5",
+      "clean": "RAG效果评估",
+      "page": 249
+    },
+    {
+      "level": 3,
+      "title": "8.4 小结",
+      "number": "8.4",
+      "clean": "小结",
+      "page": 250
+    },
+    {
+      "level": 2,
+      "title": "第9章",
+      "number": "",
+      "clean": "第9章",
+      "page": 251
+    },
+    {
+      "level": 2,
+      "title": "多模态LLM",
+      "number": "",
+      "clean": "多模态LLM",
+      "page": 251
+    },
+    {
+      "level": 3,
+      "title": "9.1 视觉Transformer",
+      "number": "9.1",
+      "clean": "视觉Transformer",
+      "page": 252
+    },
+    {
+      "level": 3,
+      "title": "9.2 多模态嵌入模型",
+      "number": "9.2",
+      "clean": "多模态嵌入模型",
+      "page": 254
+    },
+    {
+      "level": 4,
+      "title": "9.2.1 CLIP：构建跨模态桥梁",
+      "number": "9.2.1",
+      "clean": "CLIP：构建跨模态桥梁",
+      "page": 256
+    },
+    {
+      "level": 4,
+      "title": "9.2.2 CLIP的跨模态嵌入生成机制",
+      "number": "9.2.2",
+      "clean": "CLIP的跨模态嵌入生成机制",
+      "page": 256
+    },
+    {
+      "level": 4,
+      "title": "9.2.3 OpenCLIP",
+      "number": "9.2.3",
+      "clean": "OpenCLIP",
+      "page": 258
+    },
+    {
+      "level": 3,
+      "title": "9.3 让文本生成模型具备多模态能力",
+      "number": "9.3",
+      "clean": "让文本生成模型具备多模态能力",
+      "page": 263
+    },
+    {
+      "level": 4,
+      "title": "9.3.1 BLIP-2：跨越模态鸿沟",
+      "number": "9.3.1",
+      "clean": "BLIP-2：跨越模态鸿沟",
+      "page": 263
+    },
+    {
+      "level": 4,
+      "title": "9.3.2 多模态输入预处理",
+      "number": "9.3.2",
+      "clean": "多模态输入预处理",
+      "page": 267
+    },
+    {
+      "level": 4,
+      "title": "9.3.3 用例1：图像描述",
+      "number": "9.3.3",
+      "clean": "用例1：图像描述",
+      "page": 269
+    },
+    {
+      "level": 4,
+      "title": "9.3.4 用例2：基于聊天的多模态提示词",
+      "number": "9.3.4",
+      "clean": "用例2：基于聊天的多模态提示词",
+      "page": 272
+    },
+    {
+      "level": 3,
+      "title": "9.4 小结",
+      "number": "9.4",
+      "clean": "小结",
+      "page": 274
+    },
+    {
+      "level": 1,
+      "title": "第三部分",
+      "number": "",
+      "clean": "第三部分",
+      "page": 277
+    },
+    {
+      "level": 1,
+      "title": "训练和微调语言模型",
+      "number": "",
+      "clean": "训练和微调语言模型",
+      "page": 277
+    },
+    {
+      "level": 2,
+      "title": "第10章",
+      "number": "",
+      "clean": "第10章",
+      "page": 279
+    },
+    {
+      "level": 2,
+      "title": "构建文本嵌入模型",
+      "number": "",
+      "clean": "构建文本嵌入模型",
+      "page": 279
+    },
+    {
+      "level": 3,
+      "title": "10.1 嵌入模型",
+      "number": "10.1",
+      "clean": "嵌入模型",
+      "page": 279
+    },
+    {
+      "level": 3,
+      "title": "10.2 什么是对比学习",
+      "number": "10.2",
+      "clean": "什么是对比学习",
+      "page": 281
+    },
+    {
+      "level": 3,
+      "title": "10.3 SBERT",
+      "number": "10.3",
+      "clean": "SBERT",
+      "page": 283
+    },
+    {
+      "level": 3,
+      "title": "10.4 构建嵌入模型",
+      "number": "10.4",
+      "clean": "构建嵌入模型",
+      "page": 285
+    },
+    {
+      "level": 4,
+      "title": "10.4.1 生成对比样本",
+      "number": "10.4.1",
+      "clean": "生成对比样本",
+      "page": 285
+    },
+    {
+      "level": 4,
+      "title": "10.4.2 训练模型",
+      "number": "10.4.2",
+      "clean": "训练模型",
+      "page": 286
+    },
+    {
+      "level": 4,
+      "title": "10.4.3 深入评估",
+      "number": "10.4.3",
+      "clean": "深入评估",
+      "page": 289
+    },
+    {
+      "level": 4,
+      "title": "10.4.4 损失函数",
+      "number": "10.4.4",
+      "clean": "损失函数",
+      "page": 290
+    },
+    {
+      "level": 3,
+      "title": "10.5 微调嵌入模型",
+      "number": "10.5",
+      "clean": "微调嵌入模型",
+      "page": 297
+    },
+    {
+      "level": 4,
+      "title": "10.5.1 监督学习",
+      "number": "10.5.1",
+      "clean": "监督学习",
+      "page": 297
+    },
+    {
+      "level": 4,
+      "title": "10.5.2 增强型SBERT",
+      "number": "10.5.2",
+      "clean": "增强型SBERT",
+      "page": 299
+    },
+    {
+      "level": 3,
+      "title": "10.6 无监督学习",
+      "number": "10.6",
+      "clean": "无监督学习",
+      "page": 303
+    },
+    {
+      "level": 4,
+      "title": "10.6.1 基于Transformer的序列去噪自编码器",
+      "number": "10.6.1",
+      "clean": "基于Transformer的序列去噪自编码器",
+      "page": 304
+    },
+    {
+      "level": 4,
+      "title": "10.6.2 使用TSDAE进行领域适配",
+      "number": "10.6.2",
+      "clean": "使用TSDAE进行领域适配",
+      "page": 307
+    },
+    {
+      "level": 3,
+      "title": "10.7 小结",
+      "number": "10.7",
+      "clean": "小结",
+      "page": 308
+    },
+    {
+      "level": 2,
+      "title": "第11章",
+      "number": "",
+      "clean": "第11章",
+      "page": 309
+    },
+    {
+      "level": 2,
+      "title": "为分类任务微调表示模型",
+      "number": "",
+      "clean": "为分类任务微调表示模型",
+      "page": 309
+    },
+    {
+      "level": 3,
+      "title": "11.1 监督分类",
+      "number": "11.1",
+      "clean": "监督分类",
+      "page": 309
+    },
+    {
+      "level": 4,
+      "title": "11.1.1 微调预训练的BERT模型",
+      "number": "11.1.1",
+      "clean": "微调预训练的BERT模型",
+      "page": 311
+    },
+    {
+      "level": 4,
+      "title": "11.1.2 冻结层",
+      "number": "11.1.2",
+      "clean": "冻结层",
+      "page": 313
+    },
+    {
+      "level": 3,
+      "title": "11.2 少样本分类",
+      "number": "11.2",
+      "clean": "少样本分类",
+      "page": 318
+    },
+    {
+      "level": 4,
+      "title": "11.2.1 SetFit：少样本场景下的高效微调方案",
+      "number": "11.2.1",
+      "clean": "SetFit：少样本场景下的高效微调方案",
+      "page": 318
+    },
+    {
+      "level": 4,
+      "title": "11.2.2 少样本分类的微调",
+      "number": "11.2.2",
+      "clean": "少样本分类的微调",
+      "page": 322
+    },
+    {
+      "level": 3,
+      "title": "11.3 基于掩码语言建模的继续预训练",
+      "number": "11.3",
+      "clean": "基于掩码语言建模的继续预训练",
+      "page": 324
+    },
+    {
+      "level": 3,
+      "title": "11.4 命名实体识别",
+      "number": "11.4",
+      "clean": "命名实体识别",
+      "page": 329
+    },
+    {
+      "level": 4,
+      "title": "11.4.1 数据准备",
+      "number": "11.4.1",
+      "clean": "数据准备",
+      "page": 330
+    },
+    {
+      "level": 4,
+      "title": "11.4.2 命名实体识别的微调",
+      "number": "11.4.2",
+      "clean": "命名实体识别的微调",
+      "page": 335
+    },
+    {
+      "level": 3,
+      "title": "11.5 小结",
+      "number": "11.5",
+      "clean": "小结",
+      "page": 337
+    },
+    {
+      "level": 2,
+      "title": "第12章",
+      "number": "",
+      "clean": "第12章",
+      "page": 338
+    },
+    {
+      "level": 2,
+      "title": "微调生成模型",
+      "number": "",
+      "clean": "微调生成模型",
+      "page": 338
+    },
+    {
+      "level": 3,
+      "title": "12.1 LLM训练三步走：预训练、监督微调和偏好调优",
+      "number": "12.1",
+      "clean": "LLM训练三步走：预训练、监督微调和偏好调优",
+      "page": 338
+    },
+    {
+      "level": 3,
+      "title": "12.2 监督微调",
+      "number": "12.2",
+      "clean": "监督微调",
+      "page": 340
+    },
+    {
+      "level": 4,
+      "title": "12.2.1 全量微调",
+      "number": "12.2.1",
+      "clean": "全量微调",
+      "page": 340
+    },
+    {
+      "level": 4,
+      "title": "12.2.2 参数高效微调",
+      "number": "12.2.2",
+      "clean": "参数高效微调",
+      "page": 341
+    },
+    {
+      "level": 3,
+      "title": "12.3 使用QLoRA进行指令微调",
+      "number": "12.3",
+      "clean": "使用QLoRA进行指令微调",
+      "page": 349
+    },
+    {
+      "level": 4,
+      "title": "12.3.1 模板化指令数据",
+      "number": "12.3.1",
+      "clean": "模板化指令数据",
+      "page": 349
+    },
+    {
+      "level": 4,
+      "title": "12.3.2 模型量化",
+      "number": "12.3.2",
+      "clean": "模型量化",
+      "page": 350
+    },
+    {
+      "level": 4,
+      "title": "12.3.3 LoRA配置",
+      "number": "12.3.3",
+      "clean": "LoRA配置",
+      "page": 351
+    },
+    {
+      "level": 4,
+      "title": "12.3.4 训练配置",
+      "number": "12.3.4",
+      "clean": "训练配置",
+      "page": 352
+    },
+    {
+      "level": 4,
+      "title": "12.3.5 训练",
+      "number": "12.3.5",
+      "clean": "训练",
+      "page": 353
+    },
+    {
+      "level": 4,
+      "title": "12.3.6 合并权重",
+      "number": "12.3.6",
+      "clean": "合并权重",
+      "page": 354
+    },
+    {
+      "level": 3,
+      "title": "12.4 评估生成模型",
+      "number": "12.4",
+      "clean": "评估生成模型",
+      "page": 354
+    },
+    {
+      "level": 4,
+      "title": "12.4.1 词级指标",
+      "number": "12.4.1",
+      "clean": "词级指标",
+      "page": 355
+    },
+    {
+      "level": 4,
+      "title": "12.4.2 基准测试",
+      "number": "12.4.2",
+      "clean": "基准测试",
+      "page": 355
+    },
+    {
+      "level": 4,
+      "title": "12.4.3 排行榜",
+      "number": "12.4.3",
+      "clean": "排行榜",
+      "page": 356
+    },
+    {
+      "level": 4,
+      "title": "12.4.4 自动评估",
+      "number": "12.4.4",
+      "clean": "自动评估",
+      "page": 357
+    },
+    {
+      "level": 4,
+      "title": "12.4.5 人工评估",
+      "number": "12.4.5",
+      "clean": "人工评估",
+      "page": 357
+    },
+    {
+      "level": 3,
+      "title": "12.5 偏好调优、对齐",
+      "number": "12.5",
+      "clean": "偏好调优、对齐",
+      "page": 358
+    },
+    {
+      "level": 3,
+      "title": "12.6 使用奖励模型实现偏好评估自动化",
+      "number": "12.6",
+      "clean": "使用奖励模型实现偏好评估自动化",
+      "page": 359
+    },
+    {
+      "level": 4,
+      "title": "12.6.1 奖励模型的输入和输出",
+      "number": "12.6.1",
+      "clean": "奖励模型的输入和输出",
+      "page": 360
+    },
+    {
+      "level": 4,
+      "title": "12.6.2 训练奖励模型",
+      "number": "12.6.2",
+      "clean": "训练奖励模型",
+      "page": 361
+    },
+    {
+      "level": 4,
+      "title": "12.6.3 训练无奖励模型",
+      "number": "12.6.3",
+      "clean": "训练无奖励模型",
+      "page": 364
+    },
+    {
+      "level": 3,
+      "title": "12.7 使用DPO进行偏好调优",
+      "number": "12.7",
+      "clean": "使用DPO进行偏好调优",
+      "page": 365
+    },
+    {
+      "level": 4,
+      "title": "12.7.1 对齐数据的模板化",
+      "number": "12.7.1",
+      "clean": "对齐数据的模板化",
+      "page": 365
+    },
+    {
+      "level": 4,
+      "title": "12.7.2 模型量化",
+      "number": "12.7.2",
+      "clean": "模型量化",
+      "page": 366
+    },
+    {
+      "level": 4,
+      "title": "12.7.3 训练配置",
+      "number": "12.7.3",
+      "clean": "训练配置",
+      "page": 367
+    },
+    {
+      "level": 4,
+      "title": "12.7.4 训练",
+      "number": "12.7.4",
+      "clean": "训练",
+      "page": 368
+    },
+    {
+      "level": 3,
+      "title": "12.8 小结",
+      "number": "12.8",
+      "clean": "小结",
+      "page": 369
+    },
+    {
+      "level": 2,
+      "title": "附录A",
+      "number": "",
+      "clean": "附录A",
+      "page": 370
+    },
+    {
+      "level": 2,
+      "title": "图解DeepSeek-R1",
+      "number": "",
+      "clean": "图解DeepSeek-R1",
+      "page": 370
+    },
+    {
+      "level": 2,
+      "title": "后记",
+      "number": "",
+      "clean": "后记",
+      "page": 381
+    },
+    {
+      "level": 3,
+      "title": "作者简介",
+      "number": "",
+      "clean": "作者简介",
+      "page": 382
+    },
+    {
+      "level": 4,
+      "title": "封面简介",
+      "number": "",
+      "clean": "封面简介",
+      "page": 382
+    },
+    {
+      "level": 2,
+      "title": "链接资源",
+      "number": "",
+      "clean": "链接资源",
+      "page": 383
+    },
+    {
+      "level": 2,
+      "title": "大模型面试题200问",
+      "number": "",
+      "clean": "大模型面试题200问",
+      "page": 397
+    }
+  ]
+}

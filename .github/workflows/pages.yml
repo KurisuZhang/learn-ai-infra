@@ -1,0 +1,60 @@
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'AI-Infra-学习手册与路线图.md'
+      - 'README.md'
+      - 'data/**'
+      - 'tools/**'
+      - 'web/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site with assertions
+        # --verify 会校验：27 个模块 / 5 个阶段 / 25 个 Gate、主读引用 100% 有深链、
+        # 站内链接与锚点全部命中、PDF #page 抽查、无绝对路径（子路径部署安全）
+        run: npm run verify
+
+      - name: Show coverage summary
+        run: sed -n '1,20p' reports/link-coverage.md
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

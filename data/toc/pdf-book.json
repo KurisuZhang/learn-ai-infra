@@ -1,0 +1,856 @@
+{
+  "source": "AI-Infra-Book.pdf",
+  "title": "AI-Infra-Book",
+  "subtitle": "《深入理解 AI Infra：量化分析与系统设计》",
+  "pageCount": 536,
+  "bookmarks": 121,
+  "entries": [
+    {
+      "level": 1,
+      "title": "前言",
+      "number": "",
+      "clean": "前言",
+      "page": 2
+    },
+    {
+      "level": 2,
+      "title": "编程抽象上移：从操作系统到模型上下文",
+      "number": "",
+      "clean": "编程抽象上移：从操作系统到模型上下文",
+      "page": 2
+    },
+    {
+      "level": 2,
+      "title": "从数量级估算到系统设计",
+      "number": "",
+      "clean": "从数量级估算到系统设计",
+      "page": 2
+    },
+    {
+      "level": 2,
+      "title": "从算子加速到万卡互联",
+      "number": "",
+      "clean": "从算子加速到万卡互联",
+      "page": 2
+    },
+    {
+      "level": 2,
+      "title": "我希望这本书讲清楚什么",
+      "number": "",
+      "clean": "我希望这本书讲清楚什么",
+      "page": 2
+    },
+    {
+      "level": 2,
+      "title": "全书结构",
+      "number": "",
+      "clean": "全书结构",
+      "page": 2
+    },
+    {
+      "level": 2,
+      "title": "如何阅读本书",
+      "number": "",
+      "clean": "如何阅读本书",
+      "page": 5
+    },
+    {
+      "level": 2,
+      "title": "前置知识",
+      "number": "",
+      "clean": "前置知识",
+      "page": 5
+    },
+    {
+      "level": 2,
+      "title": "致谢",
+      "number": "",
+      "clean": "致谢",
+      "page": 5
+    },
+    {
+      "level": 1,
+      "title": "第 1 章 初识 AI Infra",
+      "number": "",
+      "clean": "第 1 章 初识 AI Infra",
+      "page": 11
+    },
+    {
+      "level": 2,
+      "title": "1.1 AI Infra 为什么重要",
+      "number": "1.1",
+      "clean": "AI Infra 为什么重要",
+      "page": 11
+    },
+    {
+      "level": 2,
+      "title": "1.2 系统设计的关键数字",
+      "number": "1.2",
+      "clean": "系统设计的关键数字",
+      "page": 17
+    },
+    {
+      "level": 2,
+      "title": "1.3 用几个数字估算一次模型执行",
+      "number": "1.3",
+      "clean": "用几个数字估算一次模型执行",
+      "page": 21
+    },
+    {
+      "level": 2,
+      "title": "1.4 需求如何推动架构设计",
+      "number": "1.4",
+      "clean": "需求如何推动架构设计",
+      "page": 27
+    },
+    {
+      "level": 2,
+      "title": "谬误与陷阱",
+      "number": "",
+      "clean": "谬误与陷阱",
+      "page": 30
+    },
+    {
+      "level": 2,
+      "title": "本章数字速查",
+      "number": "",
+      "clean": "本章数字速查",
+      "page": 30
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 30
+    },
+    {
+      "level": 1,
+      "title": "第 2 章 模型架构",
+      "number": "",
+      "clean": "第 2 章 模型架构",
+      "page": 33
+    },
+    {
+      "level": 2,
+      "title": "2.1 计算图与前向执行",
+      "number": "2.1",
+      "clean": "计算图与前向执行",
+      "page": 33
+    },
+    {
+      "level": 2,
+      "title": "2.2 自回归生成的资源消耗计算",
+      "number": "2.2",
+      "clean": "自回归生成的资源消耗计算",
+      "page": 41
+    },
+    {
+      "level": 2,
+      "title": "2.3 上下文状态表示与访问机制",
+      "number": "2.3",
+      "clean": "上下文状态表示与访问机制",
+      "page": 44
+    },
+    {
+      "level": 2,
+      "title": "2.4 条件计算与专家权重复用",
+      "number": "2.4",
+      "clean": "条件计算与专家权重复用",
+      "page": 57
+    },
+    {
+      "level": 2,
+      "title": "2.5 网络形状与计算组织",
+      "number": "2.5",
+      "clean": "网络形状与计算组织",
+      "page": 59
+    },
+    {
+      "level": 2,
+      "title": "2.6 整个模型的资源需求与比较",
+      "number": "2.6",
+      "clean": "整个模型的资源需求与比较",
+      "page": 62
+    },
+    {
+      "level": 2,
+      "title": "谬误与陷阱",
+      "number": "",
+      "clean": "谬误与陷阱",
+      "page": 74
+    },
+    {
+      "level": 2,
+      "title": "本章练习与复现",
+      "number": "",
+      "clean": "本章练习与复现",
+      "page": 74
+    },
+    {
+      "level": 2,
+      "title": "模型矩阵查阅表",
+      "number": "",
+      "clean": "模型矩阵查阅表",
+      "page": 74
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 82
+    },
+    {
+      "level": 1,
+      "title": "第 3 章 推理与训练负载",
+      "number": "",
+      "clean": "第 3 章 推理与训练负载",
+      "page": 84
+    },
+    {
+      "level": 2,
+      "title": "3.1 从单次请求到持续到达的负载",
+      "number": "3.1",
+      "clean": "从单次请求到持续到达的负载",
+      "page": 84
+    },
+    {
+      "level": 2,
+      "title": "3.2 多轮交互与 Agent 任务",
+      "number": "3.2",
+      "clean": "多轮交互与 Agent 任务",
+      "page": 90
+    },
+    {
+      "level": 2,
+      "title": "3.3 多模态与实时交互",
+      "number": "3.3",
+      "clean": "多模态与实时交互",
+      "page": 97
+    },
+    {
+      "level": 2,
+      "title": "3.4 训练的计算与状态需求",
+      "number": "3.4",
+      "clean": "训练的计算与状态需求",
+      "page": 102
+    },
+    {
+      "level": 2,
+      "title": "3.5 强化学习（RL）",
+      "number": "3.5",
+      "clean": "强化学习（RL）",
+      "page": 106
+    },
+    {
+      "level": 2,
+      "title": "3.6 从负载需求到训练与服务预算",
+      "number": "3.6",
+      "clean": "从负载需求到训练与服务预算",
+      "page": 110
+    },
+    {
+      "level": 2,
+      "title": "谬误与陷阱",
+      "number": "",
+      "clean": "谬误与陷阱",
+      "page": 115
+    },
+    {
+      "level": 2,
+      "title": "代码任务轨迹",
+      "number": "",
+      "clean": "代码任务轨迹",
+      "page": 115
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 115
+    },
+    {
+      "level": 1,
+      "title": "第 4 章 加速器架构",
+      "number": "",
+      "clean": "第 4 章 加速器架构",
+      "page": 118
+    },
+    {
+      "level": 2,
+      "title": "4.1 从模型计算认识加速器",
+      "number": "4.1",
+      "clean": "从模型计算认识加速器",
+      "page": 118
+    },
+    {
+      "level": 2,
+      "title": "4.2 计算单元",
+      "number": "4.2",
+      "clean": "计算单元",
+      "page": 127
+    },
+    {
+      "level": 2,
+      "title": "4.3 存储层次",
+      "number": "4.3",
+      "clean": "存储层次",
+      "page": 134
+    },
+    {
+      "level": 2,
+      "title": "4.4 数据搬移",
+      "number": "4.4",
+      "clean": "数据搬移",
+      "page": 139
+    },
+    {
+      "level": 2,
+      "title": "4.5 多芯片封装与互联",
+      "number": "4.5",
+      "clean": "多芯片封装与互联",
+      "page": 147
+    },
+    {
+      "level": 2,
+      "title": "4.6 模型需求如何推动架构演进",
+      "number": "4.6",
+      "clean": "模型需求如何推动架构演进",
+      "page": 151
+    },
+    {
+      "level": 2,
+      "title": "4.7 专用架构",
+      "number": "4.7",
+      "clean": "专用架构",
+      "page": 158
+    },
+    {
+      "level": 2,
+      "title": "4.8 根据架构分析性能、选择加速器",
+      "number": "4.8",
+      "clean": "根据架构分析性能、选择加速器",
+      "page": 163
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 169
+    },
+    {
+      "level": 1,
+      "title": "第 5 章 算子与运行时",
+      "number": "",
+      "clean": "第 5 章 算子与运行时",
+      "page": 172
+    },
+    {
+      "level": 2,
+      "title": "5.1 加速器执行过程中的提交、搬移与同步",
+      "number": "5.1",
+      "clean": "加速器执行过程中的提交、搬移与同步",
+      "page": 172
+    },
+    {
+      "level": 2,
+      "title": "5.2 单个算子的分块、布局与实际访存",
+      "number": "5.2",
+      "clean": "单个算子的分块、布局与实际访存",
+      "page": 179
+    },
+    {
+      "level": 2,
+      "title": "5.3 相邻算子的融合、缓冲与流水执行",
+      "number": "5.3",
+      "clean": "相邻算子的融合、缓冲与流水执行",
+      "page": 187
+    },
+    {
+      "level": 2,
+      "title": "5.4 编译器：表达、变换与选择",
+      "number": "5.4",
+      "clean": "编译器：表达、变换与选择",
+      "page": 194
+    },
+    {
+      "level": 2,
+      "title": "5.5 运行时：提交、重放与动态形状",
+      "number": "5.5",
+      "clean": "运行时：提交、重放与动态形状",
+      "page": 202
+    },
+    {
+      "level": 2,
+      "title": "5.6 从局部优化到完整请求",
+      "number": "5.6",
+      "clean": "从局部优化到完整请求",
+      "page": 211
+    },
+    {
+      "level": 2,
+      "title": "常见误区",
+      "number": "",
+      "clean": "常见误区",
+      "page": 214
+    },
+    {
+      "level": 2,
+      "title": "习题与配套实验",
+      "number": "",
+      "clean": "习题与配套实验",
+      "page": 214
+    },
+    {
+      "level": 2,
+      "title": "历史与进一步阅读",
+      "number": "",
+      "clean": "历史与进一步阅读",
+      "page": 214
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 214
+    },
+    {
+      "level": 1,
+      "title": "第 6 章 超节点",
+      "number": "",
+      "clean": "第 6 章 超节点",
+      "page": 217
+    },
+    {
+      "level": 2,
+      "title": "6.1 从单卡到多卡",
+      "number": "6.1",
+      "clean": "从单卡到多卡",
+      "page": 217
+    },
+    {
+      "level": 2,
+      "title": "6.2 六种并行方式",
+      "number": "6.2",
+      "clean": "六种并行方式",
+      "page": 222
+    },
+    {
+      "level": 2,
+      "title": "6.3 组合并行与模型规模",
+      "number": "6.3",
+      "clean": "组合并行与模型规模",
+      "page": 233
+    },
+    {
+      "level": 2,
+      "title": "6.4 集合通信的实现与执行代价",
+      "number": "6.4",
+      "clean": "集合通信的实现与执行代价",
+      "page": 238
+    },
+    {
+      "level": 2,
+      "title": "6.5 超节点的物理组织",
+      "number": "6.5",
+      "clean": "超节点的物理组织",
+      "page": 245
+    },
+    {
+      "level": 2,
+      "title": "6.6 内存池",
+      "number": "6.6",
+      "clean": "内存池",
+      "page": 256
+    },
+    {
+      "level": 2,
+      "title": "6.7 从并行方案到超节点规模",
+      "number": "6.7",
+      "clean": "从并行方案到超节点规模",
+      "page": 260
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 269
+    },
+    {
+      "level": 1,
+      "title": "第 7 章 数据中心网络",
+      "number": "",
+      "clean": "第 7 章 数据中心网络",
+      "page": 271
+    },
+    {
+      "level": 2,
+      "title": "7.1 从超节点走向集群",
+      "number": "7.1",
+      "clean": "从超节点走向集群",
+      "page": 271
+    },
+    {
+      "level": 2,
+      "title": "7.2 跨节点流量与物理路径",
+      "number": "7.2",
+      "clean": "跨节点流量与物理路径",
+      "page": 276
+    },
+    {
+      "level": 2,
+      "title": "7.3 远程访问的路径与并发",
+      "number": "7.3",
+      "clean": "远程访问的路径与并发",
+      "page": 287
+    },
+    {
+      "level": 2,
+      "title": "7.4 数据交接、顺序与状态管理",
+      "number": "7.4",
+      "clean": "数据交接、顺序与状态管理",
+      "page": 298
+    },
+    {
+      "level": 2,
+      "title": "7.5 共享网络中的拥塞与可靠性",
+      "number": "7.5",
+      "clean": "共享网络中的拥塞与可靠性",
+      "page": 306
+    },
+    {
+      "level": 2,
+      "title": "7.6 从通信改进到任务完成",
+      "number": "7.6",
+      "clean": "从通信改进到任务完成",
+      "page": 315
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 324
+    },
+    {
+      "level": 1,
+      "title": "第 8 章 推理优化",
+      "number": "",
+      "clean": "第 8 章 推理优化",
+      "page": 327
+    },
+    {
+      "level": 2,
+      "title": "8.1 推理请求的执行过程与资源需求",
+      "number": "8.1",
+      "clean": "推理请求的执行过程与资源需求",
+      "page": 327
+    },
+    {
+      "level": 2,
+      "title": "8.2 批处理与请求调度",
+      "number": "8.2",
+      "clean": "批处理与请求调度",
+      "page": 330
+    },
+    {
+      "level": 2,
+      "title": "8.3 KV 缓存的分配、复用与释放",
+      "number": "8.3",
+      "clean": "KV 缓存的分配、复用与释放",
+      "page": 337
+    },
+    {
+      "level": 2,
+      "title": "8.4 压缩与卸载",
+      "number": "8.4",
+      "clean": "压缩与卸载",
+      "page": 346
+    },
+    {
+      "level": 2,
+      "title": "8.5 推测解码",
+      "number": "8.5",
+      "clean": "推测解码",
+      "page": 351
+    },
+    {
+      "level": 2,
+      "title": "8.6 请求负载下的性能与配置选择",
+      "number": "8.6",
+      "clean": "请求负载下的性能与配置选择",
+      "page": 356
+    },
+    {
+      "level": 2,
+      "title": "历史与延伸阅读",
+      "number": "",
+      "clean": "历史与延伸阅读",
+      "page": 361
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 361
+    },
+    {
+      "level": 1,
+      "title": "第 9 章 分布式推理",
+      "number": "",
+      "clean": "第 9 章 分布式推理",
+      "page": 364
+    },
+    {
+      "level": 2,
+      "title": "9.1 计算与状态的分布方式",
+      "number": "9.1",
+      "clean": "计算与状态的分布方式",
+      "page": 364
+    },
+    {
+      "level": 2,
+      "title": "9.2 Prefill–Decode 分离与资源配比",
+      "number": "9.2",
+      "clean": "Prefill–Decode 分离与资源配比",
+      "page": 367
+    },
+    {
+      "level": 2,
+      "title": "9.3 Attention–FFN 分离与异构执行",
+      "number": "9.3",
+      "clean": "Attention–FFN 分离与异构执行",
+      "page": 375
+    },
+    {
+      "level": 2,
+      "title": "9.4 专家放置、复制与负载均衡",
+      "number": "9.4",
+      "clean": "专家放置、复制与负载均衡",
+      "page": 381
+    },
+    {
+      "level": 2,
+      "title": "9.5 KV 的分布、共享与请求路由",
+      "number": "9.5",
+      "clean": "KV 的分布、共享与请求路由",
+      "page": 390
+    },
+    {
+      "level": 2,
+      "title": "9.6 服务启动、扩缩容与故障恢复",
+      "number": "9.6",
+      "clean": "服务启动、扩缩容与故障恢复",
+      "page": 400
+    },
+    {
+      "level": 2,
+      "title": "9.7 部署方案的综合比较",
+      "number": "9.7",
+      "clean": "部署方案的综合比较",
+      "page": 403
+    },
+    {
+      "level": 2,
+      "title": "练习",
+      "number": "",
+      "clean": "练习",
+      "page": 407
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 407
+    },
+    {
+      "level": 1,
+      "title": "第 10 章 训练系统",
+      "number": "",
+      "clean": "第 10 章 训练系统",
+      "page": 410
+    },
+    {
+      "level": 2,
+      "title": "10.1 根据训练任务估算容量与时间需求",
+      "number": "10.1",
+      "clean": "根据训练任务估算容量与时间需求",
+      "page": 410
+    },
+    {
+      "level": 2,
+      "title": "10.2 训练状态的分片、重计算与卸载",
+      "number": "10.2",
+      "clean": "训练状态的分片、重计算与卸载",
+      "page": 415
+    },
+    {
+      "level": 2,
+      "title": "10.3 训练步的流水调度与通信重叠",
+      "number": "10.3",
+      "clean": "训练步的流水调度与通信重叠",
+      "page": 424
+    },
+    {
+      "level": 2,
+      "title": "10.4 数据输入、checkpoint 与故障恢复",
+      "number": "10.4",
+      "clean": "数据输入、checkpoint 与故障恢复",
+      "page": 436
+    },
+    {
+      "level": 2,
+      "title": "10.5 强化学习训练",
+      "number": "10.5",
+      "clean": "强化学习训练",
+      "page": 443
+    },
+    {
+      "level": 2,
+      "title": "10.6 从系统方案到完成期限与硬件选择",
+      "number": "10.6",
+      "clean": "从系统方案到完成期限与硬件选择",
+      "page": 451
+    },
+    {
+      "level": 2,
+      "title": "常见误区",
+      "number": "",
+      "clean": "常见误区",
+      "page": 454
+    },
+    {
+      "level": 2,
+      "title": "习题与实验",
+      "number": "",
+      "clean": "习题与实验",
+      "page": 454
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 454
+    },
+    {
+      "level": 1,
+      "title": "第 11 章 资源调度与运行环境",
+      "number": "",
+      "clean": "第 11 章 资源调度与运行环境",
+      "page": 458
+    },
+    {
+      "level": 2,
+      "title": "11.1 根据任务执行过程计算资源需求",
+      "number": "11.1",
+      "clean": "根据任务执行过程计算资源需求",
+      "page": 459
+    },
+    {
+      "level": 2,
+      "title": "11.2 运行环境的创建、保留与释放",
+      "number": "11.2",
+      "clean": "运行环境的创建、保留与释放",
+      "page": 462
+    },
+    {
+      "level": 2,
+      "title": "11.3 共享资源池的分配与调度",
+      "number": "11.3",
+      "clean": "共享资源池的分配与调度",
+      "page": 474
+    },
+    {
+      "level": 2,
+      "title": "11.4 模型服务的选择与调用成本",
+      "number": "11.4",
+      "clean": "模型服务的选择与调用成本",
+      "page": 484
+    },
+    {
+      "level": 2,
+      "title": "11.5 完整任务的恢复、成本计算与扩容",
+      "number": "11.5",
+      "clean": "完整任务的恢复、成本计算与扩容",
+      "page": 490
+    },
+    {
+      "level": 2,
+      "title": "练习与实验",
+      "number": "",
+      "clean": "练习与实验",
+      "page": 497
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 499
+    },
+    {
+      "level": 1,
+      "title": "第 12 章 端边云协同",
+      "number": "",
+      "clean": "第 12 章 端边云协同",
+      "page": 500
+    },
+    {
+      "level": 2,
+      "title": "12.1 从模型运行时间到完整交互时间",
+      "number": "12.1",
+      "clean": "从模型运行时间到完整交互时间",
+      "page": 500
+    },
+    {
+      "level": 2,
+      "title": "12.2 跨设备分工",
+      "number": "12.2",
+      "clean": "跨设备分工",
+      "page": 509
+    },
+    {
+      "level": 2,
+      "title": "12.3 广域网传输中的额外开销与等待",
+      "number": "12.3",
+      "clean": "广域网传输中的额外开销与等待",
+      "page": 515
+    },
+    {
+      "level": 2,
+      "title": "12.4 无线变化下的交互与恢复",
+      "number": "12.4",
+      "clean": "无线变化下的交互与恢复",
+      "page": 523
+    },
+    {
+      "level": 2,
+      "title": "12.5 从端边云分工到完整部署",
+      "number": "12.5",
+      "clean": "从端边云分工到完整部署",
+      "page": 527
+    },
+    {
+      "level": 2,
+      "title": "练习",
+      "number": "",
+      "clean": "练习",
+      "page": 533
+    },
+    {
+      "level": 2,
+      "title": "本章小结",
+      "number": "",
+      "clean": "本章小结",
+      "page": 536
+    }
+  ]
+}

@@ -1,0 +1,1457 @@
+{
+  "source": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/",
+  "fetchedAt": "2026-11-15T10:51:18.678Z",
+  "parts": [
+    {
+      "no": 1,
+      "title": "数学基础",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/1",
+      "lectures": [
+        {
+          "no": 1,
+          "title": "向量",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/1"
+        },
+        {
+          "no": 2,
+          "title": "点积与余弦相似度",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/2"
+        },
+        {
+          "no": 3,
+          "title": "矩阵乘法",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/3"
+        },
+        {
+          "no": 4,
+          "title": "线性变换",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/4"
+        },
+        {
+          "no": 5,
+          "title": "张量与形状",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/5"
+        },
+        {
+          "no": 6,
+          "title": "指数、对数与 softmax",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/6"
+        },
+        {
+          "no": 7,
+          "title": "概率与采样",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/7"
+        },
+        {
+          "no": 8,
+          "title": "导数与链式法则",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/8"
+        },
+        {
+          "no": 9,
+          "title": "三角函数与旋转",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/9"
+        },
+        {
+          "no": 10,
+          "title": "浮点数与精度",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/10"
+        },
+        {
+          "no": 11,
+          "title": "计算量与 FLOPs",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/11"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "神经网络基础",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/2",
+      "lectures": [
+        {
+          "no": 12,
+          "title": "感知机",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/12"
+        },
+        {
+          "no": 13,
+          "title": "神经元与线性层",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/13"
+        },
+        {
+          "no": 14,
+          "title": "激活函数",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/14"
+        },
+        {
+          "no": 15,
+          "title": "多层感知机",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/15"
+        },
+        {
+          "no": 16,
+          "title": "损失函数",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/16"
+        },
+        {
+          "no": 17,
+          "title": "梯度下降",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/17"
+        },
+        {
+          "no": 18,
+          "title": "反向传播",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/18"
+        },
+        {
+          "no": 19,
+          "title": "优化器",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/19"
+        },
+        {
+          "no": 20,
+          "title": "训练循环",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/20"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "从文本到向量",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/3",
+      "lectures": [
+        {
+          "no": 21,
+          "title": "分词与 BPE",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/21"
+        },
+        {
+          "no": 22,
+          "title": "词嵌入",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/22"
+        },
+        {
+          "no": 23,
+          "title": "预测下一个 token",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/23"
+        },
+        {
+          "no": 24,
+          "title": "自回归生成",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/24"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Transformer 核心",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/4",
+      "lectures": [
+        {
+          "no": 25,
+          "title": "位置编码",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/25"
+        },
+        {
+          "no": 26,
+          "title": "自注意力",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/26"
+        },
+        {
+          "no": 27,
+          "title": "因果掩码",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/27"
+        },
+        {
+          "no": 28,
+          "title": "多头注意力",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/28"
+        },
+        {
+          "no": 29,
+          "title": "残差连接",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/29"
+        },
+        {
+          "no": 30,
+          "title": "LayerNorm",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/30"
+        },
+        {
+          "no": 31,
+          "title": "前馈网络",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/31"
+        },
+        {
+          "no": 32,
+          "title": "Transformer Block",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/32"
+        },
+        {
+          "no": 33,
+          "title": "输出层",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/33"
+        },
+        {
+          "no": 34,
+          "title": "前向传播",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/34"
+        },
+        {
+          "no": 35,
+          "title": "参数量与计算量",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/35"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "现代 LLM 架构",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/5",
+      "lectures": [
+        {
+          "no": 36,
+          "title": "Pre-Norm 与 RMSNorm",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/36"
+        },
+        {
+          "no": 37,
+          "title": "RoPE 旋转位置编码",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/37"
+        },
+        {
+          "no": 38,
+          "title": "SwiGLU 与门控 FFN",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/38"
+        },
+        {
+          "no": 39,
+          "title": "MQA 与 GQA",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/39"
+        },
+        {
+          "no": 40,
+          "title": "MLA 多头潜在注意力",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/40"
+        },
+        {
+          "no": 41,
+          "title": "MoE 混合专家",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/41"
+        },
+        {
+          "no": 42,
+          "title": "长上下文技术",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/42"
+        },
+        {
+          "no": 43,
+          "title": "架构演进对照",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/43"
+        },
+        {
+          "no": 44,
+          "title": "混合架构与线性注意力",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/44"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "title": "训练全流程（轻量线）",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/6",
+      "lectures": [
+        {
+          "no": 45,
+          "title": "预训练与数据",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/45"
+        },
+        {
+          "no": 46,
+          "title": "Scaling Laws",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/46"
+        },
+        {
+          "no": 47,
+          "title": "监督微调 SFT",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/47"
+        },
+        {
+          "no": 48,
+          "title": "RLHF 与 DPO",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/48"
+        },
+        {
+          "no": 49,
+          "title": "推理模型与强化学习",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/49"
+        },
+        {
+          "no": 50,
+          "title": "LoRA 参数高效微调",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/50"
+        },
+        {
+          "no": 51,
+          "title": "模型评测",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/51"
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "title": "从零实现一个 GPT 模型",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/7",
+      "lectures": [
+        {
+          "no": 52,
+          "title": "g0 · 语料与分词器",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/52"
+        },
+        {
+          "no": 53,
+          "title": "g1 · 数据加载器与嵌入",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/53"
+        },
+        {
+          "no": 54,
+          "title": "g2 · 因果多头注意力",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/54"
+        },
+        {
+          "no": 55,
+          "title": "g3 · 组装 GPT",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/55"
+        },
+        {
+          "no": 56,
+          "title": "g4 · 预训练",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/56"
+        },
+        {
+          "no": 57,
+          "title": "g5 · 解码与存档",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/57"
+        },
+        {
+          "no": 58,
+          "title": "g6 · 装进 GPT-2 的权重",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/58"
+        },
+        {
+          "no": 59,
+          "title": "g7 · 指令微调",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/59"
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "title": "硬件与性能基础",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/8",
+      "lectures": [
+        {
+          "no": 60,
+          "title": "GPU 架构",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/60"
+        },
+        {
+          "no": 61,
+          "title": "存储层级",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/61"
+        },
+        {
+          "no": 62,
+          "title": "Roofline 模型",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/62"
+        },
+        {
+          "no": 63,
+          "title": "低精度计算",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/63"
+        },
+        {
+          "no": 64,
+          "title": "互联",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/64"
+        },
+        {
+          "no": 65,
+          "title": "超节点",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/65"
+        },
+        {
+          "no": 66,
+          "title": "性能分析",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/66"
+        },
+        {
+          "no": 67,
+          "title": "理论 vs 实测",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/67"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "title": "推理基础",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/9",
+      "lectures": [
+        {
+          "no": 68,
+          "title": "Prefill 与 Decode",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/68"
+        },
+        {
+          "no": 69,
+          "title": "KV Cache",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/69"
+        },
+        {
+          "no": 70,
+          "title": "TTFT、TPOT 与吞吐",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/70"
+        },
+        {
+          "no": 71,
+          "title": "显存账本",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/71"
+        },
+        {
+          "no": 72,
+          "title": "推理成本模型",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/72"
+        },
+        {
+          "no": 73,
+          "title": "解码策略",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/73"
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "title": "推理引擎与调度",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/10",
+      "lectures": [
+        {
+          "no": 74,
+          "title": "Continuous Batching",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/74"
+        },
+        {
+          "no": 75,
+          "title": "PagedAttention",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/75"
+        },
+        {
+          "no": 76,
+          "title": "Prefix Cache",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/76"
+        },
+        {
+          "no": 77,
+          "title": "Chunked Prefill",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/77"
+        },
+        {
+          "no": 78,
+          "title": "调度与抢占",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/78"
+        },
+        {
+          "no": 79,
+          "title": "多 LoRA 服务",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/79"
+        },
+        {
+          "no": 80,
+          "title": "约束解码",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/80"
+        },
+        {
+          "no": 81,
+          "title": "请求生命周期",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/81"
+        },
+        {
+          "no": 82,
+          "title": "推理压测实践",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/82"
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "title": "算子与 Kernel",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/11",
+      "lectures": [
+        {
+          "no": 83,
+          "title": "算子融合",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/83"
+        },
+        {
+          "no": 84,
+          "title": "FlashAttention",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/84"
+        },
+        {
+          "no": 85,
+          "title": "Decode 注意力 Kernel",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/85"
+        },
+        {
+          "no": 86,
+          "title": "CUDA 编程模型",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/86"
+        },
+        {
+          "no": 87,
+          "title": "矩阵乘法 Kernel 与 Tensor Core",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/87"
+        },
+        {
+          "no": 88,
+          "title": "Triton 入门",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/88"
+        },
+        {
+          "no": 89,
+          "title": "CUDA Graph",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/89"
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "title": "模型压缩与加速",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/12",
+      "lectures": [
+        {
+          "no": 90,
+          "title": "量化基础",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/90"
+        },
+        {
+          "no": 91,
+          "title": "权重量化：GPTQ 与 AWQ",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/91"
+        },
+        {
+          "no": 92,
+          "title": "激活量化与 SmoothQuant",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/92"
+        },
+        {
+          "no": 93,
+          "title": "FP8 与 FP4",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/93"
+        },
+        {
+          "no": 94,
+          "title": "KV Cache 量化",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/94"
+        },
+        {
+          "no": 95,
+          "title": "KV Cache 压缩与驱逐",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/95"
+        },
+        {
+          "no": 96,
+          "title": "投机解码",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/96"
+        },
+        {
+          "no": 97,
+          "title": "EAGLE 与 Medusa",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/97"
+        },
+        {
+          "no": 98,
+          "title": "蒸馏与剪枝",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/98"
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "title": "分布式与集合通信",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/13",
+      "lectures": [
+        {
+          "no": 99,
+          "title": "为什么需要多卡",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/99"
+        },
+        {
+          "no": 100,
+          "title": "集合通信原语",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/100"
+        },
+        {
+          "no": 101,
+          "title": "Ring 与 Tree All-Reduce",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/101"
+        },
+        {
+          "no": 102,
+          "title": "通信代价模型",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/102"
+        },
+        {
+          "no": 103,
+          "title": "数据并行与 ZeRO",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/103"
+        },
+        {
+          "no": 104,
+          "title": "混合精度训练与激活重计算",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/104"
+        },
+        {
+          "no": 105,
+          "title": "张量并行",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/105"
+        },
+        {
+          "no": 106,
+          "title": "流水并行",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/106"
+        },
+        {
+          "no": 107,
+          "title": "序列与上下文并行",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/107"
+        },
+        {
+          "no": 108,
+          "title": "专家并行与 All-to-All",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/108"
+        },
+        {
+          "no": 109,
+          "title": "并行策略与拓扑映射",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/109"
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "title": "分布式推理与集群",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/14",
+      "lectures": [
+        {
+          "no": 110,
+          "title": "推理中的张量并行",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/110"
+        },
+        {
+          "no": 111,
+          "title": "MoE 推理与大规模专家并行",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/111"
+        },
+        {
+          "no": 112,
+          "title": "PD 分离",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/112"
+        },
+        {
+          "no": 113,
+          "title": "KV Cache 传输与分层存储",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/113"
+        },
+        {
+          "no": 114,
+          "title": "路由与负载均衡",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/114"
+        },
+        {
+          "no": 115,
+          "title": "超节点上的推理",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/115"
+        },
+        {
+          "no": 116,
+          "title": "SLO 与容量规划",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/116"
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "title": "手写迷你推理引擎",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/15",
+      "lectures": [
+        {
+          "no": 117,
+          "title": "总览 · 一个推理引擎由哪些部分组成",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/117"
+        },
+        {
+          "no": 118,
+          "title": "v0 · 从权重文件到第一个 token",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/118"
+        },
+        {
+          "no": 119,
+          "title": "v1 · KV Cache",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/119"
+        },
+        {
+          "no": 120,
+          "title": "v2 · Continuous Batching",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/120"
+        },
+        {
+          "no": 121,
+          "title": "v3 · 分页 KV 管理",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/121"
+        },
+        {
+          "no": 122,
+          "title": "v3+ · 前缀缓存",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/122"
+        },
+        {
+          "no": 123,
+          "title": "v4 · 权重量化",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/123"
+        },
+        {
+          "no": 124,
+          "title": "v5 · 投机解码",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/124"
+        },
+        {
+          "no": 125,
+          "title": "复盘 · 时间花在哪里",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/125"
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "title": "解读 nano-vllm",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/16",
+      "lectures": [
+        {
+          "no": 126,
+          "title": "nano-vllm 的整体结构",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/126"
+        },
+        {
+          "no": 127,
+          "title": "nano-vllm 多做了什么",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/127"
+        },
+        {
+          "no": 128,
+          "title": "动手改 nano-vllm",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/128"
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "title": "主流推理引擎",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/p/17",
+      "lectures": [
+        {
+          "no": 129,
+          "title": "vLLM 的架构",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/129"
+        },
+        {
+          "no": 130,
+          "title": "vLLM 的分布式服务",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/130"
+        },
+        {
+          "no": 131,
+          "title": "SGLang 的架构",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/131"
+        },
+        {
+          "no": 132,
+          "title": "其他引擎与规模化部署",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/132"
+        },
+        {
+          "no": 133,
+          "title": "怎么读一个大型引擎的源码",
+          "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/133"
+        }
+      ]
+    }
+  ],
+  "lectures": [
+    {
+      "no": 1,
+      "title": "向量",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/1"
+    },
+    {
+      "no": 2,
+      "title": "点积与余弦相似度",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/2"
+    },
+    {
+      "no": 3,
+      "title": "矩阵乘法",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/3"
+    },
+    {
+      "no": 4,
+      "title": "线性变换",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/4"
+    },
+    {
+      "no": 5,
+      "title": "张量与形状",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/5"
+    },
+    {
+      "no": 6,
+      "title": "指数、对数与 softmax",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/6"
+    },
+    {
+      "no": 7,
+      "title": "概率与采样",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/7"
+    },
+    {
+      "no": 8,
+      "title": "导数与链式法则",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/8"
+    },
+    {
+      "no": 9,
+      "title": "三角函数与旋转",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/9"
+    },
+    {
+      "no": 10,
+      "title": "浮点数与精度",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/10"
+    },
+    {
+      "no": 11,
+      "title": "计算量与 FLOPs",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/11"
+    },
+    {
+      "no": 12,
+      "title": "感知机",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/12"
+    },
+    {
+      "no": 13,
+      "title": "神经元与线性层",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/13"
+    },
+    {
+      "no": 14,
+      "title": "激活函数",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/14"
+    },
+    {
+      "no": 15,
+      "title": "多层感知机",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/15"
+    },
+    {
+      "no": 16,
+      "title": "损失函数",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/16"
+    },
+    {
+      "no": 17,
+      "title": "梯度下降",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/17"
+    },
+    {
+      "no": 18,
+      "title": "反向传播",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/18"
+    },
+    {
+      "no": 19,
+      "title": "优化器",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/19"
+    },
+    {
+      "no": 20,
+      "title": "训练循环",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/20"
+    },
+    {
+      "no": 21,
+      "title": "分词与 BPE",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/21"
+    },
+    {
+      "no": 22,
+      "title": "词嵌入",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/22"
+    },
+    {
+      "no": 23,
+      "title": "预测下一个 token",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/23"
+    },
+    {
+      "no": 24,
+      "title": "自回归生成",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/24"
+    },
+    {
+      "no": 25,
+      "title": "位置编码",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/25"
+    },
+    {
+      "no": 26,
+      "title": "自注意力",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/26"
+    },
+    {
+      "no": 27,
+      "title": "因果掩码",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/27"
+    },
+    {
+      "no": 28,
+      "title": "多头注意力",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/28"
+    },
+    {
+      "no": 29,
+      "title": "残差连接",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/29"
+    },
+    {
+      "no": 30,
+      "title": "LayerNorm",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/30"
+    },
+    {
+      "no": 31,
+      "title": "前馈网络",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/31"
+    },
+    {
+      "no": 32,
+      "title": "Transformer Block",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/32"
+    },
+    {
+      "no": 33,
+      "title": "输出层",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/33"
+    },
+    {
+      "no": 34,
+      "title": "前向传播",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/34"
+    },
+    {
+      "no": 35,
+      "title": "参数量与计算量",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/35"
+    },
+    {
+      "no": 36,
+      "title": "Pre-Norm 与 RMSNorm",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/36"
+    },
+    {
+      "no": 37,
+      "title": "RoPE 旋转位置编码",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/37"
+    },
+    {
+      "no": 38,
+      "title": "SwiGLU 与门控 FFN",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/38"
+    },
+    {
+      "no": 39,
+      "title": "MQA 与 GQA",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/39"
+    },
+    {
+      "no": 40,
+      "title": "MLA 多头潜在注意力",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/40"
+    },
+    {
+      "no": 41,
+      "title": "MoE 混合专家",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/41"
+    },
+    {
+      "no": 42,
+      "title": "长上下文技术",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/42"
+    },
+    {
+      "no": 43,
+      "title": "架构演进对照",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/43"
+    },
+    {
+      "no": 44,
+      "title": "混合架构与线性注意力",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/44"
+    },
+    {
+      "no": 45,
+      "title": "预训练与数据",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/45"
+    },
+    {
+      "no": 46,
+      "title": "Scaling Laws",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/46"
+    },
+    {
+      "no": 47,
+      "title": "监督微调 SFT",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/47"
+    },
+    {
+      "no": 48,
+      "title": "RLHF 与 DPO",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/48"
+    },
+    {
+      "no": 49,
+      "title": "推理模型与强化学习",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/49"
+    },
+    {
+      "no": 50,
+      "title": "LoRA 参数高效微调",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/50"
+    },
+    {
+      "no": 51,
+      "title": "模型评测",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/51"
+    },
+    {
+      "no": 52,
+      "title": "g0 · 语料与分词器",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/52"
+    },
+    {
+      "no": 53,
+      "title": "g1 · 数据加载器与嵌入",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/53"
+    },
+    {
+      "no": 54,
+      "title": "g2 · 因果多头注意力",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/54"
+    },
+    {
+      "no": 55,
+      "title": "g3 · 组装 GPT",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/55"
+    },
+    {
+      "no": 56,
+      "title": "g4 · 预训练",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/56"
+    },
+    {
+      "no": 57,
+      "title": "g5 · 解码与存档",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/57"
+    },
+    {
+      "no": 58,
+      "title": "g6 · 装进 GPT-2 的权重",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/58"
+    },
+    {
+      "no": 59,
+      "title": "g7 · 指令微调",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/59"
+    },
+    {
+      "no": 60,
+      "title": "GPU 架构",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/60"
+    },
+    {
+      "no": 61,
+      "title": "存储层级",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/61"
+    },
+    {
+      "no": 62,
+      "title": "Roofline 模型",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/62"
+    },
+    {
+      "no": 63,
+      "title": "低精度计算",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/63"
+    },
+    {
+      "no": 64,
+      "title": "互联",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/64"
+    },
+    {
+      "no": 65,
+      "title": "超节点",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/65"
+    },
+    {
+      "no": 66,
+      "title": "性能分析",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/66"
+    },
+    {
+      "no": 67,
+      "title": "理论 vs 实测",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/67"
+    },
+    {
+      "no": 68,
+      "title": "Prefill 与 Decode",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/68"
+    },
+    {
+      "no": 69,
+      "title": "KV Cache",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/69"
+    },
+    {
+      "no": 70,
+      "title": "TTFT、TPOT 与吞吐",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/70"
+    },
+    {
+      "no": 71,
+      "title": "显存账本",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/71"
+    },
+    {
+      "no": 72,
+      "title": "推理成本模型",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/72"
+    },
+    {
+      "no": 73,
+      "title": "解码策略",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/73"
+    },
+    {
+      "no": 74,
+      "title": "Continuous Batching",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/74"
+    },
+    {
+      "no": 75,
+      "title": "PagedAttention",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/75"
+    },
+    {
+      "no": 76,
+      "title": "Prefix Cache",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/76"
+    },
+    {
+      "no": 77,
+      "title": "Chunked Prefill",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/77"
+    },
+    {
+      "no": 78,
+      "title": "调度与抢占",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/78"
+    },
+    {
+      "no": 79,
+      "title": "多 LoRA 服务",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/79"
+    },
+    {
+      "no": 80,
+      "title": "约束解码",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/80"
+    },
+    {
+      "no": 81,
+      "title": "请求生命周期",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/81"
+    },
+    {
+      "no": 82,
+      "title": "推理压测实践",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/82"
+    },
+    {
+      "no": 83,
+      "title": "算子融合",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/83"
+    },
+    {
+      "no": 84,
+      "title": "FlashAttention",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/84"
+    },
+    {
+      "no": 85,
+      "title": "Decode 注意力 Kernel",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/85"
+    },
+    {
+      "no": 86,
+      "title": "CUDA 编程模型",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/86"
+    },
+    {
+      "no": 87,
+      "title": "矩阵乘法 Kernel 与 Tensor Core",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/87"
+    },
+    {
+      "no": 88,
+      "title": "Triton 入门",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/88"
+    },
+    {
+      "no": 89,
+      "title": "CUDA Graph",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/89"
+    },
+    {
+      "no": 90,
+      "title": "量化基础",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/90"
+    },
+    {
+      "no": 91,
+      "title": "权重量化：GPTQ 与 AWQ",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/91"
+    },
+    {
+      "no": 92,
+      "title": "激活量化与 SmoothQuant",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/92"
+    },
+    {
+      "no": 93,
+      "title": "FP8 与 FP4",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/93"
+    },
+    {
+      "no": 94,
+      "title": "KV Cache 量化",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/94"
+    },
+    {
+      "no": 95,
+      "title": "KV Cache 压缩与驱逐",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/95"
+    },
+    {
+      "no": 96,
+      "title": "投机解码",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/96"
+    },
+    {
+      "no": 97,
+      "title": "EAGLE 与 Medusa",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/97"
+    },
+    {
+      "no": 98,
+      "title": "蒸馏与剪枝",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/98"
+    },
+    {
+      "no": 99,
+      "title": "为什么需要多卡",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/99"
+    },
+    {
+      "no": 100,
+      "title": "集合通信原语",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/100"
+    },
+    {
+      "no": 101,
+      "title": "Ring 与 Tree All-Reduce",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/101"
+    },
+    {
+      "no": 102,
+      "title": "通信代价模型",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/102"
+    },
+    {
+      "no": 103,
+      "title": "数据并行与 ZeRO",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/103"
+    },
+    {
+      "no": 104,
+      "title": "混合精度训练与激活重计算",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/104"
+    },
+    {
+      "no": 105,
+      "title": "张量并行",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/105"
+    },
+    {
+      "no": 106,
+      "title": "流水并行",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/106"
+    },
+    {
+      "no": 107,
+      "title": "序列与上下文并行",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/107"
+    },
+    {
+      "no": 108,
+      "title": "专家并行与 All-to-All",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/108"
+    },
+    {
+      "no": 109,
+      "title": "并行策略与拓扑映射",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/109"
+    },
+    {
+      "no": 110,
+      "title": "推理中的张量并行",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/110"
+    },
+    {
+      "no": 111,
+      "title": "MoE 推理与大规模专家并行",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/111"
+    },
+    {
+      "no": 112,
+      "title": "PD 分离",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/112"
+    },
+    {
+      "no": 113,
+      "title": "KV Cache 传输与分层存储",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/113"
+    },
+    {
+      "no": 114,
+      "title": "路由与负载均衡",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/114"
+    },
+    {
+      "no": 115,
+      "title": "超节点上的推理",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/115"
+    },
+    {
+      "no": 116,
+      "title": "SLO 与容量规划",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/116"
+    },
+    {
+      "no": 117,
+      "title": "总览 · 一个推理引擎由哪些部分组成",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/117"
+    },
+    {
+      "no": 118,
+      "title": "v0 · 从权重文件到第一个 token",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/118"
+    },
+    {
+      "no": 119,
+      "title": "v1 · KV Cache",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/119"
+    },
+    {
+      "no": 120,
+      "title": "v2 · Continuous Batching",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/120"
+    },
+    {
+      "no": 121,
+      "title": "v3 · 分页 KV 管理",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/121"
+    },
+    {
+      "no": 122,
+      "title": "v3+ · 前缀缓存",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/122"
+    },
+    {
+      "no": 123,
+      "title": "v4 · 权重量化",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/123"
+    },
+    {
+      "no": 124,
+      "title": "v5 · 投机解码",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/124"
+    },
+    {
+      "no": 125,
+      "title": "复盘 · 时间花在哪里",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/125"
+    },
+    {
+      "no": 126,
+      "title": "nano-vllm 的整体结构",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/126"
+    },
+    {
+      "no": 127,
+      "title": "nano-vllm 多做了什么",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/127"
+    },
+    {
+      "no": 128,
+      "title": "动手改 nano-vllm",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/128"
+    },
+    {
+      "no": 129,
+      "title": "vLLM 的架构",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/129"
+    },
+    {
+      "no": 130,
+      "title": "vLLM 的分布式服务",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/130"
+    },
+    {
+      "no": 131,
+      "title": "SGLang 的架构",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/131"
+    },
+    {
+      "no": 132,
+      "title": "其他引擎与规模化部署",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/132"
+    },
+    {
+      "no": 133,
+      "title": "怎么读一个大型引擎的源码",
+      "url": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/l/133"
+    }
+  ]
+}

@@ -1,0 +1,1522 @@
+{
+  "source": "https://caomaolufei.github.io/AIInfraGuide/",
+  "fetchedAt": "2026-11-15T10:51:21.995Z",
+  "root": "https://caomaolufei.github.io/AIInfraGuide",
+  "modules": [
+    {
+      "key": "prerequisites",
+      "title": "模块一 前置知识",
+      "url": "https://caomaolufei.github.io/AIInfraGuide/prerequisites",
+      "chapters": [
+        {
+          "no": 1,
+          "title": "第1章：编程语言基础",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第1章-编程语言基础",
+          "articles": []
+        },
+        {
+          "no": 2,
+          "title": "第2章：数学基础",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第2章-数学基础",
+          "articles": []
+        },
+        {
+          "no": 3,
+          "title": "第3章：AI Infra工程师学Transformer",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第3章-transformer架构详解",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "3.1",
+              "chapterNo": 3,
+              "title": "3.1 AI Infra工程师为什么必须懂Transformer",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/31-ai-infra工程师为什么必须懂transformer",
+              "slug": "31-ai-infra工程师为什么必须懂transformer"
+            },
+            {
+              "kind": "article",
+              "number": "3.2",
+              "chapterNo": 3,
+              "title": "3.2 Transformer全貌及代码实现",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/32-transformer全貌及代码实现",
+              "slug": "32-transformer全貌及代码实现"
+            },
+            {
+              "kind": "article",
+              "number": "3.3",
+              "chapterNo": 3,
+              "title": "3.3 Self-Attention机制深入理解",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/33-self-attention机制深入理解",
+              "slug": "33-self-attention机制深入理解"
+            },
+            {
+              "kind": "article",
+              "number": "3.4",
+              "chapterNo": 3,
+              "title": "3.4 Transformer前馈网络FFN深入理解",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/34-transformer前馈网络ffn深入理解",
+              "slug": "34-transformer前馈网络ffn深入理解"
+            },
+            {
+              "kind": "article",
+              "number": "3.5",
+              "chapterNo": 3,
+              "title": "3.5 Transformer位置编码深入理解",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/35-transformer位置编码深入理解",
+              "slug": "35-transformer位置编码深入理解"
+            },
+            {
+              "kind": "article",
+              "number": "3.6",
+              "chapterNo": 3,
+              "title": "3.6 LayerNorm与残差连接深入理解",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/36-layernorm与残差连接深入理解",
+              "slug": "36-layernorm与残差连接深入理解"
+            },
+            {
+              "kind": "article",
+              "number": "3.7",
+              "chapterNo": 3,
+              "title": "3.7 Transformer Decoder Block完整解析",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/37-transformer-decoder-block完整解析",
+              "slug": "37-transformer-decoder-block完整解析"
+            },
+            {
+              "kind": "article",
+              "number": "3.8",
+              "chapterNo": 3,
+              "title": "3.8 从Transformer到LLM自回归生成深入理解",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/38-从transformer到llm自回归生成深入理解",
+              "slug": "38-从transformer到llm自回归生成深入理解"
+            },
+            {
+              "kind": "article",
+              "number": "3.9",
+              "chapterNo": 3,
+              "title": "3.9 Tokenization与词嵌入",
+              "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/39-tokenization与词嵌入",
+              "slug": "39-tokenization与词嵌入"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "第4章：PyTorch 框架",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第4章-pytorch框架",
+          "articles": []
+        },
+        {
+          "no": 5,
+          "title": "第5章：GPU 硬件概论",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第5章-gpu硬件概论",
+          "articles": []
+        },
+        {
+          "no": 6,
+          "title": "第6章：集合通信基础",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第6章-集合通信基础",
+          "articles": []
+        }
+      ],
+      "entries": [
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 1,
+          "title": "第1章：编程语言基础",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第1章-编程语言基础"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 2,
+          "title": "第2章：数学基础",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第2章-数学基础"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 3,
+          "title": "第3章：AI Infra工程师学Transformer",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第3章-transformer架构详解"
+        },
+        {
+          "kind": "article",
+          "number": "",
+          "title": "🔥 Transformer架构：快速入门篇",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/transformer架构快速入门",
+          "slug": "transformer架构快速入门"
+        },
+        {
+          "kind": "article",
+          "number": "3.1",
+          "chapterNo": 3,
+          "title": "3.1 AI Infra工程师为什么必须懂Transformer",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/31-ai-infra工程师为什么必须懂transformer",
+          "slug": "31-ai-infra工程师为什么必须懂transformer"
+        },
+        {
+          "kind": "article",
+          "number": "3.2",
+          "chapterNo": 3,
+          "title": "3.2 Transformer全貌及代码实现",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/32-transformer全貌及代码实现",
+          "slug": "32-transformer全貌及代码实现"
+        },
+        {
+          "kind": "article",
+          "number": "3.3",
+          "chapterNo": 3,
+          "title": "3.3 Self-Attention机制深入理解",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/33-self-attention机制深入理解",
+          "slug": "33-self-attention机制深入理解"
+        },
+        {
+          "kind": "article",
+          "number": "3.4",
+          "chapterNo": 3,
+          "title": "3.4 Transformer前馈网络FFN深入理解",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/34-transformer前馈网络ffn深入理解",
+          "slug": "34-transformer前馈网络ffn深入理解"
+        },
+        {
+          "kind": "article",
+          "number": "3.5",
+          "chapterNo": 3,
+          "title": "3.5 Transformer位置编码深入理解",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/35-transformer位置编码深入理解",
+          "slug": "35-transformer位置编码深入理解"
+        },
+        {
+          "kind": "article",
+          "number": "3.6",
+          "chapterNo": 3,
+          "title": "3.6 LayerNorm与残差连接深入理解",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/36-layernorm与残差连接深入理解",
+          "slug": "36-layernorm与残差连接深入理解"
+        },
+        {
+          "kind": "article",
+          "number": "3.7",
+          "chapterNo": 3,
+          "title": "3.7 Transformer Decoder Block完整解析",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/37-transformer-decoder-block完整解析",
+          "slug": "37-transformer-decoder-block完整解析"
+        },
+        {
+          "kind": "article",
+          "number": "3.8",
+          "chapterNo": 3,
+          "title": "3.8 从Transformer到LLM自回归生成深入理解",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/38-从transformer到llm自回归生成深入理解",
+          "slug": "38-从transformer到llm自回归生成深入理解"
+        },
+        {
+          "kind": "article",
+          "number": "3.9",
+          "chapterNo": 3,
+          "title": "3.9 Tokenization与词嵌入",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/transformer/39-tokenization与词嵌入",
+          "slug": "39-tokenization与词嵌入"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 4,
+          "title": "第4章：PyTorch 框架",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第4章-pytorch框架"
+        },
+        {
+          "kind": "article",
+          "number": "",
+          "title": "🔥 PyTorch框架快速入门篇",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/pyroch/pytorch框架入门",
+          "slug": "pytorch框架入门"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 5,
+          "title": "第5章：GPU 硬件概论",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第5章-gpu硬件概论"
+        },
+        {
+          "kind": "article",
+          "number": "",
+          "title": "🔥 GPU基础知识：从硬件架构到AI计算",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/gpu/gpu-basics",
+          "slug": "gpu-basics"
+        },
+        {
+          "kind": "article",
+          "number": "5.1",
+          "title": "5.1 NVIDIA GPU架构演进：从Volta到Blackwell",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/gpu/nvidia-gpu-evolution",
+          "slug": "nvidia-gpu-evolution"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 6,
+          "title": "第6章：集合通信基础",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/第6章-集合通信基础"
+        },
+        {
+          "kind": "article",
+          "number": "",
+          "title": "🔥 集群通信网络与NCCL：分布式训练的通信骨架",
+          "url": "/AIInfraGuide/prerequisites/模块一-前置知识/communication/collective-communication-primer",
+          "slug": "collective-communication-primer"
+        }
+      ]
+    },
+    {
+      "key": "cuda",
+      "title": "模块二 CUDA 编程与算子优化",
+      "url": "https://caomaolufei.github.io/AIInfraGuide/cuda",
+      "chapters": [
+        {
+          "no": 1,
+          "title": "第1章：CUDA 编程入门",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第1章-cuda编程入门",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "1.1",
+              "chapterNo": 1,
+              "title": "1.1 CUDA 开发环境搭建",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/11-cuda开发环境搭建",
+              "slug": "11-cuda开发环境搭建"
+            },
+            {
+              "kind": "article",
+              "number": "1.2",
+              "chapterNo": 1,
+              "title": "1.2 CUDA 编程模型",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/12-cuda编程模型",
+              "slug": "12-cuda编程模型"
+            },
+            {
+              "kind": "article",
+              "number": "1.3",
+              "chapterNo": 1,
+              "title": "1.3 CUDA 内存模型",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/13-cuda内存模型",
+              "slug": "13-cuda内存模型"
+            },
+            {
+              "kind": "article",
+              "number": "1.4",
+              "chapterNo": 1,
+              "title": "1.4 第一个实用 Kernel：向量加法",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/14-第一个实用kernel",
+              "slug": "14-第一个实用kernel"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "第2章：CUDA 性能优化基础",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第2章-cuda性能优化基础",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "2.1",
+              "chapterNo": 2,
+              "title": "2.1 Warp 与执行模型",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/21-warp与执行模型",
+              "slug": "21-warp与执行模型"
+            },
+            {
+              "kind": "article",
+              "number": "2.2",
+              "chapterNo": 2,
+              "title": "2.2 内存访问优化",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/22-内存访问优化",
+              "slug": "22-内存访问优化"
+            },
+            {
+              "kind": "article",
+              "number": "2.3",
+              "chapterNo": 2,
+              "title": "2.3 Occupancy 与资源分配",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/23-occupancy与资源分配",
+              "slug": "23-occupancy与资源分配"
+            },
+            {
+              "kind": "article",
+              "number": "2.4",
+              "chapterNo": 2,
+              "title": "2.4 同步与原子操作",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/24-同步与原子操作",
+              "slug": "24-同步与原子操作"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "第3章：经典算子实现—Reduce",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第3章-经典算子实现-reduce",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "3.1",
+              "chapterNo": 3,
+              "title": "3.1 CUDA Reduce算子优化",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/31-cuda-reduce算子优化",
+              "slug": "31-cuda-reduce算子优化"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "第4章：经典算子实现—GEMM",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第4章-经典算子实现-gemm",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "4.1",
+              "chapterNo": 4,
+              "title": "4.1 CUDA GEMM算子性能优化",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/41-cuda-gemm算子性能优化",
+              "slug": "41-cuda-gemm算子性能优化"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "第5章：经典算子实现—Softmax 与算子融合",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第5章-经典算子实现-softmax与算子融合",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "5.1",
+              "chapterNo": 5,
+              "title": "5.1 CUDA Softmax 朴素实现优化",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/51-cuda-softmax朴素实现优化",
+              "slug": "51-cuda-softmax朴素实现优化"
+            },
+            {
+              "kind": "article",
+              "number": "5.2",
+              "chapterNo": 5,
+              "title": "5.2 CUDA Online Softmax 实现优化",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/52-cuda-online-softmax实现",
+              "slug": "52-cuda-online-softmax实现"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "第6章：Attention 算子",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第6章-attention算子",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "6.1",
+              "chapterNo": 6,
+              "title": "6.1 FlashAttention V1详解",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/61-flashattention-v1详解",
+              "slug": "61-flashattention-v1详解"
+            },
+            {
+              "kind": "article",
+              "number": "6.2",
+              "chapterNo": 6,
+              "title": "6.2 FlashAttention V2详解",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/62-flashattention-v2详解",
+              "slug": "62-flashattention-v2详解"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "第7章：AI 编译器",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第7章-ai编译器",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "7.1",
+              "chapterNo": 7,
+              "title": "7.1 Triton 编程框架介绍",
+              "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/71-triton编程框架",
+              "slug": "71-triton编程框架"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "第8章：性能分析工具链",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第8章-性能分析工具链",
+          "articles": []
+        }
+      ],
+      "entries": [
+        {
+          "kind": "article",
+          "number": "",
+          "title": "✅ CUDA编程快速入门指南 🔥",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/cuda编程入门指南",
+          "slug": "cuda编程入门指南"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 1,
+          "title": "第1章：CUDA 编程入门",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第1章-cuda编程入门"
+        },
+        {
+          "kind": "article",
+          "number": "1.1",
+          "chapterNo": 1,
+          "title": "1.1 CUDA 开发环境搭建",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/11-cuda开发环境搭建",
+          "slug": "11-cuda开发环境搭建"
+        },
+        {
+          "kind": "article",
+          "number": "1.2",
+          "chapterNo": 1,
+          "title": "1.2 CUDA 编程模型",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/12-cuda编程模型",
+          "slug": "12-cuda编程模型"
+        },
+        {
+          "kind": "article",
+          "number": "1.3",
+          "chapterNo": 1,
+          "title": "1.3 CUDA 内存模型",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/13-cuda内存模型",
+          "slug": "13-cuda内存模型"
+        },
+        {
+          "kind": "article",
+          "number": "1.4",
+          "chapterNo": 1,
+          "title": "1.4 第一个实用 Kernel：向量加法",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/14-第一个实用kernel",
+          "slug": "14-第一个实用kernel"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 2,
+          "title": "第2章：CUDA 性能优化基础",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第2章-cuda性能优化基础"
+        },
+        {
+          "kind": "article",
+          "number": "2.1",
+          "chapterNo": 2,
+          "title": "2.1 Warp 与执行模型",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/21-warp与执行模型",
+          "slug": "21-warp与执行模型"
+        },
+        {
+          "kind": "article",
+          "number": "2.2",
+          "chapterNo": 2,
+          "title": "2.2 内存访问优化",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/22-内存访问优化",
+          "slug": "22-内存访问优化"
+        },
+        {
+          "kind": "article",
+          "number": "2.3",
+          "chapterNo": 2,
+          "title": "2.3 Occupancy 与资源分配",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/23-occupancy与资源分配",
+          "slug": "23-occupancy与资源分配"
+        },
+        {
+          "kind": "article",
+          "number": "2.4",
+          "chapterNo": 2,
+          "title": "2.4 同步与原子操作",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/24-同步与原子操作",
+          "slug": "24-同步与原子操作"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 3,
+          "title": "第3章：经典算子实现—Reduce",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第3章-经典算子实现-reduce"
+        },
+        {
+          "kind": "article",
+          "number": "3.1",
+          "chapterNo": 3,
+          "title": "3.1 CUDA Reduce算子优化",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/31-cuda-reduce算子优化",
+          "slug": "31-cuda-reduce算子优化"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 4,
+          "title": "第4章：经典算子实现—GEMM",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第4章-经典算子实现-gemm"
+        },
+        {
+          "kind": "article",
+          "number": "4.1",
+          "chapterNo": 4,
+          "title": "4.1 CUDA GEMM算子性能优化",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/41-cuda-gemm算子性能优化",
+          "slug": "41-cuda-gemm算子性能优化"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 5,
+          "title": "第5章：经典算子实现—Softmax 与算子融合",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第5章-经典算子实现-softmax与算子融合"
+        },
+        {
+          "kind": "article",
+          "number": "5.1",
+          "chapterNo": 5,
+          "title": "5.1 CUDA Softmax 朴素实现优化",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/51-cuda-softmax朴素实现优化",
+          "slug": "51-cuda-softmax朴素实现优化"
+        },
+        {
+          "kind": "article",
+          "number": "5.2",
+          "chapterNo": 5,
+          "title": "5.2 CUDA Online Softmax 实现优化",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/52-cuda-online-softmax实现",
+          "slug": "52-cuda-online-softmax实现"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 6,
+          "title": "第6章：Attention 算子",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第6章-attention算子"
+        },
+        {
+          "kind": "article",
+          "number": "6.1",
+          "chapterNo": 6,
+          "title": "6.1 FlashAttention V1详解",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/61-flashattention-v1详解",
+          "slug": "61-flashattention-v1详解"
+        },
+        {
+          "kind": "article",
+          "number": "6.2",
+          "chapterNo": 6,
+          "title": "6.2 FlashAttention V2详解",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/62-flashattention-v2详解",
+          "slug": "62-flashattention-v2详解"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 7,
+          "title": "第7章：AI 编译器",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第7章-ai编译器"
+        },
+        {
+          "kind": "article",
+          "number": "7.1",
+          "chapterNo": 7,
+          "title": "7.1 Triton 编程框架介绍",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/71-triton编程框架",
+          "slug": "71-triton编程框架"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 8,
+          "title": "第8章：性能分析工具链",
+          "url": "/AIInfraGuide/cuda/模块二-cuda编程与算子优化/第8章-性能分析工具链"
+        }
+      ]
+    },
+    {
+      "key": "distributed",
+      "title": "模块三 分布式训练",
+      "url": "https://caomaolufei.github.io/AIInfraGuide/distributed",
+      "chapters": [
+        {
+          "no": 1,
+          "title": "第1章：分布式训练总论",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第1章-分布式训练总论",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "1.1",
+              "chapterNo": 1,
+              "title": "1.1 分布式训练总论：显存账本与五大并行策略全景",
+              "url": "/AIInfraGuide/distributed/模块三-分布式训练/11-分布式训练总论",
+              "slug": "11-分布式训练总论"
+            },
+            {
+              "kind": "article",
+              "number": "1.2",
+              "chapterNo": 1,
+              "title": "1.2 环境搭建与分布式启动",
+              "url": "/AIInfraGuide/distributed/模块三-分布式训练/12-环境搭建与分布式启动",
+              "slug": "12-环境搭建与分布式启动"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "第2章：集合通信原语",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第2章-集合通信原语",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "2.1",
+              "chapterNo": 2,
+              "title": "2.1 集合通信原语详解",
+              "url": "/AIInfraGuide/distributed/模块三-分布式训练/21-集合通信原语详解",
+              "slug": "21-集合通信原语详解"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "第3章：优化器",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第3章-优化器",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "3.1",
+              "chapterNo": 3,
+              "title": "3.1 优化器：从 SGD 到 AdamW 与显存开销分析",
+              "url": "/AIInfraGuide/distributed/模块三-分布式训练/31-优化器原理与显存开销分析",
+              "slug": "31-优化器原理与显存开销分析"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "第4章：数据并行(DP、DDP、FSDP)",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第4章-数据并行",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "4.1",
+              "chapterNo": 4,
+              "title": "4.1 数据并行详解",
+              "url": "/AIInfraGuide/distributed/模块三-分布式训练/41-数据并行详解",
+              "slug": "41-数据并行详解"
+            },
+            {
+              "kind": "article",
+              "number": "4.2",
+              "chapterNo": 4,
+              "title": "4.2 PyTorch 数据并行从原理到实战",
+              "url": "/AIInfraGuide/distributed/模块三-分布式训练/42-pytorch-数据并行从原理到实战",
+              "slug": "42-pytorch-数据并行从原理到实战"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "第5章：ZeRO显存优化系列",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第5章-zero系列",
+          "articles": []
+        },
+        {
+          "no": 6,
+          "title": "第6章：张量并行TP与序列并行SP",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第6章-张量并行与序列并行",
+          "articles": []
+        },
+        {
+          "no": 7,
+          "title": "第7章：流水线并行PP",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第7章-流水线并行",
+          "articles": []
+        },
+        {
+          "no": 8,
+          "title": "第8章：混合精度与显存优化",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第8章-混合精度与显存优化",
+          "articles": []
+        },
+        {
+          "no": 9,
+          "title": "第9章：长序列训练与上下文并行",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第9章-长序列训练与上下文并行",
+          "articles": []
+        },
+        {
+          "no": 10,
+          "title": "第10章：MoE 并行",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第10章-moe并行",
+          "articles": []
+        },
+        {
+          "no": 11,
+          "title": "第11章：3D 并行与混合并行策略",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第11章-3d并行与混合并行策略",
+          "articles": []
+        }
+      ],
+      "entries": [
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 1,
+          "title": "第1章：分布式训练总论",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第1章-分布式训练总论"
+        },
+        {
+          "kind": "article",
+          "number": "1.1",
+          "chapterNo": 1,
+          "title": "1.1 分布式训练总论：显存账本与五大并行策略全景",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/11-分布式训练总论",
+          "slug": "11-分布式训练总论"
+        },
+        {
+          "kind": "article",
+          "number": "1.2",
+          "chapterNo": 1,
+          "title": "1.2 环境搭建与分布式启动",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/12-环境搭建与分布式启动",
+          "slug": "12-环境搭建与分布式启动"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 2,
+          "title": "第2章：集合通信原语",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第2章-集合通信原语"
+        },
+        {
+          "kind": "article",
+          "number": "2.1",
+          "chapterNo": 2,
+          "title": "2.1 集合通信原语详解",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/21-集合通信原语详解",
+          "slug": "21-集合通信原语详解"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 3,
+          "title": "第3章：优化器",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第3章-优化器"
+        },
+        {
+          "kind": "article",
+          "number": "3.1",
+          "chapterNo": 3,
+          "title": "3.1 优化器：从 SGD 到 AdamW 与显存开销分析",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/31-优化器原理与显存开销分析",
+          "slug": "31-优化器原理与显存开销分析"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 4,
+          "title": "第4章：数据并行(DP、DDP、FSDP)",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第4章-数据并行"
+        },
+        {
+          "kind": "article",
+          "number": "4.1",
+          "chapterNo": 4,
+          "title": "4.1 数据并行详解",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/41-数据并行详解",
+          "slug": "41-数据并行详解"
+        },
+        {
+          "kind": "article",
+          "number": "4.2",
+          "chapterNo": 4,
+          "title": "4.2 PyTorch 数据并行从原理到实战",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/42-pytorch-数据并行从原理到实战",
+          "slug": "42-pytorch-数据并行从原理到实战"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 5,
+          "title": "第5章：ZeRO显存优化系列",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第5章-zero系列"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 6,
+          "title": "第6章：张量并行TP与序列并行SP",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第6章-张量并行与序列并行"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 7,
+          "title": "第7章：流水线并行PP",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第7章-流水线并行"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 8,
+          "title": "第8章：混合精度与显存优化",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第8章-混合精度与显存优化"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 9,
+          "title": "第9章：长序列训练与上下文并行",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第9章-长序列训练与上下文并行"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 10,
+          "title": "第10章：MoE 并行",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第10章-moe并行"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 11,
+          "title": "第11章：3D 并行与混合并行策略",
+          "url": "/AIInfraGuide/distributed/模块三-分布式训练/第11章-3d并行与混合并行策略"
+        }
+      ]
+    },
+    {
+      "key": "inference",
+      "title": "模块四 推理优化",
+      "url": "https://caomaolufei.github.io/AIInfraGuide/inference",
+      "chapters": [
+        {
+          "no": 1,
+          "title": "第1章：LLM 推理基础",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第1章-llm推理基础/第1章-llm推理基础",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "1.1",
+              "chapterNo": 1,
+              "title": "1.1 LLM 推理基础",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第1章-llm推理基础/11-llm推理基础",
+              "slug": "11-llm推理基础"
+            },
+            {
+              "kind": "article",
+              "number": "1.2",
+              "chapterNo": 1,
+              "title": "1.2 vLLM 快速入门：从安装到部署你的第一个 LLM 推理服务",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第1章-llm推理基础/12-vllm快速入门",
+              "slug": "12-vllm快速入门"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "第2章：推理引擎核心技术",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/第2章-推理引擎核心技术",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "2.1",
+              "chapterNo": 2,
+              "title": "2.1 PagedAttention",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/21-pagedattention",
+              "slug": "21-pagedattention"
+            },
+            {
+              "kind": "article",
+              "number": "2.2",
+              "chapterNo": 2,
+              "title": "2.2 Continuous Batching 动态批处理",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/22-continuous-batching",
+              "slug": "22-continuous-batching"
+            },
+            {
+              "kind": "article",
+              "number": "2.3",
+              "chapterNo": 2,
+              "title": "2.3 Prefix Cache 与 RadixAttention",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/23-prefix-cache-与-radixattention",
+              "slug": "23-prefix-cache-与-radixattention"
+            },
+            {
+              "kind": "article",
+              "number": "2.4",
+              "chapterNo": 2,
+              "title": "2.4 Chunked Prefill 与统一 Token Budget 调度",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/24-chunked-prefill-与统一调度",
+              "slug": "24-chunked-prefill-与统一调度"
+            },
+            {
+              "kind": "article",
+              "number": "2.5",
+              "chapterNo": 2,
+              "title": "2.5 Attention 后端与图优化",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/25-attention-后端与图优化",
+              "slug": "25-attention-后端与图优化"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "第3章：nano-vllm 源码解读",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/第3章-nano-vllm源码解读",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "3.1",
+              "chapterNo": 3,
+              "title": "3.1 项目全景与四层架构",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/31-项目全景与四层架构",
+              "slug": "31-项目全景与四层架构"
+            },
+            {
+              "kind": "article",
+              "number": "3.2",
+              "chapterNo": 3,
+              "title": "3.2 配置、入口与一次 generate 的全流程",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/32-配置入口与推理主循环",
+              "slug": "32-配置入口与推理主循环"
+            },
+            {
+              "kind": "article",
+              "number": "3.3",
+              "chapterNo": 3,
+              "title": "3.3 模型骨架与核心算子",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/33-模型与核心算子",
+              "slug": "33-模型与核心算子"
+            },
+            {
+              "kind": "article",
+              "number": "3.4",
+              "chapterNo": 3,
+              "title": "3.4 KV Cache 与 BlockManager",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/34-kvcache与blockmanager",
+              "slug": "34-kvcache与blockmanager"
+            },
+            {
+              "kind": "article",
+              "number": "3.5",
+              "chapterNo": 3,
+              "title": "3.5 Scheduler 与连续批处理",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/35-scheduler与连续批处理",
+              "slug": "35-scheduler与连续批处理"
+            },
+            {
+              "kind": "article",
+              "number": "3.6",
+              "chapterNo": 3,
+              "title": "3.6 ModelRunner、CUDA Graph 与性能基准",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/36-modelrunner引擎循环与性能",
+              "slug": "36-modelrunner引擎循环与性能"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "第4章：量化",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/第4章-量化",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "4.1",
+              "chapterNo": 4,
+              "title": "4.1 量化基础",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/41-量化基础",
+              "slug": "41-量化基础"
+            },
+            {
+              "kind": "article",
+              "number": "4.2",
+              "chapterNo": 4,
+              "title": "4.2 W8A8 量化",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/42-w8a8与smoothquant",
+              "slug": "42-w8a8与smoothquant"
+            },
+            {
+              "kind": "article",
+              "number": "4.3",
+              "chapterNo": 4,
+              "title": "4.3 Weight-only INT4",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/43-weight-only-int4",
+              "slug": "43-weight-only-int4"
+            },
+            {
+              "kind": "article",
+              "number": "4.4",
+              "chapterNo": 4,
+              "title": "4.4 KV Cache 量化",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/44-kv-cache量化",
+              "slug": "44-kv-cache量化"
+            },
+            {
+              "kind": "article",
+              "number": "4.5",
+              "chapterNo": 4,
+              "title": "4.5 FP8 与 NVFP4/MXFP4",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/45-fp8与nvfp4-mxfp4",
+              "slug": "45-fp8与nvfp4-mxfp4"
+            },
+            {
+              "kind": "article",
+              "number": "4.6",
+              "chapterNo": 4,
+              "title": "4.6 量化选型与 vLLM 实战",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/46-量化选型与vllm实战",
+              "slug": "46-量化选型与vllm实战"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "第5章：Speculative Decoding",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/第5章-speculative-decoding",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "5.1",
+              "chapterNo": 5,
+              "title": "5.1 投机解码核心原理",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/51-投机解码核心原理",
+              "slug": "51-投机解码核心原理"
+            },
+            {
+              "kind": "article",
+              "number": "5.2",
+              "chapterNo": 5,
+              "title": "5.2 Draft 模型与无模型方案",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/52-draft模型与无模型方案",
+              "slug": "52-draft模型与无模型方案"
+            },
+            {
+              "kind": "article",
+              "number": "5.3",
+              "chapterNo": 5,
+              "title": "5.3 Medusa、EAGLE 与 MTP",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/53-medusa与eagle",
+              "slug": "53-medusa与eagle"
+            },
+            {
+              "kind": "article",
+              "number": "5.4",
+              "chapterNo": 5,
+              "title": "5.4 投机解码的收益边界",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/54-收益边界与限制",
+              "slug": "54-收益边界与限制"
+            },
+            {
+              "kind": "article",
+              "number": "5.5",
+              "chapterNo": 5,
+              "title": "5.5 vLLM 投机解码实战",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/55-vllm投机解码实战",
+              "slug": "55-vllm投机解码实战"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "第6章：分布式推理与大模型部署",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/第6章-分布式推理",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "6.1",
+              "chapterNo": 6,
+              "title": "6.1 推理并行策略总览",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/61-推理并行策略总览",
+              "slug": "61-推理并行策略总览"
+            },
+            {
+              "kind": "article",
+              "number": "6.2",
+              "chapterNo": 6,
+              "title": "6.2 张量并行推理",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/62-张量并行推理",
+              "slug": "62-张量并行推理"
+            },
+            {
+              "kind": "article",
+              "number": "6.3",
+              "chapterNo": 6,
+              "title": "6.3 流水线并行推理",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/63-流水线并行推理",
+              "slug": "63-流水线并行推理"
+            },
+            {
+              "kind": "article",
+              "number": "6.4",
+              "chapterNo": 6,
+              "title": "6.4 数据并行与专家并行",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/64-数据并行与专家并行",
+              "slug": "64-数据并行与专家并行"
+            },
+            {
+              "kind": "article",
+              "number": "6.5",
+              "chapterNo": 6,
+              "title": "6.5 多节点部署",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/65-多节点部署",
+              "slug": "65-多节点部署"
+            },
+            {
+              "kind": "article",
+              "number": "6.6",
+              "chapterNo": 6,
+              "title": "6.6 vLLM 分布式部署实战",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/66-vllm分布式部署实战",
+              "slug": "66-vllm分布式部署实战"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "第7章：Prefill/Decode 解耦架构",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第7章-pd解耦架构/第7章-pd解耦架构",
+          "articles": []
+        },
+        {
+          "no": 8,
+          "title": "第8章：生产部署与运维",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第8章-生产部署与运维/第8章-生产部署与运维",
+          "articles": []
+        },
+        {
+          "no": 9,
+          "title": "第9章：端侧推理",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第9章-端侧推理/第9章-端侧推理",
+          "articles": [
+            {
+              "kind": "article",
+              "number": "9.1",
+              "chapterNo": 9,
+              "title": "9.1 端侧推理基础：从模型导出到异构硬件执行",
+              "url": "/AIInfraGuide/inference/模块四-推理优化/第9章-端侧推理/91-端侧推理基础",
+              "slug": "91-端侧推理基础"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 1,
+          "title": "第1章：LLM 推理基础",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第1章-llm推理基础/第1章-llm推理基础"
+        },
+        {
+          "kind": "article",
+          "number": "1.1",
+          "chapterNo": 1,
+          "title": "1.1 LLM 推理基础",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第1章-llm推理基础/11-llm推理基础",
+          "slug": "11-llm推理基础"
+        },
+        {
+          "kind": "article",
+          "number": "1.2",
+          "chapterNo": 1,
+          "title": "1.2 vLLM 快速入门：从安装到部署你的第一个 LLM 推理服务",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第1章-llm推理基础/12-vllm快速入门",
+          "slug": "12-vllm快速入门"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 2,
+          "title": "第2章：推理引擎核心技术",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/第2章-推理引擎核心技术"
+        },
+        {
+          "kind": "article",
+          "number": "2.1",
+          "chapterNo": 2,
+          "title": "2.1 PagedAttention",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/21-pagedattention",
+          "slug": "21-pagedattention"
+        },
+        {
+          "kind": "article",
+          "number": "2.2",
+          "chapterNo": 2,
+          "title": "2.2 Continuous Batching 动态批处理",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/22-continuous-batching",
+          "slug": "22-continuous-batching"
+        },
+        {
+          "kind": "article",
+          "number": "2.3",
+          "chapterNo": 2,
+          "title": "2.3 Prefix Cache 与 RadixAttention",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/23-prefix-cache-与-radixattention",
+          "slug": "23-prefix-cache-与-radixattention"
+        },
+        {
+          "kind": "article",
+          "number": "2.4",
+          "chapterNo": 2,
+          "title": "2.4 Chunked Prefill 与统一 Token Budget 调度",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/24-chunked-prefill-与统一调度",
+          "slug": "24-chunked-prefill-与统一调度"
+        },
+        {
+          "kind": "article",
+          "number": "2.5",
+          "chapterNo": 2,
+          "title": "2.5 Attention 后端与图优化",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第2章-推理引擎核心技术/25-attention-后端与图优化",
+          "slug": "25-attention-后端与图优化"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 3,
+          "title": "第3章：nano-vllm 源码解读",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/第3章-nano-vllm源码解读"
+        },
+        {
+          "kind": "article",
+          "number": "3.1",
+          "chapterNo": 3,
+          "title": "3.1 项目全景与四层架构",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/31-项目全景与四层架构",
+          "slug": "31-项目全景与四层架构"
+        },
+        {
+          "kind": "article",
+          "number": "3.2",
+          "chapterNo": 3,
+          "title": "3.2 配置、入口与一次 generate 的全流程",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/32-配置入口与推理主循环",
+          "slug": "32-配置入口与推理主循环"
+        },
+        {
+          "kind": "article",
+          "number": "3.3",
+          "chapterNo": 3,
+          "title": "3.3 模型骨架与核心算子",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/33-模型与核心算子",
+          "slug": "33-模型与核心算子"
+        },
+        {
+          "kind": "article",
+          "number": "3.4",
+          "chapterNo": 3,
+          "title": "3.4 KV Cache 与 BlockManager",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/34-kvcache与blockmanager",
+          "slug": "34-kvcache与blockmanager"
+        },
+        {
+          "kind": "article",
+          "number": "3.5",
+          "chapterNo": 3,
+          "title": "3.5 Scheduler 与连续批处理",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/35-scheduler与连续批处理",
+          "slug": "35-scheduler与连续批处理"
+        },
+        {
+          "kind": "article",
+          "number": "3.6",
+          "chapterNo": 3,
+          "title": "3.6 ModelRunner、CUDA Graph 与性能基准",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第3章-nano-vllm源码解读/36-modelrunner引擎循环与性能",
+          "slug": "36-modelrunner引擎循环与性能"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 4,
+          "title": "第4章：量化",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/第4章-量化"
+        },
+        {
+          "kind": "article",
+          "number": "4.1",
+          "chapterNo": 4,
+          "title": "4.1 量化基础",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/41-量化基础",
+          "slug": "41-量化基础"
+        },
+        {
+          "kind": "article",
+          "number": "4.2",
+          "chapterNo": 4,
+          "title": "4.2 W8A8 量化",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/42-w8a8与smoothquant",
+          "slug": "42-w8a8与smoothquant"
+        },
+        {
+          "kind": "article",
+          "number": "4.3",
+          "chapterNo": 4,
+          "title": "4.3 Weight-only INT4",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/43-weight-only-int4",
+          "slug": "43-weight-only-int4"
+        },
+        {
+          "kind": "article",
+          "number": "4.4",
+          "chapterNo": 4,
+          "title": "4.4 KV Cache 量化",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/44-kv-cache量化",
+          "slug": "44-kv-cache量化"
+        },
+        {
+          "kind": "article",
+          "number": "4.5",
+          "chapterNo": 4,
+          "title": "4.5 FP8 与 NVFP4/MXFP4",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/45-fp8与nvfp4-mxfp4",
+          "slug": "45-fp8与nvfp4-mxfp4"
+        },
+        {
+          "kind": "article",
+          "number": "4.6",
+          "chapterNo": 4,
+          "title": "4.6 量化选型与 vLLM 实战",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第4章-量化/46-量化选型与vllm实战",
+          "slug": "46-量化选型与vllm实战"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 5,
+          "title": "第5章：Speculative Decoding",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/第5章-speculative-decoding"
+        },
+        {
+          "kind": "article",
+          "number": "5.1",
+          "chapterNo": 5,
+          "title": "5.1 投机解码核心原理",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/51-投机解码核心原理",
+          "slug": "51-投机解码核心原理"
+        },
+        {
+          "kind": "article",
+          "number": "5.2",
+          "chapterNo": 5,
+          "title": "5.2 Draft 模型与无模型方案",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/52-draft模型与无模型方案",
+          "slug": "52-draft模型与无模型方案"
+        },
+        {
+          "kind": "article",
+          "number": "5.3",
+          "chapterNo": 5,
+          "title": "5.3 Medusa、EAGLE 与 MTP",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/53-medusa与eagle",
+          "slug": "53-medusa与eagle"
+        },
+        {
+          "kind": "article",
+          "number": "5.4",
+          "chapterNo": 5,
+          "title": "5.4 投机解码的收益边界",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/54-收益边界与限制",
+          "slug": "54-收益边界与限制"
+        },
+        {
+          "kind": "article",
+          "number": "5.5",
+          "chapterNo": 5,
+          "title": "5.5 vLLM 投机解码实战",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第5章-speculative-decoding/55-vllm投机解码实战",
+          "slug": "55-vllm投机解码实战"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 6,
+          "title": "第6章：分布式推理与大模型部署",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/第6章-分布式推理"
+        },
+        {
+          "kind": "article",
+          "number": "6.1",
+          "chapterNo": 6,
+          "title": "6.1 推理并行策略总览",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/61-推理并行策略总览",
+          "slug": "61-推理并行策略总览"
+        },
+        {
+          "kind": "article",
+          "number": "6.2",
+          "chapterNo": 6,
+          "title": "6.2 张量并行推理",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/62-张量并行推理",
+          "slug": "62-张量并行推理"
+        },
+        {
+          "kind": "article",
+          "number": "6.3",
+          "chapterNo": 6,
+          "title": "6.3 流水线并行推理",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/63-流水线并行推理",
+          "slug": "63-流水线并行推理"
+        },
+        {
+          "kind": "article",
+          "number": "6.4",
+          "chapterNo": 6,
+          "title": "6.4 数据并行与专家并行",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/64-数据并行与专家并行",
+          "slug": "64-数据并行与专家并行"
+        },
+        {
+          "kind": "article",
+          "number": "6.5",
+          "chapterNo": 6,
+          "title": "6.5 多节点部署",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/65-多节点部署",
+          "slug": "65-多节点部署"
+        },
+        {
+          "kind": "article",
+          "number": "6.6",
+          "chapterNo": 6,
+          "title": "6.6 vLLM 分布式部署实战",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第6章-分布式推理/66-vllm分布式部署实战",
+          "slug": "66-vllm分布式部署实战"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 7,
+          "title": "第7章：Prefill/Decode 解耦架构",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第7章-pd解耦架构/第7章-pd解耦架构"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 8,
+          "title": "第8章：生产部署与运维",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第8章-生产部署与运维/第8章-生产部署与运维"
+        },
+        {
+          "kind": "chapter",
+          "number": "",
+          "chapterNo": 9,
+          "title": "第9章：端侧推理",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第9章-端侧推理/第9章-端侧推理"
+        },
+        {
+          "kind": "article",
+          "number": "9.1",
+          "chapterNo": 9,
+          "title": "9.1 端侧推理基础：从模型导出到异构硬件执行",
+          "url": "/AIInfraGuide/inference/模块四-推理优化/第9章-端侧推理/91-端侧推理基础",
+          "slug": "91-端侧推理基础"
+        }
+      ]
+    }
+  ]
+}

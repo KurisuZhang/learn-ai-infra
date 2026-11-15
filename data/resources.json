@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-11-15",
+  "note": "7 份资料的注册表。aliases 用于把手册正文里的资料称谓映射到这里的 id；手册里出现的写法（含空格、大小写、中文别名）都要覆盖。",
+  "resources": [
+    {
+      "id": "handbook",
+      "order": 1,
+      "name": "ai infra handbook",
+      "short": "handbook",
+      "kind": "web",
+      "role": "工程全景主线",
+      "level": "★★★☆☆",
+      "root": "https://ai-infra-handbook.sunxiaohui2022.workers.dev/",
+      "scale": "17 篇 / 133 讲",
+      "aliases": [
+        "ai infra handbook",
+        "ai-infra handbook",
+        "aiinfra handbook",
+        "handbook",
+        "ai infra hand book"
+      ],
+      "catalog": "handbook",
+      "accent": "#2563eb"
+    },
+    {
+      "id": "yeasy",
+      "order": 2,
+      "name": "大模型原理与架构",
+      "short": "yeasy",
+      "kind": "web",
+      "role": "原理主线 / 查漏补缺",
+      "level": "★★★☆☆",
+      "root": "https://yeasy.gitbook.io/llm_internals",
+      "scale": "14 章 + 附录 A.1–A.8",
+      "aliases": [
+        "大模型原理与架构",
+        "yeasy",
+        "llm internals",
+        "llm_internals",
+        "大模型原理"
+      ],
+      "catalog": "yeasy",
+      "accent": "#0891b2"
+    },
+    {
+      "id": "guide",
+      "order": 3,
+      "name": "ai infra guide",
+      "short": "guide",
+      "kind": "web",
+      "role": "实战与源码主线",
+      "level": "★★★★☆",
+      "root": "https://caomaolufei.github.io/AIInfraGuide/",
+      "scale": "4 模块（模块四 40 篇 / 9 章）",
+      "aliases": [
+        "ai infra guide",
+        "aiinfraguide",
+        "ai infra guides",
+        "caomaolufei",
+        "infra guide"
+      ],
+      "catalog": "guide",
+      "accent": "#7c3aed"
+    },
+    {
+      "id": "leetcode",
+      "order": 4,
+      "name": "llm-algo-leetcode",
+      "short": "leetcode",
+      "kind": "web",
+      "role": "实战题库（手撕）",
+      "level": "★★★★☆",
+      "root": "https://datawhalechina.github.io/llm-algo-leetcode/",
+      "scale": "Part 00–05 + 五条主路线",
+      "aliases": [
+        "llm-algo-leetcode",
+        "llm algo leetcode",
+        "llmalgoleetcode",
+        "datawhale",
+        "leetcode"
+      ],
+      "catalog": "leetcode",
+      "accent": "#059669"
+    },
+    {
+      "id": "aispe",
+      "order": 5,
+      "name": "AI Systems Performance Engineering",
+      "short": "aispe",
+      "kind": "web",
+      "role": "底层进阶",
+      "level": "★★★★★",
+      "root": "https://aispe.notlate.cn/",
+      "scale": "20 章 + 附录",
+      "aliases": [
+        "ai systems performance engineering",
+        "aispe",
+        "ai spe",
+        "ai systems performance",
+        "systems performance engineering"
+      ],
+      "catalog": "aispe",
+      "accent": "#dc2626"
+    },
+    {
+      "id": "pdf-book",
+      "order": 6,
+      "name": "AI-Infra-Book",
+      "short": "AI-Infra-Book",
+      "kind": "pdf",
+      "role": "量化主教材（核心）",
+      "level": "★★★★★",
+      "pdf": "pdf/ai-infra-book.pdf",
+      "sourceFile": "AI-Infra-Book.pdf",
+      "root": "AI-Infra-Book.pdf",
+      "scale": "536 页 / 12 章 / 121 条书签",
+      "aliases": [
+        "ai-infra-book",
+        "ai infra book",
+        "aiinfrabook",
+        "深入理解 ai infra",
+        "量化主教材"
+      ],
+      "catalog": "pdf-book",
+      "accent": "#b45309"
+    },
+    {
+      "id": "pdf-llm",
+      "order": 7,
+      "name": "图解大模型",
+      "short": "图解大模型",
+      "kind": "pdf",
+      "role": "入门打底 / 直觉供给",
+      "level": "★★☆☆☆",
+      "pdf": "pdf/llm-illustrated.pdf",
+      "sourceFile": "图解大模型_生成式AI原理与实战_Jay_Alammar,_Maartey.pdf",
+      "root": "图解大模型_生成式AI原理与实战_Jay_Alammar,_Maartey.pdf",
+      "scale": "409 页 / 12 章 / 245 条书签",
+      "aliases": [
+        "图解大模型",
+        "llm illustrated",
+        "jay alammar",
+        "alammar",
+        "图解"
+      ],
+      "catalog": "pdf-llm",
+      "accent": "#be185d"
+    }
+  ]
+}
